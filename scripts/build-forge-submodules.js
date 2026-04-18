@@ -81,6 +81,24 @@ async function downloadAndHash(url) {
 (async () => {
     const subModules = [];
 
+    // VersionManifest subModule — Helios needs the Forge version.json hosted
+    // separately (launch args, mainClass, tweakers live there). Without it the
+    // launch fails with "No mod loader version manifest module found!".
+    const versionManifestName = `${FORGE_ID}.json`;
+    const versionJsonBuf = fs.readFileSync(VERSION_JSON);
+    const versionJsonMD5 = crypto.createHash('md5').update(versionJsonBuf).digest('hex');
+    subModules.push({
+        id: FORGE_ID,
+        name: `Minecraft Forge (version manifest)`,
+        type: 'VersionManifest',
+        artifact: {
+            size: versionJsonBuf.length,
+            MD5: versionJsonMD5,
+            url: `${RELEASE_BASE}/${versionManifestName}`
+        }
+    });
+    console.log(`  MANIFEST ${FORGE_ID}.json  ${versionJsonBuf.length}B  md5=${versionJsonMD5.slice(0, 8)}...`);
+
     for (const lib of version.libraries) {
         const art = lib.downloads && lib.downloads.artifact;
         if (!art) {

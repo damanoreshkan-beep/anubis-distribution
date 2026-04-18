@@ -9,6 +9,16 @@
   },
   "subModules": [
     {
+      "id": "1.12.2-forge-14.23.5.2860",
+      "name": "Minecraft Forge (version manifest)",
+      "type": "VersionManifest",
+      "artifact": {
+        "size": 11812,
+        "MD5": "d6a5e2309db32fcd91aa76de37a5e850",
+        "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/1.12.2-forge-14.23.5.2860.json"
+      }
+    },
+    {
       "id": "org.ow2.asm:asm-debug-all:5.2",
       "name": "org.ow2.asm:asm-debug-all:5.2",
       "type": "Library",
