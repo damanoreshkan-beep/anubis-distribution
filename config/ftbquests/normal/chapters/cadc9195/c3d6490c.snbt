@@ -1,0 +1,32 @@
+{
+	x: 17.5d,
+	y: 7.5d,
+	shape: "gear",
+	dependencies: [
+		"7c204c93"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "cf324f84",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 80"
+		}]
+	}],
+	rewards: [{
+		uid: "816bf0ba",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "833bf91c",
+		type: "item",
+		item: {
+			id: "ic2:te",
+			tag: {
+				energy: 4.0E7d
+			},
+			Damage: 75s
+		}
+	}]
+}

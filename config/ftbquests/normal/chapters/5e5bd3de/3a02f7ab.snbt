@@ -1,0 +1,22 @@
+{
+	title: "Я богат!",
+	icon: "appliedenergistics2:material 1 48",
+	x: 2.0d,
+	y: -0.5d,
+	tasks: [{
+		uid: "7927743c",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond_block"
+		}],
+		count: 16L
+	},
+	{
+		uid: "149f0874",
+		type: "item",
+		items: [{
+			item: "minecraft:gold_block"
+		}],
+		count: 16L
+	}]
+}

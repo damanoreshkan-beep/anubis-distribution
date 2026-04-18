@@ -1,0 +1,19 @@
+{
+	title: "Эндермены",
+	x: -10.0d,
+	y: -5.0d,
+	dependencies: [
+		"f0c69aa3"
+	],
+	tasks: [{
+		uid: "aac7a533",
+		type: "kill",
+		entity: "minecraft:enderman",
+		value: 2L
+	}],
+	rewards: [{
+		uid: "98dd35e7",
+		type: "item",
+		item: "minecraft:ender_pearl"
+	}]
+}

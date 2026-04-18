@@ -1,0 +1,19 @@
+{
+	x: -2.5d,
+	y: 5.0d,
+	dependencies: [
+		"b68800b0"
+	],
+	tasks: [{
+		uid: "d645ea5a",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 515"
+		}]
+	}],
+	rewards: [{
+		uid: "eb781fc9",
+		type: "item",
+		item: "minecraft:redstone_block"
+	}]
+}

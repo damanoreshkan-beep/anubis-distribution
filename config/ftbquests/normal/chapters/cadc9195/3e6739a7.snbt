@@ -1,0 +1,31 @@
+{
+	x: 25.0d,
+	y: -2.5d,
+	shape: "gear",
+	dependencies: [
+		"2b3bef29"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "de69cc31",
+		type: "item",
+		items: [{
+			id: "gravisuite:advanceddrill",
+			tag: {},
+			Damage: 26s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b308fe7d",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "a89a46f2",
+		type: "item",
+		item: "minecraft:iron_ore",
+		count: 128
+	}]
+}

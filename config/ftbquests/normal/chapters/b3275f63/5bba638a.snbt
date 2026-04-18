@@ -1,0 +1,15 @@
+{
+	title: "Медный сундук",
+	x: -2.5d,
+	y: -5.0d,
+	dependencies: [
+		"ff9e009b"
+	],
+	tasks: [{
+		uid: "4100f703",
+		type: "item",
+		items: [{
+			item: "ironchest:iron_chest 1 3"
+		}]
+	}]
+}

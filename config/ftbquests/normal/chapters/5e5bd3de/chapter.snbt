@@ -1,0 +1,7 @@
+{
+	title: "Финал",
+	icon: "minecraft:structure_void",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "rsquare"
+}

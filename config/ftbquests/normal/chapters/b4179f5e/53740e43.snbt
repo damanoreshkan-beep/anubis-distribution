@@ -1,0 +1,18 @@
+{
+	x: -2.5d,
+	y: 0.0d,
+	shape: "hexagon",
+	hide_dependency_lines: true,
+	dependencies: [
+		"6971cea9",
+		"2b8941ed",
+		"e7b1b62d",
+		"904ac424"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "88fdb21d",
+		type: "checkmark",
+		title: "Завершить главу \"Tinkers Construct\""
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	title: "Картофель",
+	x: -5.0d,
+	y: -2.5d,
+	dependencies: [
+		"d9662675"
+	],
+	tasks: [{
+		uid: "55e644d4",
+		type: "item",
+		items: [{
+			item: "minecraft:potato"
+		}],
+		count: 200L
+	}]
+}

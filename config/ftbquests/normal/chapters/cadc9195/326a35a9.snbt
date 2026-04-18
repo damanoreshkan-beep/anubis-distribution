@@ -1,0 +1,20 @@
+{
+	x: -2.5d,
+	y: 2.5d,
+	dependencies: [
+		"71cb0876"
+	],
+	tasks: [{
+		uid: "aca2dac6",
+		type: "item",
+		items: [{
+			item: "advanced_machines:machines"
+		}]
+	}],
+	rewards: [{
+		uid: "bc184b72",
+		type: "item",
+		item: "ic2:ingot 1 2",
+		count: 12
+	}]
+}

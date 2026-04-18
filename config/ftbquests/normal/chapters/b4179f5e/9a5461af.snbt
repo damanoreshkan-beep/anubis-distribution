@@ -1,0 +1,35 @@
+{
+	title: "Слизневая рогатка",
+	x: 5.0d,
+	y: 0.0d,
+	dependencies: [
+		"b941d672"
+	],
+	tasks: [{
+		uid: "6f69e0c6",
+		type: "item",
+		items: [{
+			item: "tconstruct:slimesling"
+		},
+		{
+			item: "tconstruct:slimesling 1 1"
+		},
+		{
+			item: "tconstruct:slimesling 1 2"
+		},
+		{
+			item: "tconstruct:slimesling 1 4"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0f749ec8",
+		type: "item",
+		item: {
+			id: "tconstruct:large_plate",
+			tag: {
+				Material: "slime"
+			}
+		}
+	}]
+}

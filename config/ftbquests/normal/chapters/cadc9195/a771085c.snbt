@@ -1,0 +1,33 @@
+{
+	x: 2.5d,
+	y: 12.5d,
+	shape: "gear",
+	dependencies: [
+		"edf86b0c",
+		"6047a309"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "b94bfcbe",
+		type: "item",
+		items: [{
+			item: "gravisuite:crafting 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "02f72956",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "820151ba",
+		type: "item",
+		item: "ic2:crafting 1 4"
+	},
+	{
+		uid: "07c36213",
+		type: "loot",
+		title: "Эпический сундук",
+		table: 2
+	}]
+}

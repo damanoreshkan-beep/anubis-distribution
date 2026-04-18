@@ -1,0 +1,17 @@
+{
+	title: "Рыболовство",
+	x: 5.0d,
+	y: -17.5d,
+	dependencies: [
+		"e8bac84b"
+	],
+	tasks: [{
+		uid: "b3f62909",
+		type: "item",
+		items: [{
+			item: "minecraft:fishing_rod"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

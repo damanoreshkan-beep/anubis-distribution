@@ -1,0 +1,20 @@
+{
+	x: -2.5d,
+	y: 2.5d,
+	shape: "hexagon",
+	hide_dependency_lines: true,
+	dependencies: [
+		"dacd86b5",
+		"7dad798f",
+		"fc7c5d1f",
+		"908bf817",
+		"0eca4d0f",
+		"bf39572f"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "e65ee89a",
+		type: "checkmark",
+		title: "Завершить главу \"Селекция\""
+	}]
+}

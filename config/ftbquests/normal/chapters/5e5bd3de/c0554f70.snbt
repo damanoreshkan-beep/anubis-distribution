@@ -1,0 +1,21 @@
+{
+	title: "Конец",
+	icon: "minecraft:structure_void",
+	x: 0.0d,
+	y: -10.0d,
+	shape: "diamond",
+	dependencies: [
+		"20c7c9ea"
+	],
+	size: 5.0d,
+	tasks: [{
+		uid: "4047eb14",
+		type: "checkmark",
+		title: "Конец... конец личной жизни?"
+	}],
+	rewards: [{
+		uid: "62ce0eca",
+		type: "xp_levels",
+		xp_levels: 100
+	}]
+}

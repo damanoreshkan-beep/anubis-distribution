@@ -1,0 +1,24 @@
+{
+	x: 15.0d,
+	y: -7.5d,
+	dependencies: [
+		"a581aaf1"
+	],
+	tasks: [{
+		uid: "88552229",
+		type: "item",
+		items: [{
+			item: "gravisuite:crafting 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "77e14085",
+		type: "item",
+		item: "ic2:upgrade"
+	},
+	{
+		uid: "5b3ddafe",
+		type: "item",
+		item: "ic2:upgrade 1 2"
+	}]
+}

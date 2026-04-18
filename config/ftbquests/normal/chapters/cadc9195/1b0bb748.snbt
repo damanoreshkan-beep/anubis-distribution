@@ -1,0 +1,21 @@
+{
+	x: -2.5d,
+	y: -2.5d,
+	dependencies: [
+		"2b11775d"
+	],
+	tasks: [{
+		uid: "d208847a",
+		type: "item",
+		items: [{
+			item: "ic2:forge_hammer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ba6a6e88",
+		type: "item",
+		item: "minecraft:iron_ingot"
+	}]
+}

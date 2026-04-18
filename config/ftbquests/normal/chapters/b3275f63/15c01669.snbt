@@ -1,0 +1,15 @@
+{
+	title: "Обсидиановый сундук",
+	x: -2.5d,
+	y: -10.0d,
+	dependencies: [
+		"d7d72b08"
+	],
+	tasks: [{
+		uid: "9f5a0e9c",
+		type: "item",
+		items: [{
+			item: "ironchest:iron_chest 1 6"
+		}]
+	}]
+}

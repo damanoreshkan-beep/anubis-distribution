@@ -1,0 +1,15 @@
+{
+	title: "Кофеман",
+	icon: "appliedenergistics2:material 1 48",
+	x: -1.0d,
+	y: 0.5d,
+	tasks: [{
+		uid: "061b2006",
+		type: "item",
+		items: [{
+			item: "ic2:mug 1 3"
+		}],
+		count: 27L,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,58 @@
+{
+	title: "Tinkers Construct",
+	icon: {
+		id: "tconstruct:hammer",
+		tag: {
+			StatsOriginal: {
+				AttackSpeedMultiplier: 1.0f,
+				MiningSpeed: 5.8f,
+				FreeModifiers: 3,
+				Durability: 2312,
+				HarvestLevel: 3,
+				Attack: 5.1f
+			},
+			Stats: {
+				AttackSpeedMultiplier: 1.0f,
+				MiningSpeed: 5.8f,
+				FreeModifiers: 3,
+				Durability: 2312,
+				HarvestLevel: 3,
+				Attack: 5.1f
+			},
+			Special: {
+				Categories: [
+					"aoe",
+					"weapon",
+					"harvest",
+					"tool"
+				]
+			},
+			TinkerData: {
+				Materials: [
+					"knightslime",
+					"knightslime",
+					"knightslime",
+					"knightslime"
+				],
+				Modifiers: []
+			},
+			Modifiers: [{
+				identifier: "unnatural",
+				color: -946192,
+				level: 1
+			},
+			{
+				identifier: "crumbling",
+				color: -946192,
+				level: 1
+			}],
+			Traits: [
+				"unnatural",
+				"crumbling"
+			]
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "rsquare"
+}

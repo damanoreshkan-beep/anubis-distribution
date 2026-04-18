@@ -1,0 +1,16 @@
+{
+	x: 7.5d,
+	y: -15.0d,
+	dependencies: [
+		"e8bac84b"
+	],
+	tasks: [{
+		uid: "1a840594",
+		type: "item",
+		items: [{
+			item: "minecraft:bow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

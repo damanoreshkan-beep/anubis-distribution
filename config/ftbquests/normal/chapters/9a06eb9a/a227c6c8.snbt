@@ -1,0 +1,32 @@
+{
+	x: -10.0d,
+	y: 15.0d,
+	shape: "gear",
+	dependencies: [
+		"faae5f43"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "26b1e0e8",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 167"
+		}]
+	}],
+	rewards: [{
+		uid: "93b140cf",
+		type: "item",
+		item: "thermalfoundation:material 1 167"
+	},
+	{
+		uid: "c89178e2",
+		type: "item",
+		item: "thermalfoundation:material 1 103"
+	},
+	{
+		uid: "f89646e4",
+		type: "loot",
+		title: "Эпический",
+		table: 2
+	}]
+}

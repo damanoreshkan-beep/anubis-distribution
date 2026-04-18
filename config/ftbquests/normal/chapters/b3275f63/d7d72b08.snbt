@@ -1,0 +1,15 @@
+{
+	title: "Алмазный сундук",
+	x: 0.0d,
+	y: -10.0d,
+	dependencies: [
+		"51d3d36b"
+	],
+	tasks: [{
+		uid: "643fc3fe",
+		type: "item",
+		items: [{
+			item: "ironchest:iron_chest 1 2"
+		}]
+	}]
+}

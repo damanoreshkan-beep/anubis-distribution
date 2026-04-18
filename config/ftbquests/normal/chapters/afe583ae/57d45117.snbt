@@ -1,0 +1,16 @@
+{
+	title: "Огненный порошок",
+	x: -17.5d,
+	y: -2.5d,
+	dependencies: [
+		"3ab97169"
+	],
+	tasks: [{
+		uid: "9c5bf864",
+		type: "item",
+		items: [{
+			item: "minecraft:blaze_powder"
+		}],
+		count: 12L
+	}]
+}

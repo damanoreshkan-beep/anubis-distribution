@@ -1,0 +1,14 @@
+{
+	x: 5.0d,
+	y: 22.5d,
+	dependencies: [
+		"b1502214"
+	],
+	tasks: [{
+		uid: "737c64aa",
+		type: "item",
+		items: [{
+			item: "ic2:crafting 1 4"
+		}]
+	}]
+}

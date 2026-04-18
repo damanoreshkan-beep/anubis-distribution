@@ -1,0 +1,14 @@
+{
+	title: "Пауки",
+	x: 5.0d,
+	y: -12.5d,
+	dependencies: [
+		"0b9b5ddf"
+	],
+	tasks: [{
+		uid: "f7c40253",
+		type: "kill",
+		entity: "minecraft:spider",
+		value: 3L
+	}]
+}

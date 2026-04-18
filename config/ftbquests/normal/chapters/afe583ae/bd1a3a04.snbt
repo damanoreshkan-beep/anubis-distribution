@@ -1,0 +1,28 @@
+{
+	title: "Что-то интересное...",
+	x: -7.5d,
+	y: -10.0d,
+	dependencies: [
+		"a5abad63"
+	],
+	tasks: [{
+		uid: "952c9779",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:tool.hammer_iron"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8a53ca6b",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 4
+	},
+	{
+		uid: "984be332",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

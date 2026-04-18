@@ -1,0 +1,78 @@
+{
+	title: "Набор инструментов (Резонирующий)",
+	x: -12.5d,
+	y: 12.5d,
+	shape: "gear",
+	dependencies: [
+		"0a5fe5a3"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "6b053182",
+		type: "item",
+		items: [{
+			id: "thermalinnovation:drill",
+			tag: {
+				Energy: 600000,
+				Mode: 4
+			},
+			Damage: 4s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8315aa71",
+		type: "item",
+		items: [{
+			id: "thermalinnovation:saw",
+			tag: {
+				Energy: 600000,
+				Mode: 4
+			},
+			Damage: 4s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "08473e2c",
+		type: "item",
+		items: [{
+			id: "thermalinnovation:magnet",
+			tag: {
+				Energy: 600000
+			},
+			Damage: 4s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a4202bf8",
+		type: "item",
+		items: [{
+			id: "thermalinnovation:injector",
+			tag: {},
+			Damage: 4s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e665f0b2",
+		type: "item",
+		items: [{
+			id: "thermalinnovation:quiver",
+			tag: {},
+			Damage: 4s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6b741863",
+		type: "xp_levels",
+		xp_levels: 15
+	},
+	{
+		uid: "ec02a084",
+		type: "item",
+		item: "thermalfoundation:storage_alloy 1 7"
+	}]
+}

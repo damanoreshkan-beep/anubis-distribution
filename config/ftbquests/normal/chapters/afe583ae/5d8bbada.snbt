@@ -1,0 +1,14 @@
+{
+	title: "Скелеты",
+	x: 2.5d,
+	y: -12.5d,
+	dependencies: [
+		"0b9b5ddf"
+	],
+	tasks: [{
+		uid: "d2aa6025",
+		type: "kill",
+		entity: "minecraft:skeleton",
+		value: 3L
+	}]
+}

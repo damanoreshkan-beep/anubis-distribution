@@ -1,0 +1,25 @@
+{
+	title: "Слизневые ботинки",
+	x: 7.5d,
+	y: 0.0d,
+	dependencies: [
+		"9a5461af"
+	],
+	tasks: [{
+		uid: "01e69903",
+		type: "item",
+		items: [{
+			item: "tconstruct:slime_boots"
+		},
+		{
+			item: "tconstruct:slime_boots 1 1"
+		},
+		{
+			item: "tconstruct:slime_boots 1 2"
+		},
+		{
+			item: "tconstruct:slime_boots 1 4"
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	title: "Стеклянная панель",
+	x: -10.0d,
+	y: 0.0d,
+	dependencies: [
+		"e3e23049"
+	],
+	tasks: [{
+		uid: "8d65bfe5",
+		type: "item",
+		items: [{
+			item: "minecraft:glass_pane"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "67d51df3",
+		type: "item",
+		item: "minecraft:glass",
+		count: 12
+	},
+	{
+		uid: "5738f5df",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

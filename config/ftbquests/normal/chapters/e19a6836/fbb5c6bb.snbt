@@ -1,0 +1,17 @@
+{
+	x: 7.5d,
+	y: -26.0d,
+	dependencies: [
+		"d139115b"
+	],
+	tasks: [{
+		uid: "fdd3138c",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:storage_cell_16k",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

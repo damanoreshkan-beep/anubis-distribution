@@ -1,0 +1,58 @@
+{
+	title: "Базовые модификации",
+	x: -2.5d,
+	y: -10.0d,
+	dependencies: [
+		"904ac424"
+	],
+	tasks: [{
+		uid: "2721f6e4",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond"
+		}]
+	},
+	{
+		uid: "cb69e4ac",
+		type: "item",
+		items: [{
+			item: "minecraft:dye 1 4"
+		}]
+	},
+	{
+		uid: "34f011b6",
+		type: "item",
+		items: [{
+			item: "minecraft:redstone"
+		}]
+	},
+	{
+		uid: "70cfd626",
+		type: "item",
+		items: [{
+			item: "tconstruct:materials 1 12"
+		}]
+	},
+	{
+		uid: "8f086de3",
+		type: "item",
+		items: [{
+			item: "tconstruct:materials 1 13"
+		}]
+	}],
+	rewards: [{
+		uid: "08d085a0",
+		type: "item",
+		item: "minecraft:diamond"
+	},
+	{
+		uid: "7a8a4e21",
+		type: "item",
+		item: "minecraft:lapis_block"
+	},
+	{
+		uid: "c399deb0",
+		type: "item",
+		item: "minecraft:redstone_block"
+	}]
+}

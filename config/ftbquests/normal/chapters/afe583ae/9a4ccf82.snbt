@@ -1,0 +1,22 @@
+{
+	title: "Переплавка",
+	x: -5.0d,
+	y: -7.5d,
+	dependencies: [
+		"e085c799",
+		"953d4b21",
+		"2c465a5b"
+	],
+	tasks: [{
+		uid: "6603e5f7",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "b5a7894d",
+		type: "item",
+		item: "minecraft:coal"
+	}]
+}

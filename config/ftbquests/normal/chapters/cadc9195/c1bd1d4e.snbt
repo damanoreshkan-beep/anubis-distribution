@@ -1,0 +1,19 @@
+{
+	x: 7.5d,
+	y: 0.0d,
+	dependencies: [
+		"2cb3e52a"
+	],
+	tasks: [{
+		uid: "35adafe0",
+		type: "item",
+		items: [{
+			item: "ic2:single_use_battery"
+		}]
+	}],
+	rewards: [{
+		uid: "f84f4820",
+		type: "item",
+		item: "minecraft:redstone_block"
+	}]
+}

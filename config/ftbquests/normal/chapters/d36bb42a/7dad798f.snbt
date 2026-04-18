@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: 5.0d,
+	dependencies: [
+		"706b255a"
+	],
+	tasks: [{
+		uid: "18bbd8c1",
+		type: "item",
+		items: [{
+			item: "ic2:crop_res 1 5"
+		}]
+	}]
+}

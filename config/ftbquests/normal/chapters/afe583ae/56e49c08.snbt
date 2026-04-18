@@ -1,0 +1,31 @@
+{
+	title: "Другие алмазные инструменты",
+	x: -12.5d,
+	y: -7.5d,
+	dependencies: [
+		"bc3a013a"
+	],
+	tasks: [{
+		uid: "e8d8c6d7",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond_shovel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b1950a98",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ab4d40d4",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

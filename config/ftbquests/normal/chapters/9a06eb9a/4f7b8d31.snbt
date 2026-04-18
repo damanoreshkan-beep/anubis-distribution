@@ -1,0 +1,25 @@
+{
+	x: 12.5d,
+	y: 0.0d,
+	dependencies: [
+		"5f94edc1"
+	],
+	tasks: [{
+		uid: "4fcf591f",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:upgrade"
+		}]
+	}],
+	rewards: [{
+		uid: "92bc01f8",
+		type: "item",
+		item: "thermalfoundation:upgrade",
+		count: 3
+	},
+	{
+		uid: "c1615067",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 5.0d,
+	y: -15.0d,
+	dependencies: [
+		"256408be"
+	],
+	tasks: [{
+		uid: "ec92961d",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:smooth_sky_stone_block"
+		}]
+	}]
+}

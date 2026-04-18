@@ -1,0 +1,15 @@
+{
+	x: 5.0d,
+	y: 0.0d,
+	dependencies: [
+		"5ce4be55"
+	],
+	tasks: [{
+		uid: "d25f528d",
+		type: "item",
+		items: [{
+			item: "ic2:mug"
+		}],
+		ignore_nbt: 1b
+	}]
+}

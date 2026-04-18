@@ -1,0 +1,31 @@
+{
+	title: "Завершить главу \"Сундуки\"",
+	x: -0.0d,
+	y: -15.0d,
+	shape: "hexagon",
+	dependencies: [
+		"327bac23"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "c722ca2a",
+		type: "checkmark",
+		title: "Кінець 0.7"
+	}],
+	rewards: [{
+		uid: "bcf9b4ee",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "818bde8d",
+		type: "item",
+		item: "ironchest:iron_chest 1 5"
+	},
+	{
+		uid: "0216ae1f",
+		type: "loot",
+		title: "Редкий сундук",
+		table: 1
+	}]
+}

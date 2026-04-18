@@ -1,0 +1,12 @@
+{
+	title: "Industrial Craft",
+	icon: {
+		id: "ic2:diamond_drill",
+		tag: {
+			charge: 30000.0d
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "rsquare"
+}

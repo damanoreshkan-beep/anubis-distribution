@@ -1,0 +1,15 @@
+{
+	title: "Улучшение \"Ускоритель\"",
+	x: 15.0d,
+	y: -5.0d,
+	dependencies: [
+		"4a2454bc"
+	],
+	tasks: [{
+		uid: "a1f3f057",
+		type: "item",
+		items: [{
+			item: "ic2:upgrade"
+		}]
+	}]
+}

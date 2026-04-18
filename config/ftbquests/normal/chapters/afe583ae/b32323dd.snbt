@@ -1,0 +1,40 @@
+{
+	title: "Набор золотых инструментов",
+	x: 0.0d,
+	y: -15.0d,
+	dependencies: [
+		"3cda3af2"
+	],
+	tasks: [{
+		uid: "f7e2a207",
+		type: "item",
+		items: [{
+			item: "minecraft:golden_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "74c78cec",
+		type: "item",
+		items: [{
+			item: "minecraft:golden_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "93cc95bd",
+		type: "item",
+		items: [{
+			item: "minecraft:golden_shovel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "309560ad",
+		type: "xp_levels",
+		xp_levels: 4
+	}]
+}

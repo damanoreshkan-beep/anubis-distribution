@@ -1,0 +1,23 @@
+{
+	title: "Финал квестов",
+	icon: "appliedenergistics2:material 1 47",
+	x: 0.0d,
+	y: -4.0d,
+	shape: "gear",
+	dependencies: [
+		"5b425fa3",
+		"034c94ae",
+		"1339778a",
+		"05cc7309",
+		"fb06b6f1",
+		"b375a242",
+		"53740e43",
+		"17c29c89",
+		"9f25da09",
+		"6503dade"
+	],
+	tasks: [{
+		uid: "8a78a2e3",
+		type: "checkmark"
+	}]
+}

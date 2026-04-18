@@ -1,0 +1,22 @@
+{
+	title: "Рыбак от бога",
+	icon: "appliedenergistics2:material 1 48",
+	x: 0.0d,
+	y: 0.5d,
+	tasks: [{
+		uid: "46662685",
+		type: "item",
+		items: [{
+			item: "minecraft:fish"
+		}],
+		count: 64L
+	},
+	{
+		uid: "9c494545",
+		type: "item",
+		items: [{
+			item: "minecraft:fish 1 1"
+		}],
+		count: 64L
+	}]
+}

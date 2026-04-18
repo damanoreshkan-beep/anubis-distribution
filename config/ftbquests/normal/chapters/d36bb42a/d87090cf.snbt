@@ -1,0 +1,18 @@
+{
+	x: 0.0d,
+	y: -2.5d,
+	dependencies: [
+		"c718cf97"
+	],
+	tasks: [{
+		uid: "2bf11721",
+		type: "item",
+		items: [{
+			id: "ic2:cropnalyzer",
+			tag: {},
+			Damage: 26s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

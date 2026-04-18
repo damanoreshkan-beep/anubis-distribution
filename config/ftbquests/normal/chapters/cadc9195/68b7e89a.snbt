@@ -1,0 +1,20 @@
+{
+	x: -10.0d,
+	y: -2.5d,
+	dependencies: [
+		"9aa23d39"
+	],
+	tasks: [{
+		uid: "b581f0dc",
+		type: "item",
+		items: [{
+			item: "ic2:glass"
+		}]
+	}],
+	rewards: [{
+		uid: "57eacdd4",
+		type: "item",
+		item: "minecraft:glass",
+		count: 12
+	}]
+}

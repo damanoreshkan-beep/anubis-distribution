@@ -1,0 +1,55 @@
+{
+	title: "Железная броня",
+	x: -10.0d,
+	y: -7.5d,
+	dependencies: [
+		"f0c69aa3"
+	],
+	tasks: [{
+		uid: "7eedcf0b",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e91e2270",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "81f11add",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "408dfe65",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c4dddfe5",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 6
+	},
+	{
+		uid: "9b520fe4",
+		type: "item",
+		item: "thermalfoundation:tool.shield_iron"
+	}]
+}

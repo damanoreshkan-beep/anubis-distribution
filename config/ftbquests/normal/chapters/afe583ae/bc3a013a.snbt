@@ -1,0 +1,20 @@
+{
+	title: "Алмазы!",
+	x: -10.0d,
+	y: -10.0d,
+	dependencies: [
+		"bd1a3a04"
+	],
+	tasks: [{
+		uid: "9b9c2f55",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond"
+		}]
+	}],
+	rewards: [{
+		uid: "e727926f",
+		type: "item",
+		item: "minecraft:diamond"
+	}]
+}

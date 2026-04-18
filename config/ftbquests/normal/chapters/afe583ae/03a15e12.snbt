@@ -1,0 +1,29 @@
+{
+	title: "Рыбка",
+	x: 5.0d,
+	y: -20.0d,
+	dependencies: [
+		"ed801057"
+	],
+	tasks: [{
+		uid: "3c0137c0",
+		type: "item",
+		items: [{
+			item: "minecraft:fish"
+		}]
+	},
+	{
+		uid: "27799b48",
+		type: "item",
+		items: [{
+			item: "minecraft:fish 1 1"
+		}]
+	},
+	{
+		uid: "5779b06b",
+		type: "item",
+		items: [{
+			item: "minecraft:fish 1 3"
+		}]
+	}]
+}

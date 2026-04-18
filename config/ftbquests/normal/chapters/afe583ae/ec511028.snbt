@@ -1,0 +1,23 @@
+{
+	title: "Добро пожаловать в энд!",
+	x: -15.0d,
+	y: 0.0d,
+	dependencies: [
+		"d48ee08f"
+	],
+	tasks: [{
+		uid: "05618f84",
+		type: "dimension",
+		dim: 1
+	}],
+	rewards: [{
+		uid: "b78be393",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "c40e00a3",
+		type: "item",
+		item: "thermalfoundation:material 1 167"
+	}]
+}

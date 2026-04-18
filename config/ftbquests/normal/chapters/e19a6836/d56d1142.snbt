@@ -1,0 +1,43 @@
+{
+	title: "Автокрафты",
+	x: -10.0d,
+	y: -20.0d,
+	dependencies: [
+		"d237f887"
+	],
+	tasks: [{
+		uid: "54121567",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:interface"
+		}],
+		count: 4L
+	},
+	{
+		uid: "63c94e51",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:molecular_assembler"
+		}],
+		count: 4L
+	},
+	{
+		uid: "85499ae5",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 52"
+		}]
+	}],
+	rewards: [{
+		uid: "8c50cbd1",
+		type: "item",
+		item: "minecraft:diamond",
+		count: 2
+	},
+	{
+		uid: "caee2cf0",
+		type: "item",
+		item: "appliedenergistics2:material 1 7",
+		count: 12
+	}]
+}

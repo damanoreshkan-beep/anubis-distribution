@@ -1,0 +1,16 @@
+{
+	title: "Земля",
+	x: -5.0d,
+	y: -2.5d,
+	dependencies: [
+		"6b06e96a"
+	],
+	tasks: [{
+		uid: "d96ef2f8",
+		type: "item",
+		items: [{
+			item: "minecraft:dirt"
+		}],
+		count: 12L
+	}]
+}

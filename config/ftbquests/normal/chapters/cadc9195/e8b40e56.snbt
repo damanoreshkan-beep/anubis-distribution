@@ -1,0 +1,16 @@
+{
+	x: 15.0d,
+	y: 17.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"799131cd",
+		"3d788bae"
+	],
+	tasks: [{
+		uid: "8d91e88c",
+		type: "item",
+		items: [{
+			item: "advanced_solar_panels:crafting 1 13"
+		}]
+	}]
+}

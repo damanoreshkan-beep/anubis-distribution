@@ -1,0 +1,26 @@
+{
+	x: 12.5d,
+	y: -15.0d,
+	dependencies: [
+		"df8d08d9",
+		"d31fa456"
+	],
+	tasks: [{
+		uid: "84287316",
+		type: "item",
+		items: [{
+			item: "gravisuite:crafting 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "50f0588e",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "587696d3",
+		type: "item",
+		item: "minecraft:diamond",
+		count: 6
+	}]
+}

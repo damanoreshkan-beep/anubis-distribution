@@ -1,0 +1,21 @@
+{
+	x: -12.5d,
+	y: -12.5d,
+	dependencies: [
+		"bc3a013a"
+	],
+	tasks: [{
+		uid: "887c49ae",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d3febe24",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

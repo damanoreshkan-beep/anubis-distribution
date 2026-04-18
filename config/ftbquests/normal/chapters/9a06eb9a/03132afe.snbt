@@ -1,0 +1,12 @@
+{
+	title: "Начать главу \"Thermal Expansion\"",
+	x: 0.0d,
+	y: 0.0d,
+	shape: "hexagon",
+	size: 1.5d,
+	tasks: [{
+		uid: "f68d2d1f",
+		type: "checkmark",
+		title: "Начать главу \"Applied Energistics\""
+	}]
+}

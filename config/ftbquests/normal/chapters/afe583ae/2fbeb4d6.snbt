@@ -1,0 +1,14 @@
+{
+	title: "Монстры!",
+	x: -5.0d,
+	y: 0.0d,
+	dependencies: [
+		"adc24351"
+	],
+	tasks: [{
+		uid: "cf58c29c",
+		type: "kill",
+		entity: "minecraft:zombie",
+		value: 3L
+	}]
+}

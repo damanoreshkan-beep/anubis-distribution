@@ -1,0 +1,14 @@
+{
+	x: 2.5d,
+	y: -15.0d,
+	dependencies: [
+		"53dec2c9"
+	],
+	tasks: [{
+		uid: "40b6a8c4",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:sky_stone_block"
+		}]
+	}]
+}

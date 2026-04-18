@@ -1,0 +1,15 @@
+{
+	x: 15.0d,
+	y: 12.5d,
+	dependencies: [
+		"91d9ebbc",
+		"b6a74724"
+	],
+	tasks: [{
+		uid: "8a299083",
+		type: "item",
+		items: [{
+			item: "ic2:nuclear 1 3"
+		}]
+	}]
+}

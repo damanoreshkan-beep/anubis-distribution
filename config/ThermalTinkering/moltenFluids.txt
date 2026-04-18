@@ -1,0 +1,51 @@
+#This is a simple dump of all molten liquids, in raw form, with their block names (in brackets) and their localized names, in the format of:
+
+#FLUIDID 										  (FLUIDBLOCK)																	   = FLUIDLOCALIZEDNAME
+
+#ANY AND ALL CHANGES TO THIS FILE WILL BE REPLACED WHEN THIS FILE IS REGENERATED NEXT TIME THE GAME IS RUN. THIS IS FOR INFORMATIONAL PURPOSES ONLY AND IS NOT A CONFIG FILE!
+
+obsidian                                          (tconstruct:molten_obsidian)                                                     = Расплавленный обсидиан
+iron                                              (tconstruct:molten_iron)                                                         = Расплавленное железо
+pigiron                                           (tconstruct:molten_pigiron)                                                      = Расплавленная свиносталь
+knightslime                                       (tconstruct:molten_knightslime)                                                  = Расплавленная слизесталь
+cobalt                                            (tconstruct:molten_cobalt)                                                       = Расплавленный кобальт
+ardite                                            (tconstruct:molten_ardite)                                                       = Расплавленный ардит
+manyullyn                                         (tconstruct:molten_manyullyn)                                                    = Расплавленный маньюлин
+copper                                            (tconstruct:molten_copper)                                                       = Жидкая медь
+bronze                                            (tconstruct:molten_bronze)                                                       = Жидкая бронза
+lead                                              (tconstruct:molten_lead)                                                         = Жидкий свинец
+silver                                            (tconstruct:molten_silver)                                                       = Жидкое серебро
+electrum                                          (tconstruct:molten_electrum)                                                     = Жидкий электрум
+steel                                             (tconstruct:molten_steel)                                                        = Расплавленная сталь
+enderium                                          (tconstruct:molten_enderium)                                                     = Расплавленный эндериум
+platinum                                          (tconstruct:molten_platinum)                                                     = Расплавленная платина
+iridium                                           (tconstruct:molten_iridium)                                                      = Расплавленный иридий
+mithril                                           (tconstruct:molten_mithril)                                                      = Molten Mithril
+signalum                                          (tconstruct:molten_signalum)                                                     = Расплавленный синал
+lumium                                            (tconstruct:molten_lumium)                                                       = Расплавленный ламиум
+constantan                                        (tconstruct:molten_constantan)                                                   = Расплавленный константан
+invar                                             (tconstruct:molten_invar)                                                        = Расплавленный инвар
+nickel                                            (tconstruct:molten_nickel)                                                       = Жидкий никель
+tin                                               (tconstruct:molten_tin)                                                          = Жидкое олово
+brass                                             (tconstruct:molten_brass)                                                        = Жидкая латунь
+aluminum                                          (tconstruct:molten_aluminum)                                                     = Жидкий алюминий
+zinc                                              (tconstruct:molten_zinc)                                                         = Жидкий цинк
+refinedobsidian                                   (tconstruct:molten_refinedobsidian)                                              = Molten Refined Obsidian
+refinedglowstone                                  (tconstruct:molten_refinedglowstone)                                             = Molten Refined Glowstone
+osmium                                            (tconstruct:molten_osmium)                                                       = Molten Osmium
+manasteel                                         (tconstruct:molten_manasteel)                                                    = Molten Manasteel
+terrasteel                                        (tconstruct:molten_terrasteel)                                                   = Molten Terrasteel
+elvenelementium                                   (tconstruct:molten_elvenelementium)                                              = Molten Elementium
+yellorium                                         (tconstruct:molten_yellorium)                                                    = Molten Yellorium
+cyanite                                           (tconstruct:molten_cyanite)                                                      = Molten Cyanite
+blutonium                                         (tconstruct:molten_blutonium)                                                    = Molten Blutonium
+ludicrite                                         (tconstruct:molten_ludicrite)                                                    = Molten Ludicrite
+psi                                               (tconstruct:molten_psi)                                                          = Molten Psimetal
+ivorypsi                                          (tconstruct:molten_ivorypsi)                                                     = Molten Ivory Psimetal
+ebonypsi                                          (tconstruct:molten_ebonypsi)                                                     = Molten Ebony Psimetal
+electrumflux                                      (tconstruct:molten_electrumflux)                                                 = Molten Fluxed Electrum
+refinediron                                       (tconstruct:molten_refinediron)                                                  = Molten Refined Iron
+tungsten                                          (tconstruct:molten_tungsten)                                                     = Molten Tungsten
+titanium                                          (tconstruct:molten_titanium)                                                     = Molten Titanium
+chrome                                            (tconstruct:molten_chrome)                                                       = Molten Chrome
+advancedalloy                                     (tconstruct:molten_advancedalloy)                                                = Molten Advanced Alloy

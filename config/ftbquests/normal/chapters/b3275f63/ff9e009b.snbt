@@ -1,0 +1,15 @@
+{
+	title: "Железный сундук",
+	x: 0.0d,
+	y: -5.0d,
+	dependencies: [
+		"53fae567"
+	],
+	tasks: [{
+		uid: "c9ec80c6",
+		type: "item",
+		items: [{
+			item: "ironchest:iron_chest"
+		}]
+	}]
+}

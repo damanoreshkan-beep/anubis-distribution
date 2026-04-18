@@ -1,0 +1,19 @@
+{
+	x: 2.5d,
+	y: 22.5d,
+	dependencies: [
+		"799131cd"
+	],
+	tasks: [{
+		uid: "2602ac2e",
+		type: "item",
+		items: [{
+			item: "gravisuite:crafting"
+		}]
+	}],
+	rewards: [{
+		uid: "83acba5c",
+		type: "item",
+		item: "ic2:crafting 1 4"
+	}]
+}

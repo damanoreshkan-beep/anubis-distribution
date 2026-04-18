@@ -1,0 +1,44 @@
+{
+	title: "Удачная рыбалка",
+	x: 5.0d,
+	y: -22.5d,
+	dependencies: [
+		"03a15e12"
+	],
+	tasks: [{
+		uid: "1763a886",
+		type: "item",
+		items: [{
+			item: "minecraft:fish 1 1"
+		}],
+		count: 16L
+	},
+	{
+		uid: "a4daa5e3",
+		type: "item",
+		items: [{
+			item: "minecraft:fish"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "e4917ca0",
+		type: "item",
+		item: "minecraft:diamond"
+	},
+	{
+		uid: "f8308ec1",
+		type: "item",
+		item: {
+			id: "minecraft:splash_potion",
+			tag: {
+				Potion: "cofhcore:luck4"
+			}
+		}
+	},
+	{
+		uid: "53cdf187",
+		type: "item",
+		item: "artifacts:panic_necklace"
+	}]
+}

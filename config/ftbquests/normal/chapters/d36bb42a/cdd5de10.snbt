@@ -1,0 +1,16 @@
+{
+	title: "Кофейные зёрна",
+	x: -5.0d,
+	y: 7.5d,
+	dependencies: [
+		"f2a06573"
+	],
+	tasks: [{
+		uid: "529a7bd9",
+		type: "item",
+		items: [{
+			item: "ic2:crop_res"
+		}],
+		count: 16L
+	}]
+}

@@ -1,0 +1,38 @@
+{
+	title: "Нарубать дров",
+	x: 5.0d,
+	y: -2.5d,
+	dependencies: [
+		"2f235103"
+	],
+	tasks: [{
+		uid: "fcf24fa4",
+		type: "item",
+		items: [{
+			item: "minecraft:log"
+		},
+		{
+			item: "minecraft:log 1 1"
+		},
+		{
+			item: "minecraft:log 1 2"
+		},
+		{
+			item: "minecraft:log 1 3"
+		},
+		{
+			item: "minecraft:log2"
+		},
+		{
+			item: "minecraft:log2 1 1"
+		}],
+		count: 12L,
+		consume_items: false,
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "c4c53118",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

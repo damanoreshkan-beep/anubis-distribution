@@ -1,0 +1,22 @@
+{
+	x: -15.0d,
+	y: -12.5d,
+	dependencies: [
+		"b0c69e77"
+	],
+	tasks: [{
+		uid: "1b51696f",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:tool.hammer_diamond"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "30dbe7d5",
+		type: "item",
+		item: "minecraft:diamond_ore",
+		count: 9
+	}]
+}

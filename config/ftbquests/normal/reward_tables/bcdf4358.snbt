@@ -1,0 +1,124 @@
+{
+	title: "Обычный сундук",
+	icon: "minecraft:chest",
+	loot_size: 1,
+	rewards: [{
+		item: "minecraft:dirt",
+		count: 16,
+		weight: 3
+	},
+	{
+		item: "minecraft:cobblestone",
+		count: 16,
+		random_bonus: 4,
+		weight: 2
+	},
+	{
+		xp_levels: 5,
+		type: "xp_levels",
+		weight: 2
+	},
+	{
+		item: {
+			id: "tconstruct:hammer",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 2.0f,
+					FreeModifiers: 3,
+					Durability: 150,
+					HarvestLevel: 0,
+					Attack: 2.0f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 2.0f,
+					FreeModifiers: 3,
+					Durability: 150,
+					HarvestLevel: 0,
+					Attack: 2.0f
+				},
+				Special: {
+					Categories: [
+						"weapon",
+						"tool",
+						"aoe",
+						"harvest"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"wood",
+						"wood",
+						"wood",
+						"wood"
+					],
+					Modifiers: []
+				},
+				Modifiers: [{
+					identifier: "ecological",
+					color: -7444965,
+					level: 1
+				}],
+				Traits: [
+					"ecological"
+				]
+			}
+		},
+		weight: 2
+	},
+	{
+		item: {
+			id: "tconstruct:hammer",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 4.0f,
+					FreeModifiers: 3,
+					Durability: 25,
+					HarvestLevel: 1,
+					Attack: 3.0f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 4.0f,
+					FreeModifiers: 3,
+					Durability: 20,
+					HarvestLevel: 1,
+					Attack: 3.0f
+				},
+				Special: {
+					Categories: [
+						"weapon",
+						"tool",
+						"aoe",
+						"harvest"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"stone",
+						"stone",
+						"stone",
+						"stone"
+					],
+					Modifiers: []
+				},
+				Modifiers: [{
+					identifier: "cheap",
+					color: -6710887,
+					level: 1
+				},
+				{
+					identifier: "cheapskate",
+					color: -6710887,
+					level: 1
+				}],
+				Traits: [
+					"cheap",
+					"cheapskate"
+				]
+			}
+		}
+	}]
+}

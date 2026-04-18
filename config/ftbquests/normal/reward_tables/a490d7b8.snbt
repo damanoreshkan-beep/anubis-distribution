@@ -1,0 +1,50 @@
+{
+	title: "Особый сундук",
+	icon: "ironchest:iron_chest 1 2",
+	loot_size: 1,
+	rewards: [{
+		item: "minecraft:diamond",
+		count: 8,
+		weight: 3
+	},
+	{
+		item: "minecraft:gold_ingot",
+		count: 48,
+		random_bonus: 16,
+		weight: 4
+	},
+	{
+		item: {
+			id: "ic2:energy_crystal",
+			tag: {},
+			Damage: 26s
+		},
+		weight: 2
+	},
+	{
+		item: {
+			id: "ic2:energy_crystal",
+			tag: {
+				charge: 1000000.0d
+			}
+		}
+	},
+	{
+		item: {
+			id: "ic2:drill",
+			tag: {
+				charge: 30000.0d
+			}
+		},
+		weight: 2
+	},
+	{
+		item: {
+			id: "ic2:advanced_charging_re_battery",
+			tag: {
+				charge: 400000.0d
+			}
+		},
+		weight: 2
+	}]
+}

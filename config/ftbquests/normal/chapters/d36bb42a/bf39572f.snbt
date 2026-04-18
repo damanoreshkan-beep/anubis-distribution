@@ -1,0 +1,32 @@
+{
+	title: "Больше кофеина!",
+	x: 0.0d,
+	y: 7.5d,
+	dependencies: [
+		"13492b07"
+	],
+	tasks: [{
+		uid: "4133fe1b",
+		type: "item",
+		items: [{
+			item: "ic2:mug 1 1"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ae72d367",
+		type: "item",
+		items: [{
+			item: "ic2:mug 1 2"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "41474aa1",
+		type: "item",
+		items: [{
+			item: "ic2:mug 1 3"
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,80 @@
+{
+	x: 5.0d,
+	y: -5.0d,
+	dependencies: [
+		"76086adc"
+	],
+	tasks: [{
+		uid: "e6e1829c",
+		type: "item",
+		title: "Дровосек",
+		items: [{
+			item: "minecraft:log"
+		},
+		{
+			item: "minecraft:log 1 1"
+		},
+		{
+			item: "minecraft:log 1 2"
+		},
+		{
+			item: "minecraft:log 1 3"
+		},
+		{
+			item: "minecraft:log2"
+		},
+		{
+			item: "minecraft:log2 1 1"
+		}],
+		count: 256L
+	}],
+	rewards: [{
+		uid: "113192f1",
+		type: "item",
+		item: {
+			id: "tconstruct:lumberaxe",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 2.0f,
+					FreeModifiers: 3,
+					Durability: 150,
+					HarvestLevel: 0,
+					Attack: 4.0f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 2.0f,
+					FreeModifiers: 3,
+					Durability: 150,
+					HarvestLevel: 0,
+					Attack: 4.0f
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"harvest",
+						"aoe"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"wood",
+						"wood",
+						"wood",
+						"wood"
+					],
+					Modifiers: []
+				},
+				Modifiers: [{
+					identifier: "ecological",
+					color: -7444965,
+					level: 1
+				}],
+				Traits: [
+					"ecological"
+				]
+			}
+		}
+	}]
+}

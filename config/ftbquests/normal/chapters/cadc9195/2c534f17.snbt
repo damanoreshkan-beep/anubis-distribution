@@ -1,0 +1,26 @@
+{
+	x: 2.5d,
+	y: 5.0d,
+	dependencies: [
+		"63b9e51b"
+	],
+	tasks: [{
+		uid: "30512d5c",
+		type: "item",
+		items: [{
+			item: "ic2:ingot 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "77e51847",
+		type: "item",
+		item: "ic2:dust 1 17",
+		count: 24
+	},
+	{
+		uid: "48d598a4",
+		type: "item",
+		item: "ic2:dust 1 4",
+		count: 24
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	title: "Всполохи",
+	x: -17.5d,
+	y: -7.5d,
+	dependencies: [
+		"1d8c65f6"
+	],
+	tasks: [{
+		uid: "f3e6880d",
+		type: "kill",
+		entity: "minecraft:blaze",
+		value: 1L
+	}]
+}

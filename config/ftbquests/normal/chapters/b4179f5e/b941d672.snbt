@@ -1,0 +1,29 @@
+{
+	title: "Сгусток слизи",
+	x: 2.5d,
+	y: 0.0d,
+	dependencies: [
+		"9dabfc0e"
+	],
+	tasks: [{
+		uid: "00aafb94",
+		type: "item",
+		items: [{
+			item: "minecraft:slime_ball"
+		},
+		{
+			item: "tconstruct:edible 1 1"
+		},
+		{
+			item: "tconstruct:edible 1 2"
+		},
+		{
+			item: "tconstruct:edible 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "32694db8",
+		type: "item",
+		item: "minecraft:slime"
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: 2.5d,
+	y: -5.0d,
+	dependencies: [
+		"ea19bfbb"
+	],
+	tasks: [{
+		uid: "e7782c91",
+		type: "item",
+		items: [{
+			item: "minecraft:stone_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ebc5c208",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

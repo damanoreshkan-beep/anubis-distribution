@@ -1,0 +1,40 @@
+{
+	title: "Хлеб всему голова",
+	x: 7.5d,
+	y: -2.5d,
+	dependencies: [
+		"fbb20310"
+	],
+	tasks: [{
+		uid: "689748b7",
+		type: "item",
+		items: [{
+			item: "minecraft:bread"
+		}]
+	}],
+	rewards: [{
+		uid: "d4a01b06",
+		type: "item",
+		item: "minecraft:potato"
+	},
+	{
+		uid: "61d0d998",
+		type: "item",
+		item: "minecraft:carrot"
+	},
+	{
+		uid: "91a4b0a3",
+		type: "item",
+		item: "minecraft:pumpkin_seeds"
+	},
+	{
+		uid: "c4cf0593",
+		type: "item",
+		item: "minecraft:beetroot_seeds"
+	},
+	{
+		uid: "082aa3d3",
+		type: "item",
+		item: "minecraft:melon_seeds"
+	}]
+}

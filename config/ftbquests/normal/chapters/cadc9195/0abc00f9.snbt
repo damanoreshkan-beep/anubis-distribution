@@ -1,0 +1,56 @@
+{
+	title: "Первые провода",
+	x: 5.0d,
+	y: -2.5d,
+	dependencies: [
+		"47e80353"
+	],
+	tasks: [{
+		uid: "e858f988",
+		type: "item",
+		items: [{
+			id: "ic2:cable",
+			tag: {
+				type: 0b,
+				insulation: 0b
+			}
+		}]
+	},
+	{
+		uid: "c717d985",
+		type: "item",
+		items: [{
+			id: "ic2:cable",
+			tag: {
+				type: 4b,
+				insulation: 0b
+			},
+			Damage: 4s
+		}]
+	}],
+	rewards: [{
+		uid: "85e3751e",
+		type: "item",
+		item: {
+			id: "ic2:cable",
+			tag: {
+				type: 0b,
+				insulation: 0b
+			}
+		},
+		count: 4
+	},
+	{
+		uid: "28a2835e",
+		type: "item",
+		item: {
+			id: "ic2:cable",
+			tag: {
+				type: 4b,
+				insulation: 0b
+			},
+			Damage: 4s
+		},
+		count: 4
+	}]
+}

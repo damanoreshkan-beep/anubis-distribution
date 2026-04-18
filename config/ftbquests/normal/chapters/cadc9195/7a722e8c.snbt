@@ -1,0 +1,28 @@
+{
+	x: 12.5d,
+	y: 15.0d,
+	shape: "gear",
+	dependencies: [
+		"910a642f",
+		"e8b40e56"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "b40c85e1",
+		type: "item",
+		items: [{
+			item: "advanced_solar_panels:machines 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "9398858e",
+		type: "xp_levels",
+		xp_levels: 100
+	},
+	{
+		uid: "26922dec",
+		type: "loot",
+		title: "Легендарный сундук",
+		table: 4
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	title: "МЭ контроллер",
+	x: -12.5d,
+	y: -22.5d,
+	shape: "gear",
+	dependencies: [
+		"cd340e6c"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "177b8706",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:controller"
+		}]
+	}],
+	rewards: [{
+		uid: "182363d5",
+		type: "xp_levels",
+		xp_levels: 3
+	},
+	{
+		uid: "b17ab31a",
+		type: "item",
+		item: "minecraft:diamond"
+	},
+	{
+		uid: "89829339",
+		type: "loot",
+		title: "Редкий сундук",
+		table: 1
+	}]
+}

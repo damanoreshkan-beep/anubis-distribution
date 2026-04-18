@@ -1,0 +1,21 @@
+{
+	x: -7.5d,
+	y: -7.5d,
+	dependencies: [
+		"9a4ccf82"
+	],
+	tasks: [{
+		uid: "7d2ea15e",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2c9669e2",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

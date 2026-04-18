@@ -1,0 +1,20 @@
+{
+	title: "Удобрение",
+	x: 2.5d,
+	y: -15.0d,
+	dependencies: [
+		"5d8bbada"
+	],
+	tasks: [{
+		uid: "576b12cf",
+		type: "item",
+		items: [{
+			item: "minecraft:dye 1 15"
+		}]
+	}],
+	rewards: [{
+		uid: "a1521ea1",
+		type: "item",
+		item: "minecraft:bone_block"
+	}]
+}

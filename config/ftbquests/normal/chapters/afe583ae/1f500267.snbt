@@ -1,0 +1,40 @@
+{
+	title: "Повар",
+	x: 10.0d,
+	y: -5.0d,
+	dependencies: [
+		"8d390aa5"
+	],
+	tasks: [{
+		uid: "45ec14bc",
+		type: "item",
+		items: [{
+			item: "minecraft:cooked_beef"
+		}],
+		count: 16L
+	},
+	{
+		uid: "4bd6c25a",
+		type: "item",
+		items: [{
+			item: "minecraft:cooked_chicken"
+		}],
+		count: 16L
+	},
+	{
+		uid: "caa98072",
+		type: "item",
+		items: [{
+			item: "minecraft:cooked_porkchop"
+		}],
+		count: 16L
+	},
+	{
+		uid: "4153c071",
+		type: "item",
+		items: [{
+			item: "minecraft:cooked_mutton"
+		}],
+		count: 16L
+	}]
+}

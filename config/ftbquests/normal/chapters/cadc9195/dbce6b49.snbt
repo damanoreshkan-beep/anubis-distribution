@@ -1,0 +1,20 @@
+{
+	x: -2.5d,
+	y: 5.0d,
+	dependencies: [
+		"326a35a9"
+	],
+	tasks: [{
+		uid: "e61ab78d",
+		type: "item",
+		items: [{
+			item: "ic2:dust 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "12cf2da2",
+		type: "item",
+		item: "minecraft:coal",
+		count: 4
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	title: "Уголь",
+	x: -2.5d,
+	y: -5.0d,
+	dependencies: [
+		"10d14b61"
+	],
+	tasks: [{
+		uid: "0c87e249",
+		type: "item",
+		items: [{
+			item: "minecraft:coal"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "b185ad88",
+		type: "item",
+		item: "minecraft:coal",
+		count: 2
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: 5.0d,
+	y: -10.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"7906b5ea"
+	],
+	tasks: [{
+		uid: "d39fe1c4",
+		type: "item",
+		items: [{
+			id: "ic2:batpack",
+			tag: {},
+			Damage: 26s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

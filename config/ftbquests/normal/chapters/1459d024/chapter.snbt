@@ -1,0 +1,13 @@
+{
+	title: "Ящики",
+	icon: {
+		id: "storagedrawers:basicdrawers",
+		tag: {
+			material: "oak"
+		},
+		Damage: 3s
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "rsquare"
+}

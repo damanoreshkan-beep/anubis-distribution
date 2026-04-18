@@ -1,0 +1,33 @@
+{
+	title: "Кварцевый дробитель",
+	x: 0.0d,
+	y: -5.0d,
+	dependencies: [
+		"06f3a212"
+	],
+	tasks: [{
+		uid: "22c652f1",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:grindstone"
+		}]
+	},
+	{
+		uid: "d1f9113d",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:crank"
+		}]
+	}],
+	rewards: [{
+		uid: "693436d0",
+		type: "xp_levels",
+		xp_levels: 1
+	},
+	{
+		uid: "878a4823",
+		type: "item",
+		item: "minecraft:quartz",
+		count: 12
+	}]
+}

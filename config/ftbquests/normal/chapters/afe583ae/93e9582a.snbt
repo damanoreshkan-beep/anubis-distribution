@@ -1,0 +1,65 @@
+{
+	title: "Землекоп",
+	x: 5.0d,
+	y: -7.5d,
+	dependencies: [
+		"65058609"
+	],
+	tasks: [{
+		uid: "449c92c5",
+		type: "item",
+		items: [{
+			item: "minecraft:dirt"
+		}],
+		count: 256L
+	}],
+	rewards: [{
+		uid: "68f324fd",
+		type: "item",
+		item: {
+			id: "tconstruct:excavator",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 2.0f,
+					FreeModifiers: 3,
+					Durability: 131,
+					HarvestLevel: 0,
+					Attack: 2.0f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 2.0f,
+					FreeModifiers: 3,
+					Durability: 131,
+					HarvestLevel: 0,
+					Attack: 2.0f
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"harvest",
+						"aoe"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"wood",
+						"wood",
+						"wood",
+						"wood"
+					],
+					Modifiers: []
+				},
+				Modifiers: [{
+					identifier: "ecological",
+					color: -7444965,
+					level: 1
+				}],
+				Traits: [
+					"ecological"
+				]
+			}
+		}
+	}]
+}

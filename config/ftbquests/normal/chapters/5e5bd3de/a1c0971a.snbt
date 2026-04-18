@@ -1,0 +1,14 @@
+{
+	title: "Много утильсырья не бывает!",
+	icon: "appliedenergistics2:material 1 48",
+	x: -2.0d,
+	y: -2.5d,
+	tasks: [{
+		uid: "65be83d5",
+		type: "item",
+		items: [{
+			item: "ic2:crafting 1 24"
+		}],
+		count: 1728L
+	}]
+}

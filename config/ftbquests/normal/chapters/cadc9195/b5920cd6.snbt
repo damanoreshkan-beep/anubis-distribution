@@ -1,0 +1,15 @@
+{
+	x: 27.5d,
+	y: 2.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"a771085c"
+	],
+	tasks: [{
+		uid: "25c60f94",
+		type: "item",
+		items: [{
+			item: "gravisuite:crafting 1 5"
+		}]
+	}]
+}

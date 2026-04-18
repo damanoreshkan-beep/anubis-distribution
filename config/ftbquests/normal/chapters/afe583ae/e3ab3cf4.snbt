@@ -1,0 +1,21 @@
+{
+	x: -7.5d,
+	y: -5.0d,
+	dependencies: [
+		"9a4ccf82"
+	],
+	tasks: [{
+		uid: "26b241db",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_shovel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c9ce3ddb",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

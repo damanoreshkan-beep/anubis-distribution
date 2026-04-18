@@ -1,0 +1,43 @@
+{
+	title: "Новые слитки",
+	x: -2.5d,
+	y: -7.5d,
+	dependencies: [
+		"bc2c89dc"
+	],
+	tasks: [{
+		uid: "32407c1e",
+		type: "item",
+		items: [{
+			item: "tconstruct:ingots 1 5"
+		}]
+	},
+	{
+		uid: "dd065563",
+		type: "item",
+		items: [{
+			item: "tconstruct:ingots 1 1"
+		}]
+	},
+	{
+		uid: "84ba57a7",
+		type: "item",
+		items: [{
+			item: "tconstruct:ingots 1 2"
+		}]
+	},
+	{
+		uid: "8b44c245",
+		type: "item",
+		items: [{
+			item: "tconstruct:ingots 1 3"
+		}]
+	},
+	{
+		uid: "5b5f242d",
+		type: "item",
+		items: [{
+			item: "tconstruct:ingots 1 4"
+		}]
+	}]
+}

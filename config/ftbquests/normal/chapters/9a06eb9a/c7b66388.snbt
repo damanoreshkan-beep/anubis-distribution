@@ -1,0 +1,27 @@
+{
+	x: 2.5d,
+	y: 2.5d,
+	dependencies: [
+		"7b5c68df"
+	],
+	tasks: [{
+		uid: "bf553094",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:wrench"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ef0aeacb",
+		type: "item",
+		item: "thermalfoundation:material 1 131",
+		count: 4
+	},
+	{
+		uid: "78806cbd",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 4
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	title: "Кристальный сундук",
+	x: 0.0d,
+	y: -12.5d,
+	dependencies: [
+		"d7d72b08"
+	],
+	tasks: [{
+		uid: "498ace25",
+		type: "item",
+		items: [{
+			item: "ironchest:iron_chest 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "2b738269",
+		type: "item",
+		item: "minecraft:diamond",
+		count: 3
+	}]
+}

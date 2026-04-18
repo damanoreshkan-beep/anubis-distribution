@@ -1,0 +1,14 @@
+{
+	x: -12.5d,
+	y: -30.0d,
+	dependencies: [
+		"6b1d8e90"
+	],
+	tasks: [{
+		uid: "ad36fb56",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:wireless_access_point"
+		}]
+	}]
+}

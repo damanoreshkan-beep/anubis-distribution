@@ -1,0 +1,20 @@
+{
+	title: "Криперы",
+	x: 5.0d,
+	y: -10.0d,
+	dependencies: [
+		"0b9b5ddf"
+	],
+	tasks: [{
+		uid: "63b750b3",
+		type: "kill",
+		entity: "minecraft:creeper",
+		value: 3L
+	}],
+	rewards: [{
+		uid: "3c4383aa",
+		type: "item",
+		item: "minecraft:gunpowder",
+		count: 12
+	}]
+}

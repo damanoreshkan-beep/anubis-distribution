@@ -1,0 +1,70 @@
+{
+	title: "Обсидиан",
+	x: -15.0d,
+	y: -10.0d,
+	dependencies: [
+		"b0c69e77"
+	],
+	tasks: [{
+		uid: "938c3603",
+		type: "item",
+		items: [{
+			item: "minecraft:obsidian"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "f1aaf013",
+		type: "item",
+		item: {
+			id: "tconstruct:longbow",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 7.07f,
+					DrawSpeed: 0.2f,
+					FreeModifiers: 3,
+					ProjectileBonusDamage: -1.0f,
+					Durability: 320,
+					HarvestLevel: 4,
+					Attack: 4.2f,
+					Range: 0.4f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 7.07f,
+					DrawSpeed: 0.2f,
+					FreeModifiers: 3,
+					ProjectileBonusDamage: -1.0f,
+					Durability: 320,
+					HarvestLevel: 4,
+					Attack: 4.2f,
+					Range: 0.4f
+				},
+				Special: {
+					Categories: [
+						"launcher",
+						"tool"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"obsidian",
+						"obsidian",
+						"obsidian",
+						"string"
+					],
+					Modifiers: []
+				},
+				Modifiers: [{
+					identifier: "duritos",
+					color: -10478396,
+					level: 1
+				}],
+				Traits: [
+					"duritos"
+				]
+			}
+		}
+	}]
+}

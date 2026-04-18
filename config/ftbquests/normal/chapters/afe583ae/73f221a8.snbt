@@ -1,0 +1,16 @@
+{
+	x: 0.0d,
+	y: -17.5d,
+	dependencies: [
+		"b32323dd"
+	],
+	tasks: [{
+		uid: "350c2798",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:tool.hammer_gold"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

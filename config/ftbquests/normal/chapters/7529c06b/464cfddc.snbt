@@ -1,0 +1,15 @@
+{
+	title: "Стеклянная печь",
+	x: 0.0d,
+	y: -10.0d,
+	dependencies: [
+		"6293a1c1"
+	],
+	tasks: [{
+		uid: "479961c5",
+		type: "item",
+		items: [{
+			item: "ironfurnaces:glass_furnace_idle"
+		}]
+	}]
+}

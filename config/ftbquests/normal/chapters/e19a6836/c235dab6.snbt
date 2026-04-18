@@ -1,0 +1,32 @@
+{
+	x: -15.0d,
+	y: -30.0d,
+	dependencies: [
+		"50a09697"
+	],
+	tasks: [{
+		uid: "13487fc7",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:wireless_terminal",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "290fbdbf",
+		type: "item",
+		item: "appliedenergistics2:wireless_access_point"
+	},
+	{
+		uid: "8b9d31bb",
+		type: "xp_levels",
+		xp_levels: 3
+	},
+	{
+		uid: "78ec98b0",
+		type: "item",
+		item: "minecraft:iron_block"
+	}]
+}

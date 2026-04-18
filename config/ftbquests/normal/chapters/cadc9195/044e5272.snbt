@@ -1,0 +1,24 @@
+{
+	x: 7.5d,
+	y: 7.5d,
+	dependencies: [
+		"506ddc32"
+	],
+	tasks: [{
+		uid: "ddeb21f7",
+		type: "item",
+		items: [{
+			id: "ic2:energy_crystal",
+			tag: {},
+			Damage: 26s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d31756ac",
+		type: "item",
+		item: "minecraft:redstone_block",
+		count: 16
+	}]
+}

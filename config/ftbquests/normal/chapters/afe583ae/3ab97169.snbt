@@ -1,0 +1,20 @@
+{
+	title: "Огненный стержень",
+	x: -17.5d,
+	y: -5.0d,
+	dependencies: [
+		"8985c98c"
+	],
+	tasks: [{
+		uid: "ab80eac8",
+		type: "item",
+		items: [{
+			item: "minecraft:blaze_rod"
+		}]
+	}],
+	rewards: [{
+		uid: "7d374ecd",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

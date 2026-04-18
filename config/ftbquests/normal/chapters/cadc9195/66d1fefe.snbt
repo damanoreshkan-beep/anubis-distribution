@@ -1,0 +1,29 @@
+{
+	x: 10.0d,
+	y: -5.0d,
+	dependencies: [
+		"5d5c5bb1",
+		"dfa7f05d"
+	],
+	tasks: [{
+		uid: "82647773",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 42"
+		}]
+	}],
+	rewards: [{
+		uid: "991a88b4",
+		type: "item",
+		item: {
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "water",
+					Amount: 1000
+				}
+			}
+		},
+		count: 64
+	}]
+}

@@ -1,0 +1,81 @@
+{
+	title: "Набор инструментов (Усиленный)",
+	x: 10.0d,
+	y: -2.5d,
+	dependencies: [
+		"4f7b8d31"
+	],
+	tasks: [{
+		uid: "26b8764e",
+		type: "item",
+		items: [{
+			id: "thermalinnovation:drill",
+			tag: {
+				Energy: 120000,
+				Mode: 2
+			},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a82f00c2",
+		type: "item",
+		items: [{
+			id: "thermalinnovation:saw",
+			tag: {
+				Energy: 120000,
+				Mode: 2
+			},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "230869b3",
+		type: "item",
+		items: [{
+			id: "thermalinnovation:magnet",
+			tag: {
+				Energy: 120000
+			},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "405ac511",
+		type: "item",
+		items: [{
+			id: "thermalinnovation:injector",
+			tag: {},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b6fd9316",
+		type: "item",
+		items: [{
+			id: "thermalinnovation:quiver",
+			tag: {},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8aa25e8f",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "f9b52eef",
+		type: "item",
+		item: {
+			id: "thermalexpansion:capacitor",
+			tag: {
+				Energy: 1000000
+			}
+		}
+	}]
+}

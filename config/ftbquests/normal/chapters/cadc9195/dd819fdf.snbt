@@ -1,0 +1,36 @@
+{
+	x: 10.0d,
+	y: -15.0d,
+	shape: "gear",
+	dependencies: [
+		"eae5a1cb"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "a71389d3",
+		type: "item",
+		items: [{
+			id: "gravisuite:gravichestplate",
+			tag: {},
+			Damage: 26s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e49f7679",
+		type: "xp_levels",
+		xp_levels: 15
+	},
+	{
+		uid: "49c3098d",
+		type: "item",
+		item: "ic2:crafting 1 4"
+	},
+	{
+		uid: "6721c23c",
+		type: "loot",
+		title: "Легендарный сундук",
+		table: 4
+	}]
+}

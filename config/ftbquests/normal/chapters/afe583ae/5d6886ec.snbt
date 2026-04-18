@@ -1,0 +1,21 @@
+{
+	x: 12.5d,
+	y: 0.0d,
+	dependencies: [
+		"5249bcb9"
+	],
+	tasks: [{
+		uid: "1acdfa3e",
+		type: "item",
+		items: [{
+			item: "minecraft:cake"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a1dcf95a",
+		type: "item",
+		item: "minecraft:cake"
+	}]
+}

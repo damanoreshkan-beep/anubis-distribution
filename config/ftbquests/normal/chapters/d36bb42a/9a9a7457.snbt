@@ -1,0 +1,16 @@
+{
+	title: "Земляной нарост",
+	x: -5.0d,
+	y: 2.5d,
+	dependencies: [
+		"d9662675"
+	],
+	tasks: [{
+		uid: "16e3b155",
+		type: "item",
+		items: [{
+			item: "ic2:terra_wart"
+		}],
+		count: 64L
+	}]
+}

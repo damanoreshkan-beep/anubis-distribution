@@ -1,0 +1,70 @@
+{
+	title: "Тотальная защита",
+	x: 5.0d,
+	y: 25.0d,
+	shape: "gear",
+	dependencies: [
+		"799131cd"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "cef8071d",
+		type: "item",
+		items: [{
+			id: "ic2:quantum_helmet",
+			tag: {},
+			Damage: 26s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e75d4038",
+		type: "item",
+		items: [{
+			id: "ic2:quantum_chestplate",
+			tag: {},
+			Damage: 26s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1c02e8e4",
+		type: "item",
+		items: [{
+			id: "ic2:quantum_leggings",
+			tag: {},
+			Damage: 26s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0f554796",
+		type: "item",
+		items: [{
+			id: "ic2:quantum_boots",
+			tag: {},
+			Damage: 26s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e90f951f",
+		type: "item",
+		item: "ic2:te 1 92"
+	},
+	{
+		uid: "9acbac9f",
+		type: "item",
+		item: "ic2:crafting 1 24",
+		count: 128
+	},
+	{
+		uid: "39119afe",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

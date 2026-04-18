@@ -1,0 +1,31 @@
+{
+	title: "Резиновый тростник",
+	x: -7.5d,
+	y: 0.0d,
+	dependencies: [
+		"d9662675"
+	],
+	tasks: [{
+		uid: "516acc25",
+		type: "item",
+		items: [{
+			id: "ic2:crop_seed_bag",
+			tag: {
+				owner: "ic2",
+				scan: 4b,
+				growth: 1b,
+				id: "stickreed",
+				resistance: 1b,
+				gain: 1b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "89cf6808",
+		type: "loot",
+		title: "Редкий сундук",
+		table: 1
+	}]
+}

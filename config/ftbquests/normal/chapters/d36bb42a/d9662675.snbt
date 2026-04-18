@@ -1,0 +1,16 @@
+{
+	title: "Сахарный тростник",
+	x: -5.0d,
+	y: 0.0d,
+	dependencies: [
+		"c8ebc37f"
+	],
+	tasks: [{
+		uid: "0fccb364",
+		type: "item",
+		items: [{
+			item: "minecraft:reeds"
+		}],
+		count: 32L
+	}]
+}

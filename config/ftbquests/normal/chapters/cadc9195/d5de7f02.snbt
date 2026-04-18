@@ -1,0 +1,19 @@
+{
+	x: -10.0d,
+	y: 2.5d,
+	dependencies: [
+		"d3c70053"
+	],
+	tasks: [{
+		uid: "c0ebc100",
+		type: "item",
+		items: [{
+			item: "ic2:ingot 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "807416bb",
+		type: "item",
+		item: "minecraft:iron_block"
+	}]
+}

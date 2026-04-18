@@ -1,0 +1,17 @@
+{
+	x: 5.0d,
+	y: -26.0d,
+	dependencies: [
+		"80eb30ab"
+	],
+	tasks: [{
+		uid: "bf7a5055",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:storage_cell_4k",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

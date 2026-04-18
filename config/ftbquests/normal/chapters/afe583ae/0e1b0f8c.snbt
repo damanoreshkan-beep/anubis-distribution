@@ -1,0 +1,54 @@
+{
+	title: "Золотая броня",
+	x: -2.5d,
+	y: -17.5d,
+	dependencies: [
+		"d395af56"
+	],
+	tasks: [{
+		uid: "56dadf11",
+		type: "item",
+		items: [{
+			item: "minecraft:golden_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d1c1b6f7",
+		type: "item",
+		items: [{
+			item: "minecraft:golden_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "01822ab8",
+		type: "item",
+		items: [{
+			item: "minecraft:golden_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f5dc44ba",
+		type: "item",
+		items: [{
+			item: "minecraft:golden_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "97462d8b",
+		type: "xp_levels",
+		xp_levels: 4
+	},
+	{
+		uid: "940118bb",
+		type: "item",
+		item: "minecraft:golden_apple"
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	title: "Нарост из незера",
+	x: -2.5d,
+	y: 0.0d,
+	dependencies: [
+		"c718cf97"
+	],
+	tasks: [{
+		uid: "e37b5956",
+		type: "item",
+		items: [{
+			item: "minecraft:nether_wart"
+		}],
+		count: 64L
+	}]
+}

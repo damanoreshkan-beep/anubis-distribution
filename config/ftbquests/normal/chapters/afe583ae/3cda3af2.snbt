@@ -1,0 +1,28 @@
+{
+	title: "Золотой век",
+	x: -2.5d,
+	y: -12.5d,
+	dependencies: [
+		"a5abad63"
+	],
+	tasks: [{
+		uid: "94b71811",
+		type: "item",
+		items: [{
+			item: "minecraft:gold_ore"
+		}]
+	},
+	{
+		uid: "d129263f",
+		type: "item",
+		items: [{
+			item: "minecraft:gold_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "22489a6e",
+		type: "item",
+		item: "minecraft:gold_ingot",
+		count: 12
+	}]
+}

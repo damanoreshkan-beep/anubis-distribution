@@ -1,0 +1,22 @@
+{
+	title: "Ух ё!",
+	x: 15.0d,
+	y: 15.0d,
+	shape: "gear",
+	dependencies: [
+		"7a722e8c",
+		"a5bd1736"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "0e4dd504",
+		type: "item",
+		items: [{
+			id: "advanced_solar_panels:ultimatesolarhelmet",
+			tag: {},
+			Damage: 26s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	title: "Хмель",
+	x: -5.0d,
+	y: 5.0d,
+	dependencies: [
+		"9a9a7457"
+	],
+	tasks: [{
+		uid: "fb997eda",
+		type: "item",
+		items: [{
+			item: "ic2:crop_res 1 4"
+		}],
+		count: 16L
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: 0.0d,
+	y: -5.0d,
+	dependencies: [
+		"6c0b8796"
+	],
+	tasks: [{
+		uid: "535b35f8",
+		type: "item",
+		items: [{
+			item: "minecraft:wooden_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7f5f6500",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

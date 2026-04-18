@@ -1,0 +1,1045 @@
+{
+	title: "Бумажки",
+	icon: "appliedenergistics2:material 1 48",
+	x: -2.0d,
+	y: -0.5d,
+	tasks: [{
+		uid: "b6b6e592",
+		type: "item",
+		items: [{
+			id: "tconstruct:broadsword",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 0.51f,
+					FreeModifiers: 3,
+					Durability: 8,
+					HarvestLevel: 0,
+					Attack: 1.05f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 0.51f,
+					FreeModifiers: 5,
+					Durability: 8,
+					HarvestLevel: 0,
+					Attack: 1.05f
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"weapon"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"paper",
+						"paper",
+						"paper"
+					],
+					Modifiers: []
+				},
+				Modifiers: [{
+					identifier: "writable",
+					color: -1,
+					level: 2,
+					writable2: 1b,
+					writable1: 1b
+				}],
+				Traits: [
+					"writable1",
+					"writable2"
+				]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "31200e46",
+		type: "item",
+		items: [{
+			id: "tconstruct:mattock",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					HarvestLevelAxe: 0,
+					MiningSpeed: 0.51f,
+					FreeModifiers: 3,
+					HarvestLevelShovel: 0,
+					Durability: 6,
+					HarvestLevel: 0,
+					Attack: 3.05f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					HarvestLevelAxe: 0,
+					MiningSpeed: 0.51f,
+					FreeModifiers: 5,
+					HarvestLevelShovel: 0,
+					Durability: 6,
+					HarvestLevel: 0,
+					Attack: 3.05f
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"aoe",
+						"harvest"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"paper",
+						"paper",
+						"paper"
+					],
+					Modifiers: []
+				},
+				Modifiers: [{
+					identifier: "writable",
+					color: -1,
+					level: 2,
+					writable2: 1b,
+					writable1: 1b
+				}],
+				Traits: [
+					"writable1",
+					"writable2"
+				]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d953b3ae",
+		type: "item",
+		items: [{
+			id: "tconstruct:kama",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 0.51f,
+					FreeModifiers: 3,
+					Durability: 8,
+					HarvestLevel: 0,
+					Attack: 0.05f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 0.51f,
+					FreeModifiers: 5,
+					Durability: 8,
+					HarvestLevel: 0,
+					Attack: 0.05f
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"aoe",
+						"harvest",
+						"weapon"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"paper",
+						"paper",
+						"paper"
+					],
+					Modifiers: []
+				},
+				Modifiers: [{
+					identifier: "writable",
+					color: -1,
+					level: 2,
+					writable2: 1b,
+					writable1: 1b
+				}],
+				Traits: [
+					"writable1",
+					"writable2"
+				]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "11b32cb0",
+		type: "item",
+		items: [{
+			id: "tconstruct:pickaxe",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 0.51f,
+					FreeModifiers: 3,
+					Durability: 8,
+					HarvestLevel: 0,
+					Attack: 0.05f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 0.51f,
+					FreeModifiers: 5,
+					Durability: 8,
+					HarvestLevel: 0,
+					Attack: 0.05f
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"aoe",
+						"harvest"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"paper",
+						"paper",
+						"paper"
+					],
+					Modifiers: []
+				},
+				Modifiers: [{
+					identifier: "writable",
+					color: -1,
+					level: 2,
+					writable2: 1b,
+					writable1: 1b
+				}],
+				Traits: [
+					"writable1",
+					"writable2"
+				]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "264e23a3",
+		type: "item",
+		items: [{
+			id: "tconstruct:excavator",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 0.51f,
+					FreeModifiers: 3,
+					Durability: 14,
+					HarvestLevel: 0,
+					Attack: 0.05f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 0.51f,
+					FreeModifiers: 5,
+					Durability: 14,
+					HarvestLevel: 0,
+					Attack: 0.05f
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"aoe",
+						"harvest"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"paper",
+						"paper",
+						"paper",
+						"paper"
+					],
+					Modifiers: []
+				},
+				Modifiers: [{
+					identifier: "writable",
+					color: -1,
+					level: 2,
+					writable2: 1b,
+					writable1: 1b
+				}],
+				Traits: [
+					"writable1",
+					"writable2"
+				]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c2f278e1",
+		type: "item",
+		items: [{
+			id: "tconstruct:shovel",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 0.51f,
+					FreeModifiers: 3,
+					Durability: 8,
+					HarvestLevel: 0,
+					Attack: 0.05f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 0.51f,
+					FreeModifiers: 5,
+					Durability: 8,
+					HarvestLevel: 0,
+					Attack: 0.05f
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"aoe",
+						"harvest"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"paper",
+						"paper",
+						"paper"
+					],
+					Modifiers: []
+				},
+				Modifiers: [{
+					identifier: "writable",
+					color: -1,
+					level: 2,
+					writable2: 1b,
+					writable1: 1b
+				}],
+				Traits: [
+					"writable1",
+					"writable2"
+				]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "33b51e14",
+		type: "item",
+		items: [{
+			id: "tconstruct:hatchet",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 0.51f,
+					FreeModifiers: 3,
+					Durability: 8,
+					HarvestLevel: 0,
+					Attack: 0.55f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 0.51f,
+					FreeModifiers: 5,
+					Durability: 8,
+					HarvestLevel: 0,
+					Attack: 0.55f
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"aoe",
+						"harvest",
+						"weapon"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"paper",
+						"paper",
+						"paper"
+					],
+					Modifiers: []
+				},
+				Modifiers: [{
+					identifier: "writable",
+					color: -1,
+					level: 2,
+					writable2: 1b,
+					writable1: 1b
+				}],
+				Traits: [
+					"writable1",
+					"writable2"
+				]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ec0266b3",
+		type: "item",
+		items: [{
+			id: "tconstruct:lumberaxe",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 0.51f,
+					FreeModifiers: 3,
+					Durability: 16,
+					HarvestLevel: 0,
+					Attack: 2.05f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 0.51f,
+					FreeModifiers: 5,
+					Durability: 16,
+					HarvestLevel: 0,
+					Attack: 2.05f
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"aoe",
+						"harvest"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"paper",
+						"paper",
+						"paper",
+						"paper"
+					],
+					Modifiers: []
+				},
+				Modifiers: [{
+					identifier: "writable",
+					color: -1,
+					level: 2,
+					writable2: 1b,
+					writable1: 1b
+				}],
+				Traits: [
+					"writable1",
+					"writable2"
+				]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "fe1f1b12",
+		type: "item",
+		items: [{
+			id: "tconstruct:hammer",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 0.51f,
+					FreeModifiers: 3,
+					Durability: 15,
+					HarvestLevel: 0,
+					Attack: 0.05f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 0.51f,
+					FreeModifiers: 5,
+					Durability: 15,
+					HarvestLevel: 0,
+					Attack: 0.05f
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"aoe",
+						"harvest",
+						"weapon"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"paper",
+						"paper",
+						"paper",
+						"paper"
+					],
+					Modifiers: []
+				},
+				Modifiers: [{
+					identifier: "writable",
+					color: -1,
+					level: 2,
+					writable2: 1b,
+					writable1: 1b
+				}],
+				Traits: [
+					"writable1",
+					"writable2"
+				]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "da81eb68",
+		type: "item",
+		items: [{
+			id: "tconstruct:battlesign",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 0.51f,
+					FreeModifiers: 3,
+					Durability: 6,
+					HarvestLevel: 0,
+					Attack: 0.05f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 0.51f,
+					FreeModifiers: 5,
+					Durability: 6,
+					HarvestLevel: 0,
+					Attack: 0.05f
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"weapon"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"paper",
+						"paper"
+					],
+					Modifiers: []
+				},
+				Modifiers: [{
+					identifier: "writable",
+					color: -1,
+					level: 2,
+					writable2: 1b,
+					writable1: 1b
+				}],
+				Traits: [
+					"writable1",
+					"writable2"
+				]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d64e2930",
+		type: "item",
+		items: [{
+			id: "tconstruct:rapier",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 0.51f,
+					FreeModifiers: 3,
+					Durability: 6,
+					HarvestLevel: 0,
+					Attack: 0.05f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 0.51f,
+					FreeModifiers: 5,
+					Durability: 6,
+					HarvestLevel: 0,
+					Attack: 0.05f
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"weapon"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"paper",
+						"paper",
+						"paper"
+					],
+					Modifiers: []
+				},
+				Modifiers: [{
+					identifier: "writable",
+					color: -1,
+					level: 2,
+					writable2: 1b,
+					writable1: 1b
+				}],
+				Traits: [
+					"writable1",
+					"writable2"
+				]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "25beafb4",
+		type: "item",
+		items: [{
+			id: "tconstruct:frypan",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 0.51f,
+					FreeModifiers: 3,
+					Durability: 6,
+					HarvestLevel: 0,
+					Attack: 0.05f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 0.51f,
+					FreeModifiers: 5,
+					Durability: 6,
+					HarvestLevel: 0,
+					Attack: 0.05f
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"weapon"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"paper",
+						"paper"
+					],
+					Modifiers: []
+				},
+				Modifiers: [{
+					identifier: "writable",
+					color: -1,
+					level: 2,
+					writable2: 1b,
+					writable1: 1b
+				}],
+				Traits: [
+					"writable1",
+					"writable2"
+				]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e149c7af",
+		type: "item",
+		items: [{
+			id: "tconstruct:longsword",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 0.51f,
+					FreeModifiers: 3,
+					Durability: 8,
+					HarvestLevel: 0,
+					Attack: 0.55f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 0.51f,
+					FreeModifiers: 5,
+					Durability: 8,
+					HarvestLevel: 0,
+					Attack: 0.55f
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"weapon"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"paper",
+						"paper",
+						"paper"
+					],
+					Modifiers: []
+				},
+				Modifiers: [{
+					identifier: "writable",
+					color: -1,
+					level: 2,
+					writable2: 1b,
+					writable1: 1b
+				}],
+				Traits: [
+					"writable1",
+					"writable2"
+				]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5fadcc46",
+		type: "item",
+		items: [{
+			id: "tconstruct:shortbow",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 0.51f,
+					DrawSpeed: 1.5f,
+					FreeModifiers: 3,
+					ProjectileBonusDamage: -2.0f,
+					Durability: 12,
+					HarvestLevel: 0,
+					Attack: 0.05f,
+					Range: 0.4f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 0.51f,
+					DrawSpeed: 1.5f,
+					FreeModifiers: 5,
+					ProjectileBonusDamage: -2.0f,
+					Durability: 12,
+					HarvestLevel: 0,
+					Attack: 0.05f,
+					Range: 0.4f
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"launcher"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"paper",
+						"paper",
+						"string"
+					],
+					Modifiers: []
+				},
+				Modifiers: [{
+					identifier: "writable",
+					color: -1,
+					level: 2,
+					writable2: 1b,
+					writable1: 1b
+				}],
+				Traits: [
+					"writable1",
+					"writable2"
+				]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8dead2f3",
+		type: "item",
+		items: [{
+			id: "tconstruct:crossbow",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 0.51f,
+					DrawSpeed: 1.5f,
+					FreeModifiers: 3,
+					ProjectileBonusDamage: -3.0f,
+					Durability: 8,
+					HarvestLevel: 0,
+					Attack: 0.05f,
+					Range: 0.4f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 0.51f,
+					DrawSpeed: 1.5f,
+					FreeModifiers: 5,
+					ProjectileBonusDamage: -3.0f,
+					Durability: 8,
+					HarvestLevel: 0,
+					Attack: 0.05f,
+					Range: 0.4f
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"launcher"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"paper",
+						"paper",
+						"paper",
+						"string"
+					],
+					Modifiers: []
+				},
+				Modifiers: [{
+					identifier: "writable",
+					color: -1,
+					level: 2,
+					writable2: 1b,
+					writable1: 1b
+				}],
+				Traits: [
+					"writable1",
+					"writable2"
+				]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "604ab28b",
+		type: "item",
+		items: [{
+			id: "tconstruct:longbow",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 0.51f,
+					DrawSpeed: 1.5f,
+					FreeModifiers: 3,
+					ProjectileBonusDamage: -2.0f,
+					Durability: 37,
+					HarvestLevel: 0,
+					Attack: 0.05f,
+					Range: 0.4f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 0.51f,
+					DrawSpeed: 1.5f,
+					FreeModifiers: 5,
+					ProjectileBonusDamage: -2.0f,
+					Durability: 37,
+					HarvestLevel: 0,
+					Attack: 0.05f,
+					Range: 0.4f
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"launcher"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"paper",
+						"paper",
+						"paper",
+						"string"
+					],
+					Modifiers: []
+				},
+				Modifiers: [{
+					identifier: "writable",
+					color: -1,
+					level: 2,
+					writable2: 1b,
+					writable1: 1b
+				}],
+				Traits: [
+					"writable1",
+					"writable2"
+				]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "cec847db",
+		type: "item",
+		items: [{
+			id: "tconstruct:scythe",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 0.51f,
+					FreeModifiers: 3,
+					Durability: 17,
+					HarvestLevel: 0,
+					Attack: 0.05f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 0.51f,
+					FreeModifiers: 5,
+					Durability: 17,
+					HarvestLevel: 0,
+					Attack: 0.05f
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"aoe",
+						"harvest",
+						"weapon"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"paper",
+						"paper",
+						"paper",
+						"paper"
+					],
+					Modifiers: []
+				},
+				Modifiers: [{
+					identifier: "writable",
+					color: -1,
+					level: 2,
+					writable2: 1b,
+					writable1: 1b
+				}],
+				Traits: [
+					"writable1",
+					"writable2"
+				]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e8f81f88",
+		type: "item",
+		items: [{
+			id: "tconstruct:cleaver",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 0.51f,
+					FreeModifiers: 3,
+					Durability: 16,
+					HarvestLevel: 0,
+					Attack: 3.065f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 0.51f,
+					FreeModifiers: 5,
+					Durability: 16,
+					HarvestLevel: 0,
+					Attack: 3.065f
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"weapon"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"paper",
+						"paper",
+						"paper",
+						"paper"
+					],
+					Modifiers: [
+						"beheading_cleaver"
+					]
+				},
+				Modifiers: [{
+					identifier: "writable",
+					color: -1,
+					level: 2,
+					writable2: 1b,
+					writable1: 1b
+				},
+				{
+					identifier: "beheading_cleaver",
+					color: 1070923,
+					level: 2
+				}],
+				Traits: [
+					"writable1",
+					"writable2"
+				]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9f20c9be",
+		type: "item",
+		items: [{
+			id: "tconstruct:shuriken",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					Accuracy: 1.0f,
+					MiningSpeed: 0.51f,
+					FreeModifiers: 3,
+					Durability: 27,
+					HarvestLevel: 0,
+					Attack: 1.05f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					Accuracy: 1.0f,
+					MiningSpeed: 0.51f,
+					FreeModifiers: 5,
+					Durability: 27,
+					HarvestLevel: 0,
+					Attack: 1.05f
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"no_melee",
+						"projectile"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"paper",
+						"paper",
+						"paper",
+						"paper"
+					],
+					Modifiers: []
+				},
+				Modifiers: [{
+					identifier: "writable",
+					color: -1,
+					level: 2,
+					writable2: 1b,
+					writable1: 1b
+				}],
+				Traits: [
+					"writable2",
+					"writable1"
+				]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

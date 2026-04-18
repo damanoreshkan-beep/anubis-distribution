@@ -1,0 +1,319 @@
+{
+	title: "Собери их все!",
+	x: -10.0d,
+	y: -7.5d,
+	dependencies: [
+		"bdb3414c"
+	],
+	tasks: [{
+		uid: "e5ceb851",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:excavator_head"
+			}
+		}]
+	},
+	{
+		uid: "5c515300",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:tough_binding"
+			}
+		}]
+	},
+	{
+		uid: "a3fd0176",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:tough_tool_rod"
+			}
+		}]
+	},
+	{
+		uid: "615bd4a1",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:sharpening_kit"
+			}
+		}]
+	},
+	{
+		uid: "56c476bd",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:tool_rod"
+			}
+		}]
+	},
+	{
+		uid: "dafea415",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:wide_guard"
+			}
+		}]
+	},
+	{
+		uid: "71de9ffd",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:kama_head"
+			}
+		}]
+	},
+	{
+		uid: "57400c50",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:bow_limb"
+			}
+		}]
+	},
+	{
+		uid: "22a7b884",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:knife_blade"
+			}
+		}]
+	},
+	{
+		uid: "8527b7a1",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:shard"
+			}
+		}]
+	},
+	{
+		uid: "fcb5e164",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:hammer_head"
+			}
+		}]
+	},
+	{
+		uid: "2f9c7eb8",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:hand_guard"
+			}
+		}]
+	},
+	{
+		uid: "88ff87dd",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:large_plate"
+			}
+		}]
+	},
+	{
+		uid: "8030a977",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:binding"
+			}
+		}]
+	},
+	{
+		uid: "eba7a0f3",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:shovel_head"
+			}
+		}]
+	},
+	{
+		uid: "6f8c61dd",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:sword_blade"
+			}
+		}]
+	},
+	{
+		uid: "e3021682",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:sign_head"
+			}
+		}]
+	},
+	{
+		uid: "bd1053ce",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:cross_guard"
+			}
+		}]
+	},
+	{
+		uid: "60730f45",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:arrow_head"
+			}
+		}]
+	},
+	{
+		uid: "50a2d890",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:broad_axe_head"
+			}
+		}]
+	},
+	{
+		uid: "cb7feaa7",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:axe_head"
+			}
+		}]
+	},
+	{
+		uid: "4ac5ab24",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:large_sword_blade"
+			}
+		}]
+	},
+	{
+		uid: "f228aa60",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:pick_head"
+			}
+		}]
+	},
+	{
+		uid: "ee248af3",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:pan_head"
+			}
+		}]
+	},
+	{
+		uid: "31206727",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:scythe_head"
+			}
+		}]
+	},
+	{
+		uid: "246c745f",
+		type: "item",
+		items: [{
+			item: "tconstruct:cast_custom"
+		}]
+	},
+	{
+		uid: "28d02305",
+		type: "item",
+		items: [{
+			item: "tconstruct:cast_custom 1 1"
+		}]
+	},
+	{
+		uid: "3823c33b",
+		type: "item",
+		items: [{
+			item: "tconstruct:cast_custom 1 2"
+		}]
+	},
+	{
+		uid: "97e22300",
+		type: "item",
+		items: [{
+			item: "tconstruct:cast_custom 1 3"
+		}]
+	},
+	{
+		uid: "9a64b936",
+		type: "item",
+		items: [{
+			item: "tconstruct:cast_custom 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "b9f6c348",
+		type: "xp_levels",
+		xp_levels: 20
+	},
+	{
+		uid: "94bb12b7",
+		type: "item",
+		item: "minecraft:gold_ingot",
+		count: 128
+	},
+	{
+		uid: "0704c401",
+		type: "item",
+		item: "minecraft:golden_apple 1 1"
+	},
+	{
+		uid: "6f529ece",
+		type: "item",
+		item: {
+			id: "tconstruct:hammer_head",
+			tag: {
+				Material: "electrum"
+			}
+		}
+	}]
+}

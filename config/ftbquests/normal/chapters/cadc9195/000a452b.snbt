@@ -1,0 +1,28 @@
+{
+	x: 2.5d,
+	y: 7.5d,
+	dependencies: [
+		"724fcbae"
+	],
+	tasks: [{
+		uid: "65f48083",
+		type: "item",
+		items: [{
+			id: "ic2:nano_saber",
+			tag: {},
+			Damage: 26s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "aadcf38c",
+		type: "item",
+		item: {
+			id: "ic2:charging_energy_crystal",
+			tag: {
+				charge: 4000000.0d
+			}
+		}
+	}]
+}

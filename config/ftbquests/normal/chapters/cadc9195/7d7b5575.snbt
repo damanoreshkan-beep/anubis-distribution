@@ -1,0 +1,68 @@
+{
+	title: "Сжатие предметов и блоков",
+	x: -5.0d,
+	y: 5.0d,
+	dependencies: [
+		"1e13de3b"
+	],
+	tasks: [{
+		uid: "65ab68b8",
+		type: "item",
+		items: [{
+			item: "ic2:plate 1 10"
+		}]
+	},
+	{
+		uid: "6e2aaff2",
+		type: "item",
+		items: [{
+			item: "ic2:plate 1 12"
+		}]
+	},
+	{
+		uid: "0f866e96",
+		type: "item",
+		items: [{
+			item: "ic2:plate 1 14"
+		}]
+	},
+	{
+		uid: "7e080d6d",
+		type: "item",
+		items: [{
+			item: "ic2:plate 1 17"
+		}]
+	},
+	{
+		uid: "df5a795d",
+		type: "item",
+		items: [{
+			item: "ic2:plate 1 11"
+		}]
+	}],
+	rewards: [{
+		uid: "6970609d",
+		type: "item",
+		item: "ic2:plate 1 10"
+	},
+	{
+		uid: "453eb1ec",
+		type: "item",
+		item: "ic2:plate 1 12"
+	},
+	{
+		uid: "b7be7e44",
+		type: "item",
+		item: "ic2:plate 1 14"
+	},
+	{
+		uid: "c479c8d9",
+		type: "item",
+		item: "ic2:plate 1 17"
+	},
+	{
+		uid: "29f216f7",
+		type: "item",
+		item: "ic2:plate 1 11"
+	}]
+}

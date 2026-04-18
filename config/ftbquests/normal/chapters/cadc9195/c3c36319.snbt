@@ -1,0 +1,22 @@
+{
+	title: "Много утильсырья не бывает!",
+	x: 10.0d,
+	y: 17.5d,
+	dependencies: [
+		"df941bb1"
+	],
+	tasks: [{
+		uid: "6d3f1e3b",
+		type: "item",
+		items: [{
+			item: "ic2:crafting 1 24"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "3d185397",
+		type: "item",
+		item: "minecraft:dirt",
+		count: 512
+	}]
+}

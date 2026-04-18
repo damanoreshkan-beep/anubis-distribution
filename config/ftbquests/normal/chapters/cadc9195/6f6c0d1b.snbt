@@ -1,0 +1,18 @@
+{
+	x: 7.5d,
+	y: 10.0d,
+	dependencies: [
+		"044e5272"
+	],
+	tasks: [{
+		uid: "5b6e7686",
+		type: "item",
+		items: [{
+			id: "ic2:lapotron_crystal",
+			tag: {},
+			Damage: 26s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

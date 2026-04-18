@@ -1,0 +1,55 @@
+{
+	title: "Комплект техника",
+	x: -7.5d,
+	y: -15.0d,
+	dependencies: [
+		"82e2a72a"
+	],
+	tasks: [{
+		uid: "66bf11ac",
+		type: "item",
+		items: [{
+			item: "minecraft:redstone_torch"
+		}]
+	},
+	{
+		uid: "a2c74e45",
+		type: "item",
+		items: [{
+			item: "minecraft:redstone_lamp"
+		}]
+	},
+	{
+		uid: "289d4eac",
+		type: "item",
+		items: [{
+			item: "minecraft:repeater"
+		}]
+	},
+	{
+		uid: "a3b0ce96",
+		type: "item",
+		items: [{
+			item: "minecraft:piston"
+		}]
+	},
+	{
+		uid: "a5e77713",
+		type: "item",
+		items: [{
+			item: "minecraft:hopper"
+		}]
+	}],
+	rewards: [{
+		uid: "7e2847d3",
+		type: "item",
+		item: "minecraft:redstone_block",
+		count: 6
+	},
+	{
+		uid: "ea0008b7",
+		type: "loot",
+		title: "Обычный сундук",
+		table: 0
+	}]
+}

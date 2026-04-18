@@ -1,0 +1,19 @@
+{
+	x: -7.5d,
+	y: 10.0d,
+	dependencies: [
+		"3d984767"
+	],
+	tasks: [{
+		uid: "7f19ee00",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:augment 1 656"
+		}]
+	}],
+	rewards: [{
+		uid: "f3eab220",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

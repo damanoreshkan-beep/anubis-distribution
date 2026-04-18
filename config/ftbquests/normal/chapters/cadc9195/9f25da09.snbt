@@ -1,0 +1,68 @@
+{
+	x: 2.5d,
+	y: 0.0d,
+	shape: "hexagon",
+	hide_dependency_lines: true,
+	dependencies: [
+		"3e6739a7",
+		"da33c152",
+		"a07e8e1d",
+		"251e94b9",
+		"17337e99",
+		"c62f2ae2",
+		"a771085c",
+		"f5c87f65",
+		"7d7b5575",
+		"132944a6",
+		"944a6f1f",
+		"0b79cfa0",
+		"84a61b1f",
+		"c3d6490c",
+		"dd819fdf"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "f71a7bd5",
+		type: "checkmark",
+		title: "Завершить главу \"Industrial Craft\""
+	}],
+	rewards: [{
+		uid: "e7c4d801",
+		type: "xp_levels",
+		xp_levels: 50
+	},
+	{
+		uid: "d44a90e7",
+		type: "item",
+		item: {
+			id: "ic2:lapotron_crystal",
+			tag: {
+				charge: 1.0E7d
+			}
+		}
+	},
+	{
+		uid: "d8bbb1ff",
+		type: "item",
+		item: {
+			id: "ic2:charging_lapotron_crystal",
+			tag: {
+				charge: 4.0E7d
+			}
+		}
+	},
+	{
+		uid: "ab04a20c",
+		type: "item",
+		item: {
+			id: "appliedenergistics2:storage_cell_64k",
+			tag: {}
+		}
+	},
+	{
+		uid: "2738fa22",
+		type: "loot",
+		title: "Легендарный сундук",
+		table: 4
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	x: -10.0d,
+	y: -12.5d,
+	dependencies: [
+		"bc3a013a",
+		"d2af65c2"
+	],
+	tasks: [{
+		uid: "32a29f4c",
+		type: "item",
+		items: [{
+			item: "minecraft:enchanting_table"
+		}]
+	}],
+	rewards: [{
+		uid: "e83b413b",
+		type: "item",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 3s,
+					id: 0s
+				}]
+			}
+		}
+	}]
+}

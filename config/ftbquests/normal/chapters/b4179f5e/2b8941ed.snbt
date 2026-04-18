@@ -1,0 +1,70 @@
+{
+	title: "Все модификации",
+	x: -2.5d,
+	y: -12.5d,
+	shape: "gear",
+	dependencies: [
+		"bdd26696"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "0c4c5ad6",
+		type: "item",
+		items: [{
+			item: "minecraft:ender_pearl"
+		}]
+	},
+	{
+		uid: "cacc2cab",
+		type: "item",
+		items: [{
+			item: "minecraft:glowstone_dust"
+		}]
+	},
+	{
+		uid: "7fb3bedb",
+		type: "item",
+		items: [{
+			item: "minecraft:quartz"
+		}]
+	},
+	{
+		uid: "1bcd16e0",
+		type: "item",
+		items: [{
+			item: "tconstruct:materials 1 14"
+		}]
+	},
+	{
+		uid: "ffd957c2",
+		type: "item",
+		items: [{
+			item: "tconstruct:materials 1 16"
+		}]
+	},
+	{
+		uid: "f866a93f",
+		type: "item",
+		items: [{
+			item: "tconstruct:materials 1 17"
+		}]
+	},
+	{
+		uid: "fc6b035d",
+		type: "item",
+		items: [{
+			item: "tconstruct:materials 1 19"
+		}]
+	}],
+	rewards: [{
+		uid: "6f3db418",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "fdd3f3c8",
+		type: "loot",
+		title: "Редкий сундук",
+		table: 1
+	}]
+}

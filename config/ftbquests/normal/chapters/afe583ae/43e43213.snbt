@@ -1,0 +1,60 @@
+{
+	title: "Красители",
+	x: 7.5d,
+	y: 5.0d,
+	dependencies: [
+		"e57784c8"
+	],
+	tasks: [{
+		uid: "6d63b1ad",
+		type: "item",
+		items: [{
+			item: "biomesoplenty:white_dye"
+		},
+		{
+			item: "minecraft:dye 1 1"
+		},
+		{
+			item: "minecraft:dye 1 2"
+		},
+		{
+			item: "minecraft:dye 1 5"
+		},
+		{
+			item: "minecraft:dye 1 7"
+		},
+		{
+			item: "minecraft:dye 1 6"
+		},
+		{
+			item: "minecraft:dye 1 8"
+		},
+		{
+			item: "minecraft:dye 1 9"
+		},
+		{
+			item: "minecraft:dye 1 10"
+		},
+		{
+			item: "minecraft:dye 1 12"
+		},
+		{
+			item: "minecraft:dye 1 13"
+		},
+		{
+			item: "minecraft:dye 1 14"
+		},
+		{
+			item: "biomesoplenty:blue_dye"
+		},
+		{
+			item: "biomesoplenty:brown_dye"
+		},
+		{
+			item: "biomesoplenty:green_dye"
+		},
+		{
+			item: "biomesoplenty:black_dye"
+		}]
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	title: "Завершить главу \"Печки\"",
+	x: 0.0d,
+	y: -12.0d,
+	shape: "hexagon",
+	dependencies: [
+		"464cfddc"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "8e2f1c90",
+		type: "checkmark",
+		title: "Кінець глави \"Супер пічки\""
+	}],
+	rewards: [{
+		uid: "81f7a64c",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "ed4b65a9",
+		type: "item",
+		item: "ironfurnaces:glass_furnace_idle"
+	},
+	{
+		uid: "d53dfc08",
+		type: "loot",
+		title: "Редкий сундук",
+		table: 1
+	}]
+}

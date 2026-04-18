@@ -1,0 +1,14 @@
+{
+	title: "Пекарь",
+	icon: "appliedenergistics2:material 1 48",
+	x: 2.0d,
+	y: -2.5d,
+	tasks: [{
+		uid: "8a0c6f9a",
+		type: "item",
+		items: [{
+			item: "minecraft:bread"
+		}],
+		count: 256L
+	}]
+}

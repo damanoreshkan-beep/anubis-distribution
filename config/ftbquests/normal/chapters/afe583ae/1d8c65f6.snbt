@@ -1,0 +1,23 @@
+{
+	title: "Добро пожаловать в ад!",
+	x: -17.5d,
+	y: -10.0d,
+	dependencies: [
+		"f5bdbdbd"
+	],
+	tasks: [{
+		uid: "a0c71345",
+		type: "dimension",
+		dim: -1
+	}],
+	rewards: [{
+		uid: "5f83e21a",
+		type: "item",
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "minecraft:fire_resistance"
+			}
+		}
+	}]
+}

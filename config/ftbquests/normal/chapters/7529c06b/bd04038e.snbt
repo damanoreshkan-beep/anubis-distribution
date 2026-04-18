@@ -1,0 +1,15 @@
+{
+	title: "Обсидиановая печь",
+	x: 2.0d,
+	y: -8.0d,
+	dependencies: [
+		"6293a1c1"
+	],
+	tasks: [{
+		uid: "750543f3",
+		type: "item",
+		items: [{
+			item: "ironfurnaces:obsidian_furnace_idle"
+		}]
+	}]
+}

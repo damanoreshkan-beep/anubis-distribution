@@ -1,0 +1,15 @@
+# Large binary assets — served via GitHub Releases, not git
+mods/
+shaderpacks/
+resourcepacks/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Build artifacts
+node_modules/
+dist/

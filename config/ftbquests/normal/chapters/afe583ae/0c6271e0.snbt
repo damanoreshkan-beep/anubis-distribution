@@ -1,0 +1,21 @@
+{
+	x: 2.5d,
+	y: 0.0d,
+	dependencies: [
+		"6c0b8796"
+	],
+	tasks: [{
+		uid: "93292ad4",
+		type: "item",
+		items: [{
+			item: "minecraft:wooden_hoe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9bb4bd9c",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

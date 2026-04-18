@@ -1,0 +1,21 @@
+{
+	x: 10.0d,
+	y: -12.5d,
+	dependencies: [
+		"303d439a"
+	],
+	tasks: [{
+		uid: "d91c5e5d",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:tool.bow_gold"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8abbcf9b",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	title: "Хладагент",
+	x: 12.5d,
+	y: -5.0d,
+	dependencies: [
+		"66d1fefe"
+	],
+	tasks: [{
+		uid: "a74ca086",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "ic2coolant",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

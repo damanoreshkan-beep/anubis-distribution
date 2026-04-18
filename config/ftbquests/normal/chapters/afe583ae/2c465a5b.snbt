@@ -1,0 +1,21 @@
+{
+	title: "Железный век",
+	x: -2.5d,
+	y: -10.0d,
+	dependencies: [
+		"37748677"
+	],
+	tasks: [{
+		uid: "26c62c6f",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ore"
+		}]
+	}],
+	rewards: [{
+		uid: "81fc5ac4",
+		type: "item",
+		item: "minecraft:iron_ore",
+		count: 4
+	}]
+}

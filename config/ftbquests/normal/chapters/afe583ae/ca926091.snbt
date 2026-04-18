@@ -1,0 +1,14 @@
+{
+	x: -7.5d,
+	y: 5.0d,
+	dependencies: [
+		"abb28077"
+	],
+	tasks: [{
+		uid: "83a1ca95",
+		type: "item",
+		items: [{
+			item: "minecraft:flower_pot"
+		}]
+	}]
+}

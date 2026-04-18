@@ -1,0 +1,46 @@
+{
+	title: "Всё что нужно",
+	x: 0.0d,
+	y: -17.5d,
+	dependencies: [
+		"53dec2c9"
+	],
+	tasks: [{
+		uid: "5348c39e",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 13"
+		}]
+	},
+	{
+		uid: "50e92fe5",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 14"
+		}]
+	},
+	{
+		uid: "1841cff5",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 15"
+		}]
+	},
+	{
+		uid: "ee7b8d51",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 19"
+		}]
+	}],
+	rewards: [{
+		uid: "7b73b5d4",
+		type: "item",
+		item: "appliedenergistics2:inscriber"
+	},
+	{
+		uid: "a82a022a",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

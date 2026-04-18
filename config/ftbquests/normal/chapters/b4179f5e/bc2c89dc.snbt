@@ -1,0 +1,15 @@
+{
+	title: "Кобальт",
+	x: -5.0d,
+	y: -7.5d,
+	dependencies: [
+		"4b5b6fbe"
+	],
+	tasks: [{
+		uid: "2cff1b25",
+		type: "item",
+		items: [{
+			item: "tconstruct:ingots"
+		}]
+	}]
+}

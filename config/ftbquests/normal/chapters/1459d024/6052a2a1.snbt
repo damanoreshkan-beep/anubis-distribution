@@ -1,0 +1,19 @@
+{
+	title: "Ящик 2х2",
+	x: 0.5d,
+	y: -6.5d,
+	dependencies: [
+		"ade3894a"
+	],
+	tasks: [{
+		uid: "55f9ca6e",
+		type: "item",
+		items: [{
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "oak"
+			},
+			Damage: 2s
+		}]
+	}]
+}

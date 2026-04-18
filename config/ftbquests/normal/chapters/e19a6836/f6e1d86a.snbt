@@ -1,0 +1,30 @@
+{
+	title: "Сенсация",
+	x: 0.0d,
+	y: -10.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"3fc654e5"
+	],
+	tasks: [{
+		uid: "0448cf04",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 7"
+		}],
+		count: 12L
+	}],
+	rewards: [{
+		uid: "924dfe73",
+		type: "item",
+		item: {
+			id: "appliedenergistics2:crystal_seed",
+			tag: {
+				progress: 1600
+			},
+			Damage: 1200s
+		}
+	}]
+}

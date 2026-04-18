@@ -1,0 +1,78 @@
+{
+	title: "Набор инструментров (Синаловый)",
+	x: 0.0d,
+	y: 12.5d,
+	dependencies: [
+		"1e45e75d",
+		"2218c98c",
+		"c888b9a9"
+	],
+	tasks: [{
+		uid: "cecd5c58",
+		type: "item",
+		items: [{
+			id: "thermalinnovation:drill",
+			tag: {
+				Energy: 400000,
+				Mode: 3
+			},
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2edc3fc1",
+		type: "item",
+		items: [{
+			id: "thermalinnovation:saw",
+			tag: {
+				Energy: 400000,
+				Mode: 3
+			},
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a6f7da65",
+		type: "item",
+		items: [{
+			id: "thermalinnovation:magnet",
+			tag: {
+				Energy: 400000
+			},
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "dfe8ae77",
+		type: "item",
+		items: [{
+			id: "thermalinnovation:injector",
+			tag: {},
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "32dc4b06",
+		type: "item",
+		items: [{
+			id: "thermalinnovation:quiver",
+			tag: {},
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5f7ce705",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "b378dd06",
+		type: "item",
+		item: "thermalfoundation:storage_alloy 1 5"
+	}]
+}

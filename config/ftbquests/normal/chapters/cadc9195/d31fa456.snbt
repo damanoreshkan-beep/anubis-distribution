@@ -1,0 +1,38 @@
+{
+	x: 12.5d,
+	y: -12.5d,
+	dependencies: [
+		"b30aba1b"
+	],
+	tasks: [{
+		uid: "5978b7d5",
+		type: "item",
+		items: [{
+			id: "gravisuite:ultimatelappack",
+			tag: {},
+			Damage: 26s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "888fee17",
+		type: "item",
+		item: {
+			id: "ic2:lapotron_crystal",
+			tag: {
+				charge: 1.0E7d
+			}
+		}
+	},
+	{
+		uid: "a2ce4f50",
+		type: "item",
+		item: {
+			id: "ic2:charging_lapotron_crystal",
+			tag: {
+				charge: 4.0E7d
+			}
+		}
+	}]
+}

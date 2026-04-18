@@ -1,0 +1,14 @@
+{
+	x: 12.5d,
+	y: 17.5d,
+	dependencies: [
+		"007ea8d7"
+	],
+	tasks: [{
+		uid: "377098fb",
+		type: "item",
+		items: [{
+			item: "advanced_solar_panels:machines 1 4"
+		}]
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	title: "Железная печь",
+	x: 0.0d,
+	y: -4.0d,
+	dependencies: [
+		"efb8c47c"
+	],
+	tasks: [{
+		uid: "232897a1",
+		type: "item",
+		items: [{
+			item: "ironfurnaces:iron_furnace_idle"
+		}]
+	}]
+}

@@ -1,0 +1,11 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	shape: "hexagon",
+	size: 1.5d,
+	tasks: [{
+		uid: "bfad5b92",
+		type: "checkmark",
+		title: "Начать главу \"Tinkers Construct\""
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	x: -20.25d,
+	y: -20.0d,
+	shape: "gear",
+	dependencies: [
+		"0d511598"
+	],
+	hide: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "744bb3c7",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:crafting_storage_64k"
+		}]
+	}],
+	rewards: [{
+		uid: "80328239",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "a659b650",
+		type: "loot",
+		title: "Эпический сундук",
+		table: 2
+	}]
+}

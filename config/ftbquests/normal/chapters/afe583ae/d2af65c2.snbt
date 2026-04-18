@@ -1,0 +1,24 @@
+{
+	x: -7.5d,
+	y: -12.5d,
+	dependencies: [
+		"a5abad63"
+	],
+	tasks: [{
+		uid: "03474b1f",
+		type: "item",
+		items: [{
+			item: "minecraft:dye 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "c5c01ff0",
+		type: "item",
+		item: "minecraft:lapis_block"
+	},
+	{
+		uid: "28545925",
+		type: "item",
+		item: "minecraft:bookshelf"
+	}]
+}

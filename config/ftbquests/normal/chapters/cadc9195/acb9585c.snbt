@@ -1,0 +1,31 @@
+{
+	x: 25.0d,
+	y: 0.0d,
+	shape: "gear",
+	dependencies: [
+		"3e6739a7"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "a47c5554",
+		type: "item",
+		items: [{
+			id: "ic2:mining_laser",
+			tag: {},
+			Damage: 26s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4641eef6",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "9ad1854c",
+		type: "item",
+		item: "minecraft:stone",
+		count: 512
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	x: 10.0d,
+	y: -10.0d,
+	dependencies: [
+		"e26ff568"
+	],
+	tasks: [{
+		uid: "c6cc5018",
+		type: "item",
+		items: [{
+			id: "ic2:energy_pack",
+			tag: {},
+			Damage: 26s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0801dc67",
+		type: "item",
+		item: {
+			id: "ic2:charging_energy_crystal",
+			tag: {
+				charge: 4000000.0d
+			}
+		}
+	}]
+}

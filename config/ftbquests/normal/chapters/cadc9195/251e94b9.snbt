@@ -1,0 +1,77 @@
+{
+	title: "\"Угольная\" броня",
+	x: 0.0d,
+	y: 10.0d,
+	shape: "gear",
+	dependencies: [
+		"724fcbae",
+		"1ff47369"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "b4d27f7a",
+		type: "item",
+		items: [{
+			id: "ic2:nano_helmet",
+			tag: {},
+			Damage: 26s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3110f1fc",
+		type: "item",
+		items: [{
+			id: "ic2:nano_chestplate",
+			tag: {},
+			Damage: 26s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3cbe7eba",
+		type: "item",
+		items: [{
+			id: "ic2:nano_leggings",
+			tag: {},
+			Damage: 26s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "28daa871",
+		type: "item",
+		items: [{
+			id: "ic2:nano_boots",
+			tag: {},
+			Damage: 26s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ccfb7088",
+		type: "item",
+		item: "minecraft:diamond",
+		count: 5
+	},
+	{
+		uid: "f1ea4d81",
+		type: "item",
+		item: {
+			id: "ic2:charging_energy_crystal",
+			tag: {
+				charge: 4000000.0d
+			}
+		}
+	},
+	{
+		uid: "94b1faa1",
+		type: "loot",
+		title: "Редкий сундук",
+		table: 1
+	}]
+}

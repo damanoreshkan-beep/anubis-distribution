@@ -1,0 +1,21 @@
+{
+	x: 7.5d,
+	y: -20.0d,
+	dependencies: [
+		"ed801057"
+	],
+	tasks: [{
+		uid: "c1942f18",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:tool.fishing_rod_gold"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "67a94548",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

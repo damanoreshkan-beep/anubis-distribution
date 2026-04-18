@@ -1,0 +1,15 @@
+{
+	title: "Глиномес",
+	x: -7.5d,
+	y: 0.0d,
+	dependencies: [
+		"34776106"
+	],
+	tasks: [{
+		uid: "d42d4b03",
+		type: "item",
+		items: [{
+			item: "minecraft:clay_ball"
+		}]
+	}]
+}

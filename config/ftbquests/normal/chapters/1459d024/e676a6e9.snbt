@@ -1,0 +1,15 @@
+{
+	title: "Улучшение хранилища 4",
+	x: 0.5d,
+	y: -16.5d,
+	dependencies: [
+		"a239f4b7"
+	],
+	tasks: [{
+		uid: "4d9a29c4",
+		type: "item",
+		items: [{
+			item: "storagedrawers:upgrade_storage 1 3"
+		}]
+	}]
+}

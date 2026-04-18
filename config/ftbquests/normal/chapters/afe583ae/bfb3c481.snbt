@@ -1,0 +1,21 @@
+{
+	title: "Кожевник",
+	x: 10.0d,
+	y: 2.5d,
+	dependencies: [
+		"5249bcb9"
+	],
+	tasks: [{
+		uid: "edd5b87c",
+		type: "item",
+		items: [{
+			item: "minecraft:leather"
+		}]
+	}],
+	rewards: [{
+		uid: "00c41a6f",
+		type: "item",
+		item: "minecraft:leather",
+		count: 4
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: 7.5d,
+	y: 2.5d,
+	dependencies: [
+		"a2638fa6"
+	],
+	tasks: [{
+		uid: "a870ee8b",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "ic2weed_ex",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	title: "Серебрянный сундук",
+	x: -2.5d,
+	y: -7.5d,
+	dependencies: [
+		"51d3d36b"
+	],
+	tasks: [{
+		uid: "c031d0ef",
+		type: "item",
+		items: [{
+			item: "ironchest:iron_chest 1 4"
+		}]
+	}]
+}

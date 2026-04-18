@@ -1,0 +1,20 @@
+{
+	title: "Найди их все",
+	x: 0.0d,
+	y: -15.0d,
+	dependencies: [
+		"5756ea9c"
+	],
+	tasks: [{
+		uid: "1160d047",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:sky_compass"
+		}]
+	}],
+	rewards: [{
+		uid: "abafe25d",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

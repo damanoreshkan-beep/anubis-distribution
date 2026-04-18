@@ -1,0 +1,30 @@
+{
+	title: "Фермер от бога",
+	icon: "appliedenergistics2:material 1 48",
+	x: -2.0d,
+	y: -1.5d,
+	tasks: [{
+		uid: "2aea7015",
+		type: "item",
+		items: [{
+			item: "minecraft:wheat"
+		}],
+		count: 128L
+	},
+	{
+		uid: "302a54e7",
+		type: "item",
+		items: [{
+			item: "minecraft:carrot"
+		}],
+		count: 128L
+	},
+	{
+		uid: "e542bc17",
+		type: "item",
+		items: [{
+			item: "minecraft:potato"
+		}],
+		count: 128L
+	}]
+}

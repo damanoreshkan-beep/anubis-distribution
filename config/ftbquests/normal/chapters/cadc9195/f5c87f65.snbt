@@ -1,0 +1,48 @@
+{
+	x: 25.0d,
+	y: 2.5d,
+	shape: "gear",
+	dependencies: [
+		"b5920cd6",
+		"c62f2ae2",
+		"acb9585c",
+		"132944a6"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "46e8b4ee",
+		type: "item",
+		items: [{
+			id: "gravisuite:vajra",
+			tag: {},
+			Damage: 26s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b11e30ed",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "453cc8f1",
+		type: "item",
+		item: {
+			id: "ic2:energy_crystal",
+			tag: {
+				charge: 1000000.0d
+			}
+		}
+	},
+	{
+		uid: "ab0683b0",
+		type: "item",
+		item: "gravisuite:crafting 1 4"
+	},
+	{
+		uid: "56c9ae55",
+		type: "item",
+		item: "ic2:crafting 1 2"
+	}]
+}

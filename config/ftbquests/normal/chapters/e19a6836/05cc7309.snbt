@@ -1,0 +1,31 @@
+{
+	title: "Завершить главу \"Applied Energistics\"",
+	x: 2.5d,
+	y: 0.0d,
+	shape: "hexagon",
+	hide_dependency_lines: true,
+	dependencies: [
+		"5e46e6c6",
+		"ea2705e7",
+		"6a6b39ca",
+		"fc7ce7af",
+		"c235dab6",
+		"4e1c0c05",
+		"84ef7104",
+		"f71fcbb3",
+		"7f72084c",
+		"33270148"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "87a5f452",
+		type: "checkmark",
+		title: "Кінець глави \"Сховище майбутного\""
+	}],
+	rewards: [{
+		uid: "1bb6a5f5",
+		type: "loot",
+		title: "Легендарный сундук",
+		table: 4
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	title: "Алмазная печь",
+	x: 0.0d,
+	y: -8.0d,
+	dependencies: [
+		"8978e08d"
+	],
+	tasks: [{
+		uid: "8911ac5a",
+		type: "item",
+		items: [{
+			item: "ironfurnaces:diamond_furnace_idle"
+		}]
+	}]
+}

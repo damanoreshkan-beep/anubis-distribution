@@ -1,0 +1,21 @@
+{
+	x: -5.0d,
+	y: -10.0d,
+	dependencies: [
+		"9a4ccf82"
+	],
+	tasks: [{
+		uid: "d1a2ba84",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2dbec6c8",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	title: "Промышленный богач",
+	icon: "appliedenergistics2:material 1 48",
+	x: 1.0d,
+	y: 0.5d,
+	tasks: [{
+		uid: "17d99d07",
+		type: "item",
+		items: [{
+			item: "ic2:crafting 1 38"
+		}],
+		count: 1728L
+	}]
+}

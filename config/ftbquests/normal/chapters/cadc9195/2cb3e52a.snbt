@@ -1,0 +1,37 @@
+{
+	title: "\"Безопасные\" провода",
+	x: 7.5d,
+	y: -2.5d,
+	dependencies: [
+		"0abc00f9"
+	],
+	tasks: [{
+		uid: "9b382c26",
+		type: "item",
+		items: [{
+			id: "ic2:cable",
+			tag: {
+				type: 0b,
+				insulation: 1b
+			}
+		}]
+	},
+	{
+		uid: "0e0c66b8",
+		type: "item",
+		items: [{
+			id: "ic2:cable",
+			tag: {
+				type: 4b,
+				insulation: 1b
+			},
+			Damage: 4s
+		}]
+	}],
+	rewards: [{
+		uid: "c4929aac",
+		type: "item",
+		item: "ic2:crafting",
+		count: 8
+	}]
+}

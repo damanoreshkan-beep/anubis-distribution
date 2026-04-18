@@ -1,0 +1,27 @@
+{
+	title: "Стекловолоконный провод",
+	x: 2.5d,
+	y: 10.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"044e5272"
+	],
+	tasks: [{
+		uid: "5d25f399",
+		type: "item",
+		items: [{
+			id: "ic2:cable",
+			tag: {
+				type: 1b,
+				insulation: 0b
+			},
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "998d412a",
+		type: "item",
+		item: "minecraft:glass",
+		count: 64
+	}]
+}

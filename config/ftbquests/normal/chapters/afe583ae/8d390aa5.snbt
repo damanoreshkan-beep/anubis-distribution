@@ -1,0 +1,51 @@
+{
+	title: "Мясник",
+	x: 10.0d,
+	y: -2.5d,
+	dependencies: [
+		"5249bcb9"
+	],
+	tasks: [{
+		uid: "47eba58a",
+		type: "item",
+		items: [{
+			item: "minecraft:chicken"
+		}],
+		count: 16L
+	},
+	{
+		uid: "3d9a034e",
+		type: "item",
+		items: [{
+			item: "minecraft:beef"
+		}],
+		count: 16L
+	},
+	{
+		uid: "cd56006a",
+		type: "item",
+		items: [{
+			item: "minecraft:porkchop"
+		}],
+		count: 16L
+	},
+	{
+		uid: "95e67edb",
+		type: "item",
+		items: [{
+			item: "minecraft:mutton"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "3902612e",
+		type: "xp_levels",
+		xp_levels: 3
+	},
+	{
+		uid: "1cceaa29",
+		type: "item",
+		item: "minecraft:coal",
+		count: 4
+	}]
+}

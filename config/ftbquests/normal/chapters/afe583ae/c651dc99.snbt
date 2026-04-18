@@ -1,0 +1,49 @@
+{
+	title: "Кожаная броня",
+	x: 7.5d,
+	y: 2.5d,
+	dependencies: [
+		"bfb3c481"
+	],
+	tasks: [{
+		uid: "e00dbb8d",
+		type: "item",
+		items: [{
+			item: "minecraft:leather_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5ddd29cd",
+		type: "item",
+		items: [{
+			item: "minecraft:leather_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e8ea6199",
+		type: "item",
+		items: [{
+			item: "minecraft:leather_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "da73b022",
+		type: "item",
+		items: [{
+			item: "minecraft:leather_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9adea949",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

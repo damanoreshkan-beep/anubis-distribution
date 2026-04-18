@@ -1,0 +1,29 @@
+{
+	x: 10.0d,
+	y: -26.5d,
+	shape: "gear",
+	dependencies: [
+		"17a59af5"
+	],
+	tasks: [{
+		uid: "6234e658",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:storage_cell_64k",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "448bace4",
+		type: "item",
+		item: "appliedenergistics2:material 1 36",
+		count: 4
+	},
+	{
+		uid: "9dfb0f51",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

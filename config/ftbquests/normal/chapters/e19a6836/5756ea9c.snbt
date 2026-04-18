@@ -1,0 +1,20 @@
+{
+	title: "Высекатель",
+	x: 0.0d,
+	y: -12.5d,
+	dependencies: [
+		"f6e1d86a"
+	],
+	tasks: [{
+		uid: "a0fab5b2",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:inscriber"
+		}]
+	}],
+	rewards: [{
+		uid: "de4ae90f",
+		type: "item",
+		item: "minecraft:iron_block"
+	}]
+}

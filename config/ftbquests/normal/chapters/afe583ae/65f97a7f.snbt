@@ -1,0 +1,21 @@
+{
+	title: "Фермер",
+	x: 5.0d,
+	y: 0.0d,
+	dependencies: [
+		"0c6271e0"
+	],
+	tasks: [{
+		uid: "1c765514",
+		type: "item",
+		items: [{
+			item: "minecraft:wheat_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "82d9e827",
+		type: "item",
+		item: "minecraft:wheat_seeds",
+		count: 12
+	}]
+}

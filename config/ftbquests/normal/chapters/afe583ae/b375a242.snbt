@@ -1,0 +1,39 @@
+{
+	x: 0.0d,
+	y: 2.5d,
+	shape: "hexagon",
+	hide_dependency_lines: true,
+	dependencies: [
+		"ca926091",
+		"5d6886ec",
+		"8f2a792f",
+		"c651dc99",
+		"99a315f2",
+		"9d077e91",
+		"0e1b0f8c",
+		"6e0a425d",
+		"2926d4fc",
+		"73f221a8",
+		"856a0ff1",
+		"e816b38d",
+		"8d390aa5",
+		"e3bc7aa0",
+		"028f4391",
+		"07118eb2",
+		"a83d9f99",
+		"2fbeb4d6",
+		"bd8acc60",
+		"80312a9c",
+		"2d188275",
+		"5fe7cac9",
+		"14021cf7",
+		"ec511028",
+		"b32323dd"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "444a95ad",
+		type: "checkmark",
+		title: "Завершить главу \"Майнкрафт\""
+	}]
+}

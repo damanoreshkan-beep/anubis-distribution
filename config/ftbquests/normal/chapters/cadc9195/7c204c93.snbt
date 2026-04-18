@@ -1,0 +1,14 @@
+{
+	x: 15.0d,
+	y: 7.5d,
+	dependencies: [
+		"8f86cad7"
+	],
+	tasks: [{
+		uid: "aff1ad56",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 79"
+		}]
+	}]
+}

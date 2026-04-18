@@ -1,0 +1,25 @@
+{
+	x: -2.5d,
+	y: 0.0d,
+	dependencies: [
+		"71cb0876"
+	],
+	tasks: [{
+		uid: "c6683014",
+		type: "item",
+		items: [{
+			item: "ic2:resource 1 13"
+		}]
+	}],
+	rewards: [{
+		uid: "0571ab8c",
+		type: "item",
+		item: "ic2:crafting 1 2"
+	},
+	{
+		uid: "b44833ec",
+		type: "loot",
+		title: "Редкий сундук",
+		table: 1
+	}]
+}

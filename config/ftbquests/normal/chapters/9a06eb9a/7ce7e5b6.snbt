@@ -1,0 +1,24 @@
+{
+	x: 5.0d,
+	y: 0.0d,
+	dependencies: [
+		"7b5c68df"
+	],
+	tasks: [{
+		uid: "fdb61a26",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:frame"
+		}]
+	}],
+	rewards: [{
+		uid: "b22cc191",
+		type: "item",
+		item: "thermalexpansion:frame"
+	},
+	{
+		uid: "6d2c17e5",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

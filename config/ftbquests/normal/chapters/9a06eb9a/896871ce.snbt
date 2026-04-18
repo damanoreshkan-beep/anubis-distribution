@@ -1,0 +1,61 @@
+{
+	title: "Набор инструментов (Основной)",
+	x: 5.0d,
+	y: 2.5d,
+	dependencies: [
+		"7ce7e5b6"
+	],
+	tasks: [{
+		uid: "73bc31c7",
+		type: "item",
+		items: [{
+			id: "thermalinnovation:drill",
+			tag: {
+				Energy: 40000,
+				Mode: 1
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "23781d0c",
+		type: "item",
+		items: [{
+			id: "thermalinnovation:saw",
+			tag: {
+				Energy: 40000,
+				Mode: 1
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "87786933",
+		type: "item",
+		items: [{
+			id: "thermalinnovation:magnet",
+			tag: {
+				Energy: 40000
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0715c741",
+		type: "item",
+		items: [{
+			id: "thermalinnovation:injector",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2eb56463",
+		type: "item",
+		items: [{
+			id: "thermalinnovation:quiver",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}]
+}

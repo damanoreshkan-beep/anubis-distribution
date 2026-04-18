@@ -1,0 +1,46 @@
+{
+	title: "Еще не всё",
+	x: 0.0d,
+	y: -20.0d,
+	dependencies: [
+		"a479a06e"
+	],
+	tasks: [{
+		uid: "43bc5186",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 16"
+		}]
+	},
+	{
+		uid: "b607c496",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 17"
+		}]
+	},
+	{
+		uid: "3c8c5a6d",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 18"
+		}]
+	},
+	{
+		uid: "eebc87d6",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 20"
+		}]
+	}],
+	rewards: [{
+		uid: "44442055",
+		type: "item",
+		item: "minecraft:diamond"
+	},
+	{
+		uid: "edddb144",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	x: 17.5d,
+	y: -10.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"7906b5ea"
+	],
+	tasks: [{
+		uid: "bda72ceb",
+		type: "item",
+		items: [{
+			id: "ic2:jetpack_electric",
+			tag: {},
+			Damage: 26s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2031f31b",
+		type: "item",
+		item: "ic2:ingot 1 2",
+		count: 12
+	},
+	{
+		uid: "2c0c9fb1",
+		type: "item",
+		item: {
+			id: "ic2:advanced_charging_re_battery",
+			tag: {
+				charge: 400000.0d
+			}
+		}
+	}]
+}

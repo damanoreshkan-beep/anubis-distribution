@@ -1,0 +1,21 @@
+{
+	x: 7.5d,
+	y: -5.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"cc2ba9e4"
+	],
+	tasks: [{
+		uid: "5d59d3cf",
+		type: "item",
+		items: [{
+			item: "ic2:fluid_cell"
+		}]
+	}],
+	rewards: [{
+		uid: "7c67d9de",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 6
+	}]
+}

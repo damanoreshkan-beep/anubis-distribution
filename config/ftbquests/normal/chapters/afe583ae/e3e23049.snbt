@@ -1,0 +1,25 @@
+{
+	x: -10.0d,
+	y: -2.5d,
+	dependencies: [
+		"34776106"
+	],
+	tasks: [{
+		uid: "329d0e6c",
+		type: "item",
+		items: [{
+			item: "minecraft:glass"
+		}]
+	}],
+	rewards: [{
+		uid: "3a72a59c",
+		type: "xp_levels",
+		xp_levels: 3
+	},
+	{
+		uid: "af06c8a5",
+		type: "item",
+		item: "minecraft:glass",
+		count: 12
+	}]
+}

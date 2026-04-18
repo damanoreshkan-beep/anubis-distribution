@@ -1,0 +1,25 @@
+{
+	x: -15.0d,
+	y: -5.0d,
+	dependencies: [
+		"d48ee08f"
+	],
+	tasks: [{
+		uid: "a8850d54",
+		type: "item",
+		items: [{
+			item: "minecraft:ender_chest"
+		}]
+	}],
+	rewards: [{
+		uid: "54f134ab",
+		type: "item",
+		item: "minecraft:ender_pearl",
+		count: 4
+	},
+	{
+		uid: "8790d0f6",
+		type: "item",
+		item: "minecraft:ender_chest"
+	}]
+}

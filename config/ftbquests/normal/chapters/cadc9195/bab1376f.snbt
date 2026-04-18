@@ -1,0 +1,32 @@
+{
+	x: 5.0d,
+	y: 7.5d,
+	dependencies: [
+		"044e5272",
+		"55bf400a"
+	],
+	tasks: [{
+		uid: "92b23ea2",
+		type: "item",
+		items: [{
+			id: "ic2:te",
+			tag: {},
+			Damage: 74s
+		}]
+	}],
+	rewards: [{
+		uid: "eee98b32",
+		type: "item",
+		item: "minecraft:iron_block"
+	},
+	{
+		uid: "ee849177",
+		type: "item",
+		item: {
+			id: "ic2:advanced_charging_re_battery",
+			tag: {
+				charge: 400000.0d
+			}
+		}
+	}]
+}

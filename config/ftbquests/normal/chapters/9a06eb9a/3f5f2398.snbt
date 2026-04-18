@@ -1,0 +1,47 @@
+{
+	x: 7.5d,
+	y: 5.0d,
+	dependencies: [
+		"8caa74ce"
+	],
+	tasks: [{
+		uid: "b3a95a12",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:cell",
+			tag: {
+				Recv: 1000,
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					2b,
+					1b,
+					1b,
+					1b,
+					1b,
+					1b
+				],
+				Level: 0b,
+				Send: 1000
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "31187bac",
+		type: "item",
+		item: "minecraft:redstone_block",
+		count: 4
+	},
+	{
+		uid: "9888fa4b",
+		type: "xp_levels",
+		xp_levels: 3
+	},
+	{
+		uid: "78a00ce7",
+		type: "item",
+		item: "minecraft:diamond"
+	}]
+}

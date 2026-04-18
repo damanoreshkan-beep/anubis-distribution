@@ -1,0 +1,16 @@
+{
+	title: "Эндер-жемчуг",
+	x: -12.5d,
+	y: -5.0d,
+	dependencies: [
+		"303953ad"
+	],
+	tasks: [{
+		uid: "c3b5a8df",
+		type: "item",
+		items: [{
+			item: "minecraft:ender_pearl"
+		}],
+		count: 12L
+	}]
+}

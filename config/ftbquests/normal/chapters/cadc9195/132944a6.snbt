@@ -1,0 +1,30 @@
+{
+	x: 25.0d,
+	y: 5.0d,
+	shape: "gear",
+	dependencies: [
+		"386b0e78"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "ec08a179",
+		type: "item",
+		items: [{
+			id: "gravisuite:gravitool",
+			tag: {},
+			Damage: 26s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3f2d466d",
+		type: "item",
+		item: "ic2:wrench"
+	},
+	{
+		uid: "671b8dde",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

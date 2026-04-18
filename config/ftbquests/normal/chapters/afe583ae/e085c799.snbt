@@ -1,0 +1,25 @@
+{
+	x: -2.5d,
+	y: -7.5d,
+	dependencies: [
+		"ea19bfbb"
+	],
+	tasks: [{
+		uid: "140fbfc1",
+		type: "item",
+		items: [{
+			item: "minecraft:furnace"
+		}]
+	}],
+	rewards: [{
+		uid: "bfd879fd",
+		type: "item",
+		item: "minecraft:cobblestone",
+		count: 4
+	},
+	{
+		uid: "a8d4b6c5",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

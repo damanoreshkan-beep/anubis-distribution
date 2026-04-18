@@ -1,0 +1,29 @@
+{
+	x: -2.5d,
+	y: 10.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"68b7e89a"
+	],
+	tasks: [{
+		uid: "02ec5e26",
+		type: "item",
+		items: [{
+			id: "ic2:nightvision_goggles",
+			tag: {},
+			Damage: 26s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "86c2c1cf",
+		type: "item",
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "minecraft:long_night_vision"
+			}
+		}
+	}]
+}

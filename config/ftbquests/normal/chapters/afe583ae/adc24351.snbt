@@ -1,0 +1,21 @@
+{
+	x: -2.5d,
+	y: 0.0d,
+	dependencies: [
+		"6c0b8796"
+	],
+	tasks: [{
+		uid: "f587e9bf",
+		type: "item",
+		items: [{
+			item: "minecraft:wooden_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b727f181",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

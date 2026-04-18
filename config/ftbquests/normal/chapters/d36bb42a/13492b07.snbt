@@ -1,0 +1,14 @@
+{
+	x: -2.5d,
+	y: 7.5d,
+	dependencies: [
+		"cdd5de10"
+	],
+	tasks: [{
+		uid: "b59703f2",
+		type: "item",
+		items: [{
+			item: "ic2:crop_res 1 1"
+		}]
+	}]
+}

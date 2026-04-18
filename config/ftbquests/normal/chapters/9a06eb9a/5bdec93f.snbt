@@ -1,0 +1,39 @@
+{
+	x: 7.5d,
+	y: 0.0d,
+	dependencies: [
+		"7ce7e5b6"
+	],
+	tasks: [{
+		uid: "187239b7",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:device",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					0b,
+					1b,
+					1b,
+					1b,
+					1b,
+					1b
+				]
+			},
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "e4d91718",
+		type: "item",
+		item: {
+			id: "thermalexpansion:satchel",
+			tag: {
+				Accessible: 1b
+			},
+			Damage: 100s
+		}
+	}]
+}

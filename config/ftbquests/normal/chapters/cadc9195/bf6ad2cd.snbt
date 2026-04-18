@@ -1,0 +1,24 @@
+{
+	x: 12.5d,
+	y: 10.0d,
+	dependencies: [
+		"3072a174"
+	],
+	tasks: [{
+		uid: "599f6b23",
+		type: "item",
+		items: [{
+			item: "ic2:component_heat_vent"
+		}]
+	}],
+	rewards: [{
+		uid: "f0e19255",
+		type: "item",
+		item: {
+			id: "ic2:component_heat_exchanger",
+			tag: {
+				advDmg: 0
+			}
+		}
+	}]
+}

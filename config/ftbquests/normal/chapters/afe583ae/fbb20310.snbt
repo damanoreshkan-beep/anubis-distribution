@@ -1,0 +1,15 @@
+{
+	title: "Первый урожай",
+	x: 7.5d,
+	y: 0.0d,
+	dependencies: [
+		"65f97a7f"
+	],
+	tasks: [{
+		uid: "1f266b87",
+		type: "item",
+		items: [{
+			item: "minecraft:wheat"
+		}]
+	}]
+}

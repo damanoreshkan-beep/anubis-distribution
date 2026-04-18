@@ -1,0 +1,6 @@
+{
+	title: "Уникальный сундук",
+	icon: "appliedenergistics2:sky_stone_chest",
+	loot_size: 1,
+	rewards: []
+}

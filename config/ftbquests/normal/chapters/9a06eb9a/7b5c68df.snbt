@@ -1,0 +1,48 @@
+{
+	title: "Добытчик новых руд",
+	x: 2.5d,
+	y: 0.0d,
+	dependencies: [
+		"03132afe"
+	],
+	tasks: [{
+		uid: "3ee4eb26",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:ore 1 5"
+		}],
+		count: 16L
+	},
+	{
+		uid: "fa077fa3",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:ore 1 6"
+		}]
+	},
+	{
+		uid: "5e784c4e",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:ore 1 3"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "79750241",
+		type: "item",
+		item: "thermalfoundation:ore 1 5",
+		count: 16
+	},
+	{
+		uid: "874197c9",
+		type: "item",
+		item: "thermalfoundation:ore 1 6"
+	},
+	{
+		uid: "342114d7",
+		type: "item",
+		item: "thermalfoundation:ore 1 3",
+		count: 16
+	}]
+}

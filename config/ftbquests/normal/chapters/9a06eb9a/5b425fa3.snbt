@@ -1,0 +1,51 @@
+{
+	x: 0.0d,
+	y: 2.5d,
+	shape: "hexagon",
+	hide_dependency_lines: true,
+	dependencies: [
+		"8d456e46",
+		"6994deb1",
+		"3f5f2398",
+		"a469ce41",
+		"0f04f7ce",
+		"cc1ba3f7",
+		"de5767bb",
+		"d9d45619",
+		"bb484e7a",
+		"69e1f452",
+		"82323c4a",
+		"29f7c1cc",
+		"b6b698ad",
+		"d4db3d86",
+		"8aff9162"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "af6a22fa",
+		type: "checkmark",
+		title: "Завершить главу \"Thermal Expansion\""
+	}],
+	rewards: [{
+		uid: "c70fb046",
+		type: "xp_levels",
+		xp_levels: 20
+	},
+	{
+		uid: "e94fb8be",
+		type: "item",
+		item: "minecraft:diamond_block",
+		count: 2
+	},
+	{
+		uid: "b9b85ebf",
+		type: "item",
+		item: {
+			id: "thermalexpansion:satchel",
+			tag: {
+				Accessible: 1b
+			},
+			Damage: 4s
+		}
+	}]
+}

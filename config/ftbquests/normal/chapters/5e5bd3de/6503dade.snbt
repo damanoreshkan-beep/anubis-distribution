@@ -1,0 +1,22 @@
+{
+	icon: "appliedenergistics2:material 1 47",
+	x: 0.0d,
+	y: -1.5d,
+	shape: "gear",
+	dependencies: [
+		"74396fec",
+		"71a82d0d",
+		"44ff7419",
+		"3a02f7ab",
+		"82d968f3",
+		"a1c0971a",
+		"d27c2cf0",
+		"3e6a7206",
+		"fed0344e"
+	],
+	tasks: [{
+		uid: "cba8652b",
+		type: "checkmark",
+		title: "Конец испытаниям"
+	}]
+}

@@ -1,0 +1,191 @@
+{
+	title: "Базовое обуродование",
+	x: 0.0d,
+	y: -5.0d,
+	dependencies: [
+		"254c939c"
+	],
+	tasks: [{
+		uid: "165b6eda",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables"
+		}]
+	},
+	{
+		uid: "955d8bb1",
+		type: "item",
+		items: [{
+			id: "tconstruct:tooltables",
+			tag: {
+				textureBlock: {
+					id: "minecraft:planks",
+					Count: 1b,
+					Damage: 0s
+				}
+			},
+			Damage: 1s
+		},
+		{
+			id: "tconstruct:tooltables",
+			tag: {
+				textureBlock: {
+					id: "minecraft:planks",
+					Count: 1b,
+					Damage: 1s
+				}
+			},
+			Damage: 1s
+		},
+		{
+			id: "tconstruct:tooltables",
+			tag: {
+				textureBlock: {
+					id: "minecraft:planks",
+					Count: 1b,
+					Damage: 2s
+				}
+			},
+			Damage: 1s
+		},
+		{
+			id: "tconstruct:tooltables",
+			tag: {
+				textureBlock: {
+					id: "minecraft:planks",
+					Count: 1b,
+					Damage: 3s
+				}
+			},
+			Damage: 1s
+		},
+		{
+			id: "tconstruct:tooltables",
+			tag: {
+				textureBlock: {
+					id: "minecraft:planks",
+					Count: 1b,
+					Damage: 4s
+				}
+			},
+			Damage: 1s
+		},
+		{
+			id: "tconstruct:tooltables",
+			tag: {
+				textureBlock: {
+					id: "minecraft:planks",
+					Count: 1b,
+					Damage: 5s
+				}
+			},
+			Damage: 1s
+		}]
+	},
+	{
+		uid: "f6d923a3",
+		type: "item",
+		items: [{
+			id: "tconstruct:tooltables",
+			tag: {
+				textureBlock: {
+					id: "minecraft:log",
+					Count: 1b,
+					Damage: 0s
+				}
+			},
+			Damage: 2s
+		},
+		{
+			id: "tconstruct:tooltables",
+			tag: {
+				textureBlock: {
+					id: "minecraft:log",
+					Count: 1b,
+					Damage: 1s
+				}
+			},
+			Damage: 2s
+		},
+		{
+			id: "tconstruct:tooltables",
+			tag: {
+				textureBlock: {
+					id: "minecraft:log",
+					Count: 1b,
+					Damage: 2s
+				}
+			},
+			Damage: 2s
+		},
+		{
+			id: "tconstruct:tooltables",
+			tag: {
+				textureBlock: {
+					id: "minecraft:log",
+					Count: 1b,
+					Damage: 3s
+				}
+			},
+			Damage: 2s
+		},
+		{
+			id: "tconstruct:tooltables",
+			tag: {
+				textureBlock: {
+					id: "minecraft:log2",
+					Count: 1b,
+					Damage: 0s
+				}
+			},
+			Damage: 2s
+		},
+		{
+			id: "tconstruct:tooltables",
+			tag: {
+				textureBlock: {
+					id: "minecraft:log2",
+					Count: 1b,
+					Damage: 1s
+				}
+			},
+			Damage: 2s
+		}]
+	},
+	{
+		uid: "c3ee6391",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables 1 4"
+		}]
+	},
+	{
+		uid: "2841542d",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables 1 5"
+		}]
+	},
+	{
+		uid: "3736b512",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "078726fb",
+		type: "item",
+		item: {
+			id: "tconstruct:tool_rod",
+			tag: {
+				Material: "silver"
+			}
+		}
+	},
+	{
+		uid: "a6bd687d",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

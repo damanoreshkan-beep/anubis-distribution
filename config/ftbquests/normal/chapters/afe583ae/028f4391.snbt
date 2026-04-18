@@ -1,0 +1,16 @@
+{
+	title: "Баю-баюшки-баю...",
+	x: 15.0d,
+	y: 2.5d,
+	dependencies: [
+		"e9f20b69"
+	],
+	tasks: [{
+		uid: "d0c3134b",
+		type: "item",
+		items: [{
+			item: "minecraft:bed"
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,73 @@
+{
+	title: "Пластины",
+	x: -5.0d,
+	y: -2.5d,
+	dependencies: [
+		"1b0bb748"
+	],
+	tasks: [{
+		uid: "b138a118",
+		type: "item",
+		items: [{
+			item: "ic2:plate 1 1"
+		}]
+	},
+	{
+		uid: "16c1c3ec",
+		type: "item",
+		items: [{
+			item: "ic2:plate 1 8"
+		}]
+	},
+	{
+		uid: "490acf50",
+		type: "item",
+		items: [{
+			item: "ic2:plate 1 2"
+		}]
+	},
+	{
+		uid: "048b4d0b",
+		type: "item",
+		items: [{
+			item: "ic2:plate 1 3"
+		}]
+	},
+	{
+		uid: "18f69888",
+		type: "item",
+		items: [{
+			item: "ic2:plate 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "d3bbc621",
+		type: "item",
+		item: "ic2:ingot 1 2",
+		count: 8
+	},
+	{
+		uid: "fd8cdf84",
+		type: "item",
+		item: "ic2:ingot 1 6",
+		count: 8
+	},
+	{
+		uid: "e23ee40c",
+		type: "item",
+		item: "minecraft:gold_ingot",
+		count: 8
+	},
+	{
+		uid: "d10f4646",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 8
+	},
+	{
+		uid: "11f409ce",
+		type: "item",
+		item: "ic2:ingot 1 3",
+		count: 8
+	}]
+}

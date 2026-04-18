@@ -1,0 +1,81 @@
+{
+	title: "Домашний скот",
+	x: 10.0d,
+	y: 0.0d,
+	dependencies: [
+		"fbb20310"
+	],
+	tasks: [{
+		uid: "a1bddb4e",
+		type: "kill",
+		entity: "minecraft:pig",
+		value: 10L
+	},
+	{
+		uid: "e4acd81e",
+		type: "kill",
+		entity: "minecraft:cow",
+		value: 10L
+	},
+	{
+		uid: "dc15a054",
+		type: "kill",
+		entity: "minecraft:chicken",
+		value: 10L
+	}],
+	rewards: [{
+		uid: "ef1f6099",
+		type: "item",
+		item: {
+			id: "tconstruct:cleaver",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 2.0f,
+					FreeModifiers: 3,
+					Durability: 150,
+					HarvestLevel: 0,
+					Attack: 5.6f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 2.0f,
+					FreeModifiers: 3,
+					Durability: 150,
+					HarvestLevel: 0,
+					Attack: 5.6f
+				},
+				Special: {
+					Categories: [
+						"weapon",
+						"tool"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"wood",
+						"wood",
+						"wood",
+						"wood"
+					],
+					Modifiers: [
+						"beheading_cleaver"
+					]
+				},
+				Modifiers: [{
+					identifier: "ecological",
+					color: -7444965,
+					level: 1
+				},
+				{
+					identifier: "beheading_cleaver",
+					color: 1070923,
+					level: 2
+				}],
+				Traits: [
+					"ecological"
+				]
+			}
+		}
+	}]
+}

@@ -1,0 +1,37 @@
+{
+	title: "Завершить главу \"Ящики\"",
+	x: 0.5d,
+	y: -21.5d,
+	shape: "hexagon",
+	dependencies: [
+		"41e54043"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "74df00ad",
+		type: "checkmark",
+		title: "Кінець 0.6"
+	}],
+	rewards: [{
+		uid: "37956eea",
+		type: "item",
+		item: "minecraft:diamond",
+		count: 2
+	},
+	{
+		uid: "c011eb3f",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "1a70d900",
+		type: "item",
+		item: "storagedrawers:upgrade_storage 1 4"
+	},
+	{
+		uid: "a9cc40a8",
+		type: "loot",
+		title: "Редкий сундук",
+		table: 1
+	}]
+}
