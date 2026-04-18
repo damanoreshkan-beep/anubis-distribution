@@ -39,18 +39,24 @@ function urlEncodePath(p) {
   return p.split('/').map(encodeURIComponent).join('/');
 }
 
-// --- Forge module (placeholder: subModules empty → needs Nebula or manual fill in Phase 6) ---
-const forgeModule = {
-  id: `net.minecraftforge:forge:${FORGE_VERSION}`,
-  name: `Minecraft Forge ${FORGE_VERSION}`,
-  type: 'ForgeHosted',
-  artifact: {
-    size: 0,
-    MD5: '',
-    url: `https://maven.minecraftforge.net/net/minecraftforge/forge/${FORGE_VERSION}/forge-${FORGE_VERSION}-installer.jar`
-  },
-  subModules: []
-};
+// --- Forge module ---
+// Prefer the fully-resolved module from scripts/build-forge-submodules.js
+// (written to docs/forge-module.json). Fall back to a placeholder while the
+// generator has not been run yet.
+const forgeModulePath = path.join(DOCS_DIR, 'forge-module.json');
+const forgeModule = fs.existsSync(forgeModulePath)
+  ? JSON.parse(fs.readFileSync(forgeModulePath, 'utf8'))
+  : {
+      id: `net.minecraftforge:forge:${FORGE_VERSION}`,
+      name: `Minecraft Forge ${FORGE_VERSION}`,
+      type: 'ForgeHosted',
+      artifact: {
+        size: 0,
+        MD5: '',
+        url: `https://maven.minecraftforge.net/net/minecraftforge/forge/${FORGE_VERSION}/forge-${FORGE_VERSION}-installer.jar`
+      },
+      subModules: []
+    };
 
 // --- Mods (ForgeMod type; mcef coremod as File with custom path) ---
 const modModules = [];
