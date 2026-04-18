@@ -1,0 +1,180 @@
+const fs = require('fs');
+const path = require('path');
+const crypto = require('crypto');
+
+const ROOT = path.resolve(__dirname, '..');
+const DOCS_DIR = path.join(ROOT, 'docs');
+
+const REPO_OWNER = 'damanoreshkan-beep';
+const REPO_NAME = 'anubis-distribution';
+const RELEASE_TAG = 'v1.0.0';
+const DISTRO_VERSION = '1.0.0';
+
+const RELEASE_BASE = `https://github.com/${REPO_OWNER}/${REPO_NAME}/releases/download/${RELEASE_TAG}`;
+const RAW_BASE = `https://raw.githubusercontent.com/${REPO_OWNER}/${REPO_NAME}/main`;
+
+const FORGE_VERSION = '1.12.2-14.23.5.2860';
+const MC_VERSION = '1.12.2';
+
+function md5(filepath) {
+  return crypto.createHash('md5').update(fs.readFileSync(filepath)).digest('hex');
+}
+
+function slug(name) {
+  return name.replace(/\.(jar|zip)$/i, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+}
+
+function listFilesRec(dir, prefix = '') {
+  const out = [];
+  if (!fs.existsSync(dir)) return out;
+  for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+    const rel = prefix ? `${prefix}/${entry.name}` : entry.name;
+    if (entry.isDirectory()) out.push(...listFilesRec(path.join(dir, entry.name), rel));
+    else out.push(rel);
+  }
+  return out;
+}
+
+function urlEncodePath(p) {
+  return p.split('/').map(encodeURIComponent).join('/');
+}
+
+// --- Forge module (placeholder: subModules empty → needs Nebula or manual fill in Phase 6) ---
+const forgeModule = {
+  id: `net.minecraftforge:forge:${FORGE_VERSION}`,
+  name: `Minecraft Forge ${FORGE_VERSION}`,
+  type: 'ForgeHosted',
+  artifact: {
+    size: 0,
+    MD5: '',
+    url: `https://maven.minecraftforge.net/net/minecraftforge/forge/${FORGE_VERSION}/forge-${FORGE_VERSION}-installer.jar`
+  },
+  subModules: []
+};
+
+// --- Mods (ForgeMod type; mcef coremod as File with custom path) ---
+const modModules = [];
+for (const rel of listFilesRec(path.join(ROOT, 'mods'))) {
+  const full = path.join(ROOT, 'mods', rel);
+  const basename = path.basename(rel);
+  const size = fs.statSync(full).size;
+  const hash = md5(full);
+
+  if (rel.includes('/')) {
+    // nested (e.g. 1.12.2/mcef-coremod.jar) → File with explicit path under mods/
+    modModules.push({
+      id: `anubis.coremod:${slug(basename)}:1.0.0`,
+      name: basename,
+      type: 'File',
+      artifact: {
+        size,
+        MD5: hash,
+        path: `mods/${rel}`,
+        url: `${RELEASE_BASE}/${encodeURIComponent(basename)}`
+      }
+    });
+  } else {
+    modModules.push({
+      id: `anubis.mods:${slug(basename)}:1.0.0`,
+      name: basename.replace(/\.jar$/i, ''),
+      type: 'ForgeMod',
+      required: { value: true, def: true },
+      artifact: {
+        size,
+        MD5: hash,
+        url: `${RELEASE_BASE}/${encodeURIComponent(basename)}`
+      }
+    });
+  }
+}
+
+// --- Shaderpacks (File, path=shaderpacks/x.zip) ---
+const shaderModules = listFilesRec(path.join(ROOT, 'shaderpacks')).map(rel => {
+  const full = path.join(ROOT, 'shaderpacks', rel);
+  const basename = path.basename(rel);
+  return {
+    id: `anubis.shaderpack:${slug(basename)}:1.0.0`,
+    name: basename.replace(/\.zip$/i, ''),
+    type: 'File',
+    required: { value: false, def: false },
+    artifact: {
+      size: fs.statSync(full).size,
+      MD5: md5(full),
+      path: `shaderpacks/${basename}`,
+      url: `${RELEASE_BASE}/${encodeURIComponent(basename)}`
+    }
+  };
+});
+
+// --- Resourcepacks (File, path=resourcepacks/x.zip) ---
+const resourcepackModules = listFilesRec(path.join(ROOT, 'resourcepacks')).map(rel => {
+  const full = path.join(ROOT, 'resourcepacks', rel);
+  const basename = path.basename(rel);
+  return {
+    id: `anubis.resourcepack:${slug(basename)}:1.0.0`,
+    name: basename.replace(/\.zip$/i, ''),
+    type: 'File',
+    required: { value: false, def: false },
+    artifact: {
+      size: fs.statSync(full).size,
+      MD5: md5(full),
+      path: `resourcepacks/${basename}`,
+      url: `${RELEASE_BASE}/${encodeURIComponent(basename)}`
+    }
+  };
+});
+
+// --- Config files (File, git-tracked, url=raw.githubusercontent.com) ---
+const configModules = listFilesRec(path.join(ROOT, 'config')).map(rel => {
+  const full = path.join(ROOT, 'config', rel);
+  const encoded = urlEncodePath(rel);
+  return {
+    id: `anubis.config:${slug(rel.replace(/\//g, '-'))}:1.0.0`,
+    name: `config/${rel}`,
+    type: 'File',
+    artifact: {
+      size: fs.statSync(full).size,
+      MD5: md5(full),
+      path: `config/${rel}`,
+      url: `${RAW_BASE}/config/${encoded}`
+    }
+  };
+});
+
+const distribution = {
+  version: DISTRO_VERSION,
+  discord: null,
+  rss: null,
+  servers: [
+    {
+      id: 'anubis-hitech',
+      name: 'Anubis World — HiTech',
+      description: 'Modpack HiTech 1.12.2 — технології та магія в одному всесвіті Minecraft',
+      icon: `${RAW_BASE}/docs/server-icon.jpg`,
+      version: DISTRO_VERSION,
+      address: '157.90.0.249:50335',
+      minecraftVersion: MC_VERSION,
+      mainServer: true,
+      autoconnect: true,
+      javaOptions: {
+        supported: '>=8 <9',
+        suggestedMajor: 8,
+        ram: { recommended: 4096, minimum: 2048 }
+      },
+      modules: [forgeModule, ...modModules, ...configModules, ...shaderModules, ...resourcepackModules]
+    }
+  ]
+};
+
+fs.mkdirSync(DOCS_DIR, { recursive: true });
+const out = path.join(DOCS_DIR, 'distribution.json');
+fs.writeFileSync(out, JSON.stringify(distribution, null, 2));
+
+console.log(`Generated: ${out}`);
+console.log(`  Mods (ForgeMod):    ${modModules.filter(m => m.type === 'ForgeMod').length}`);
+console.log(`  Coremods (File):    ${modModules.filter(m => m.type === 'File').length}`);
+console.log(`  Configs (File):     ${configModules.length}`);
+console.log(`  Shaderpacks (File): ${shaderModules.length}`);
+console.log(`  Resourcepacks:      ${resourcepackModules.length}`);
+console.log(`  TOTAL modules:      ${distribution.servers[0].modules.length}`);
+console.log(`  distribution.json:  ${(fs.statSync(out).size/1024).toFixed(1)} KB`);
