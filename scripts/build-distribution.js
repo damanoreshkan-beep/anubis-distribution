@@ -158,7 +158,7 @@ const distribution = {
       description: 'Modpack HiTech 1.12.2 — технології та магія в одному всесвіті Minecraft',
       icon: `${RAW_BASE}/docs/server-icon.jpg`,
       version: DISTRO_VERSION,
-      address: '157.90.0.249:50335',
+      address: '94.100.18.18:50273',
       minecraftVersion: MC_VERSION,
       mainServer: true,
       autoconnect: true,
