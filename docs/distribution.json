@@ -9,7 +9,7 @@
       "description": "Modpack HiTech 1.12.2 — технології та магія в одному всесвіті Minecraft",
       "icon": "https://raw.githubusercontent.com/damanoreshkan-beep/anubis-distribution/main/docs/server-icon.jpg",
       "version": "1.0.0",
-      "address": "157.90.0.249:50335",
+      "address": "94.100.18.18:50273",
       "minecraftVersion": "1.12.2",
       "mainServer": true,
       "autoconnect": true,
