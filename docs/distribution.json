@@ -1162,6 +1162,17 @@
           }
         },
         {
+          "id": "anubis.server-list:servers-dat:1.0.0",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 14140,
+            "MD5": "932acb330778049fc748662cd6411aa1",
+            "path": "servers.dat",
+            "url": "https://raw.githubusercontent.com/damanoreshkan-beep/anubis-distribution/main/docs/servers.dat"
+          }
+        },
+        {
           "id": "anubis.config:appliedenergistics2-appliedenergistics2-cfg:1.0.0",
           "name": "config/AppliedEnergistics2/AppliedEnergistics2.cfg",
           "type": "File",

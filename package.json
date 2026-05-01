@@ -1,0 +1,27 @@
+{
+  "name": "anubis-dist-srvr",
+  "version": "1.0.0",
+  "description": "Drafted content для репозиторію `anubis-distribution`. Після ініціалізації GitHub-репо просто `git init` тут.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damanoreshkan-beep/anubis-distribution.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/damanoreshkan-beep/anubis-distribution/issues"
+  },
+  "homepage": "https://github.com/damanoreshkan-beep/anubis-distribution#readme",
+  "dependencies": {
+    "prismarine-nbt": "^2.8.0"
+  }
+}
