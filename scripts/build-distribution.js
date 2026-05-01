@@ -181,7 +181,10 @@ const distribution = {
       address: '94.100.18.18:50273',
       minecraftVersion: MC_VERSION,
       mainServer: true,
-      autoconnect: true,
+      // false → Minecraft opens at the Title screen on launch instead of
+      // jumping straight into the server. Players see the pre-populated
+      // Multiplayer entry (shipped via servers.dat) and join from there.
+      autoconnect: false,
       javaOptions: {
         supported: '>=8 <9',
         suggestedMajor: 8,
