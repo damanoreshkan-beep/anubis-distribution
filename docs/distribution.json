@@ -983,20 +983,6 @@
           }
         },
         {
-          "id": "anubis.mods:durabilitytooltip-1-1-4-forge-mc1-12:1.0.0",
-          "name": "durabilitytooltip-1.1.4-forge-mc1.12",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 16312,
-            "MD5": "62391c9ec10c9ea4436c84eb2777cebc",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/durabilitytooltip-1.1.4-forge-mc1.12.jar"
-          }
-        },
-        {
           "id": "anubis.mods:industrialcraft-2-2-8-222-ex112:1.0.0",
           "name": "industrialcraft-2-2.8.222-ex112",
           "type": "ForgeMod",
@@ -1039,17 +1025,17 @@
           }
         },
         {
-          "id": "anubis.mods:jei-1-12-2-4-12-0-214:1.0.0",
-          "name": "jei_1.12.2-4.12.0.214",
+          "id": "anubis.mods:jei-1-12-2-4-16-1-301:1.0.0",
+          "name": "jei_1.12.2-4.16.1.301",
           "type": "ForgeMod",
           "required": {
             "value": true,
             "def": true
           },
           "artifact": {
-            "size": 583670,
-            "MD5": "e37e95ad4c4fe63fb7fa074170163683",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/jei_1.12.2-4.12.0.214.jar"
+            "size": 653211,
+            "MD5": "1dee4be93d666e2228039c551e927b35",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/jei_1.12.2-4.16.1.301.jar"
           }
         },
         {
@@ -1120,20 +1106,6 @@
             "size": 129099,
             "MD5": "a5d3ac71ec8762fe72a91465de6d30a3",
             "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/obfuscate-0.4.2-1.12.2.jar"
-          }
-        },
-        {
-          "id": "anubis.mods:supermartijn642configlib-1-1-8-forge-mc1-12:1.0.0",
-          "name": "supermartijn642configlib-1.1.8-forge-mc1.12",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 204829,
-            "MD5": "c2f110988f172e3010855231adb58cd1",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/supermartijn642configlib-1.1.8-forge-mc1.12.jar"
           }
         },
         {
