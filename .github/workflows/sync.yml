@@ -1,0 +1,65 @@
+name: sync mods from server
+
+# Pulls the canonical mod list from the live game server via SFTP, uploads
+# any new/changed jars to the existing v1.0.0 Release, and commits an updated
+# docs/distribution.json so launcher clients see what the server actually
+# runs. Source of truth is the server — local mods/ is ephemeral.
+# All connection details (host, port, user, password) live ONLY in repo
+# Secrets — never inline in this workflow or scripts/.
+
+on:
+  workflow_dispatch:           # manual trigger from the Actions tab
+  schedule:
+    - cron: '17 4 * * *'       # daily at 04:17 UTC (off-peak, avoids :00 thundering herd)
+  push:
+    branches: [main]
+    paths:                     # re-sync when the tunable lists change
+      - 'scripts/sync-from-server.js'
+      - 'scripts/client-extras.json'
+      - 'scripts/client-skip.json'
+
+permissions:
+  contents: write              # commit + push the regenerated distribution.json
+
+concurrency:
+  group: sync-mods             # never run two syncs in parallel — they'd race on Release uploads
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # Need full ref for committing back; default fetch-depth is 1 which
+          # is fine but token must allow push (granted via permissions above).
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - run: npm ci
+
+      - name: Run sync
+        env:
+          SFTP_HOST: ${{ secrets.SFTP_HOST }}
+          SFTP_PORT: ${{ secrets.SFTP_PORT }}
+          SFTP_USER: ${{ secrets.SFTP_USER }}
+          SFTP_PASS: ${{ secrets.SFTP_PASS }}
+          # gh CLI is preinstalled on ubuntu-latest; pass the standard
+          # workflow token so `gh release upload` can write assets.
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npm run sync
+
+      - name: Commit distribution drift, if any
+        run: |
+          if [[ -n "$(git status --porcelain docs/distribution.json)" ]]; then
+            git config user.name 'anubis-sync-bot'
+            git config user.email 'noreply@github.com'
+            git add docs/distribution.json
+            git commit -m "sync: regenerate distribution.json from server $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          else
+            echo 'no drift — distribution.json already matches server'
+          fi
