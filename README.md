@@ -1,33 +1,91 @@
-# Anubis World — Distribution (draft)
+# Anubis World — Distribution
 
-Drafted content для репозиторію `anubis-distribution`. Після ініціалізації GitHub-репо просто `git init` тут.
+Helios-формат feed для модпакa **HiTech** (Minecraft 1.12.2 + Forge 14.23.5.2860). Лаунчер `anubis-launcher` читає `docs/distribution.json` через GitHub Pages і завантажує файли з GitHub Release.
 
-## Вміст
+> **Source of truth — живий ігровий сервер.** `mods/` локально + GitHub Release v1.0.0 — це derivative, синхронізуються автоматично через `npm run sync`.
 
-| Папка | Розмір | Файлів |
-|---|---|---|
-| `mods/` | 127 MB | 66 (включно з `mods/1.12.2/mcef-coremod.jar`) |
-| `config/` | 11 MB | 104 |
-| `shaderpacks/` | 28 MB | 18 |
-| `resourcepacks/` | 11 MB | 11 |
-| **Всього** | **175 MB** | 199 |
+## Live URLs
 
-## Джерело
-Витягнуто з `../minecraft-project/MojNovyLauncher/assets/hitech_files/` (Python-версія лаунчера).
+- Feed: https://damanoreshkan-beep.github.io/anubis-distribution/distribution.json
+- Mods/shaderpacks/resourcepacks (binary assets): https://github.com/damanoreshkan-beep/anubis-distribution/releases/tag/v1.0.0
+- Configs (text, git-tracked): обслуговуються через `raw.githubusercontent.com`
 
-Викинуто: `assets/`, `libraries/`, `runtime/`, `natives/`, `logs/`, `crash-reports/`, `screenshots/`, `saves/`, `xaero/`, `llibrary/`, `local/`, `profileImage/`, `downloads/`, `XaeroWaypoints_BACKUP240807/`, `CustomDISkins/`, `server-resource-packs/`, `scripts/`, `patchouli_books/`, `resources/`, `resourses/` (typo), `options.txt`, `servers.dat`, `AnubisWorld_HiTech.jar/.json`, `java.exe`, `java.dll`.
+## Як додати/оновити мод
 
-## Оптимізація шейдерів
-Видалено дублі старих версій:
-- `ComplementaryReimagined_r5.3.zip` (лишилось `r5.5.1`)
-- `ComplementaryUnbound_r5.3.zip` (лишилось `r5.5.1`)
+**Один touchpoint — SFTP сервера.**
 
-Sildur's (Basic / Enhanced Default / Vibrant) — НЕ дублі, це різні шейдерпаки з однієї лінійки.
+1. Завантажуєш jar в `/mods/` на сервері (через панель або SFTP-клієнт)
+2. Чекаєш до **04:17 UTC наступного дня** (auto-cron) — або тригериш вручну:
+   - GitHub repo → **Actions** → **sync mods from server** → **Run workflow**
+3. Через ~1.5 хв `distribution.json` оновлено, нові jar'и в Release як assets — клієнти бачать їх при наступному запуску лаунчера
 
-## Що далі
-1. Згенерувати `distribution.json` (Helios format) Node-скриптом → SHA1/size для кожного файла + URL до GitHub Release
-2. Запушити в репо `anubis-distribution`
-3. Створити `v1.0.0` Release, upload модів як assets
-4. Activate GitHub Pages для `/docs/distribution.json`
+Видалив мод з сервера → workflow прибере його з feed автоматично. Старі assets лишаються в Release як orphans (нешкідливо).
 
-Деталі — у `/home/mrx/minecraft-project/CLAUDE.md`.
+## Архітектура
+
+```
+   ┌──────────────────────┐                ┌────────────────────────┐
+   │  Game server         │                │  GitHub Release v1.0.0 │
+   │  /mods/*.jar  (SFTP) │   ──sync──→    │  + assets              │
+   └─────────┬────────────┘                └────────────┬───────────┘
+             │                                          │
+             │ canonical                                │ CDN
+             │                                          ↓
+             │                              ┌────────────────────────┐
+             │                              │  docs/distribution.json│
+             │                              │  (GitHub Pages)        │
+             └─────── auto-regenerate ─────→└────────────┬───────────┘
+                                                          │
+                                              ┌───────────▼───────────┐
+                                              │  anubis-launcher       │
+                                              │  (Helios fork)         │
+                                              └───────────────────────┘
+```
+
+## Вміст репо
+
+| Шлях | Що |
+|------|----|
+| `docs/distribution.json` | Helios feed (auto-generated). Не редагувати руками. |
+| `docs/forge-module.json` | Forge installer + 21 Library subModules. Згенерований `scripts/build-forge-submodules.js`. |
+| `docs/servers.dat` | NBT з pre-loaded server entry. Згенерований `scripts/generate-servers-dat.js`. |
+| `docs/server-icon.jpg` | 64×64 ікона в server list. |
+| `config/` | Кастомні mod-config'и (JEI, Mekanism, FTB Quests, Xaero тощо). Git-tracked, серверні через raw.githubusercontent. |
+| `mods/`, `shaderpacks/`, `resourcepacks/` | gitignored, ефемерні. `npm run sync` створює locally; в Release живуть як assets. |
+| `scripts/sync-from-server.js` | SFTP pull → upload до Release → regenerate feed |
+| `scripts/build-distribution.js` | Сканує локальні `mods/`/`config/`/тощо → пише `docs/distribution.json` |
+| `scripts/build-forge-submodules.js` | Тягне Forge installer + libraries з Maven, рахує MD5 |
+| `scripts/generate-servers-dat.js` | NBT-encode для `servers.dat` |
+| `scripts/sanitize-assets.js` | (legacy) переіменовує файли зі spaces — більше не потрібен, sanitize в `sync-from-server.js` |
+| `scripts/client-extras.json` | Список jar'ів які треба клієнту АЛЕ нема на сервері (OptiFine, tlskincape, MixinBootstrap) |
+| `scripts/client-skip.json` | Список jar'ів на сервері які НЕ йдуть клієнту (server-only utilities). Зараз порожній. |
+| `.github/workflows/sync.yml` | Daily cron `17 4 * * *` UTC + workflow_dispatch |
+
+## Ручний sync (з dev машини)
+
+```bash
+export SFTP_HOST=... SFTP_PORT=... SFTP_USER=... SFTP_PASS=...
+npm ci
+npm run sync          # SFTP pull → upload зміни в Release → regen feed
+git diff docs/distribution.json   # перевір що змінилось
+git commit -am "..." && git push   # коміт лише якщо хочеш зафіксити drift
+```
+
+В CI всі 4 змінні — GitHub Secrets `SFTP_HOST` / `SFTP_PORT` / `SFTP_USER` / `SFTP_PASS`. Ніде в plaintext не зберігаються.
+
+## Версіонування
+
+- Тег `v1.0.0` Release використовується як stable bucket для assets — sync клобберить існуючі (`gh release upload --clobber`), тож URL'и стабільні.
+- Якщо колись потрібен hard cutover на нову мажорну версію Forge / Minecraft — створити v2.0.0 Release і оновити `RELEASE_TAG` у `sync-from-server.js` + `build-distribution.js`.
+
+## Тонкі моменти
+
+- **Filename normalization:** sync санітизує імена in-memory (`Advanced Machines.jar` → `Advanced_Machines.jar`, `foo (1).jar` → `foo.jar`). Сервер не чіпає — нічого не переіменовуємо на live game host.
+- **Mohist + Bukkit plugins:** сервер на Mohist (Forge+Bukkit hybrid), `/plugins/` (EssentialsX, Clearlag тощо) **ніколи не йдуть клієнту**. Sync ігнорує цю папку повністю.
+- **Конфіги:** `/server/config/*` НЕ синкається з сервера автоматично — ці налаштування ми тримаємо у git вручну (через `raw.githubusercontent.com`). Якщо налаштування мода на сервері змінилось і клієнти повинні його отримати — оновлюй `config/` у репо вручну.
+- **Forge module:** `forge-module.json` статичний (Forge installer + libraries з Maven). Перебудовуй `npm run build:forge` тільки коли міняєш версію Forge.
+
+## Repo URLs
+
+- Cron status: https://github.com/damanoreshkan-beep/anubis-distribution/actions/workflows/sync.yml
+- Issues: https://github.com/damanoreshkan-beep/anubis-distribution/issues
