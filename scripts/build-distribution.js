@@ -167,6 +167,29 @@ const configModules = listFilesRec(path.join(ROOT, 'config')).map(rel => {
   };
 });
 
+// --- Client-only overlay files (deliver to instance root, not under config/) ---
+// Some mods read their config from <instance>/<mod-name>/foo.json instead of
+// <instance>/config/<mod-name>/foo.json (e.g. CustomSkinLoader). Files in
+// client-overlays/ land at the instance root with their relative path
+// preserved verbatim — `client-overlays/CustomSkinLoader/X.json` →
+// `<instance>/CustomSkinLoader/X.json`.
+const overlayDir = path.join(ROOT, 'client-overlays')
+const overlayModules = fs.existsSync(overlayDir) ? listFilesRec(overlayDir).map(rel => {
+  const full = path.join(overlayDir, rel)
+  const encoded = urlEncodePath(rel)
+  return {
+    id: `anubis.overlay:${slug(rel.replace(/\//g, '-'))}:1.0.0`,
+    name: rel,
+    type: 'File',
+    artifact: {
+      size: fs.statSync(full).size,
+      MD5: md5(full),
+      path: rel,
+      url: `${RAW_BASE}/client-overlays/${encoded}`,
+    },
+  }
+}) : []
+
 const distribution = {
   version: DISTRO_VERSION,
   discord: null,
@@ -190,7 +213,7 @@ const distribution = {
         suggestedMajor: 8,
         ram: { recommended: 4096, minimum: 2048 }
       },
-      modules: [forgeModule, ...modModules, ...serversDatModules, ...configModules, ...shaderModules, ...resourcepackModules]
+      modules: [forgeModule, ...modModules, ...serversDatModules, ...configModules, ...overlayModules, ...shaderModules, ...resourcepackModules]
     }
   ]
 };
@@ -204,6 +227,7 @@ console.log(`  Mods (ForgeMod):    ${modModules.filter(m => m.type === 'ForgeMod
 console.log(`  Coremods (File):    ${modModules.filter(m => m.type === 'File').length}`);
 console.log(`  servers.dat:        ${serversDatModules.length}`);
 console.log(`  Configs (File):     ${configModules.length}`);
+console.log(`  Overlays (File):    ${overlayModules.length}`);
 console.log(`  Shaderpacks (File): ${shaderModules.length}`);
 console.log(`  Resourcepacks:      ${resourcepackModules.length}`);
 console.log(`  TOTAL modules:      ${distribution.servers[0].modules.length}`);
