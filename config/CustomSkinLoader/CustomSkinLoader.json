@@ -1,7 +1,7 @@
 {
     "version": "14.28",
     "enable": true,
-    "enableLocalProfileCache": true,
+    "enableLocalProfileCache": false,
     "enableCacheAutoClean": true,
     "enableTransparentSkin": true,
     "enableDynamicSkull": true,

@@ -1232,8 +1232,8 @@
           "name": "config/CustomSkinLoader/CustomSkinLoader.json",
           "type": "File",
           "artifact": {
-            "size": 539,
-            "MD5": "4419b3f60307f81510c42ce532402658",
+            "size": 540,
+            "MD5": "3c5ba6553ebdf3c1f48e3000863c37eb",
             "path": "config/CustomSkinLoader/CustomSkinLoader.json",
             "url": "https://raw.githubusercontent.com/damanoreshkan-beep/anubis-distribution/main/config/CustomSkinLoader/CustomSkinLoader.json"
           }
