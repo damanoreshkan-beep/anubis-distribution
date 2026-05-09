@@ -507,6 +507,20 @@
           }
         },
         {
+          "id": "anubis.mods:customskinloader-forgev1-14-28:1.0.0",
+          "name": "CustomSkinLoader_ForgeV1-14.28",
+          "type": "ForgeMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 199551,
+            "MD5": "d62d5eb2d2dcf6d5584829328e7ef110",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/CustomSkinLoader_ForgeV1-14.28.jar"
+          }
+        },
+        {
           "id": "anubis.mods:dynamiclights-1-12-2:1.0.0",
           "name": "DynamicLights-1.12.2",
           "type": "ForgeMod",
@@ -1137,20 +1151,6 @@
           }
         },
         {
-          "id": "anubis.mods:tlskincape1-12-2-1-4:1.0.0",
-          "name": "tlskincape1.12.2-1.4",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 193898,
-            "MD5": "798f54003f7c37d4648011f6a8582804",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/tlskincape1.12.2-1.4.jar"
-          }
-        },
-        {
           "id": "anubis.server-list:servers-dat:1.0.0",
           "name": "servers.dat",
           "type": "File",
@@ -1225,6 +1225,17 @@
             "MD5": "5d14d2fe3cefc62a9cf55db130f8e321",
             "path": "config/Artifacts.cfg",
             "url": "https://raw.githubusercontent.com/damanoreshkan-beep/anubis-distribution/main/config/Artifacts.cfg"
+          }
+        },
+        {
+          "id": "anubis.config:customskinloader-customskinloader-json:1.0.0",
+          "name": "config/CustomSkinLoader/CustomSkinLoader.json",
+          "type": "File",
+          "artifact": {
+            "size": 539,
+            "MD5": "4419b3f60307f81510c42ce532402658",
+            "path": "config/CustomSkinLoader/CustomSkinLoader.json",
+            "url": "https://raw.githubusercontent.com/damanoreshkan-beep/anubis-distribution/main/config/CustomSkinLoader/CustomSkinLoader.json"
           }
         },
         {
