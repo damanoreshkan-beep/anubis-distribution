@@ -507,6 +507,20 @@
           }
         },
         {
+          "id": "anubis.mods:customskinloader-forgev1-14-28:1.0.0",
+          "name": "CustomSkinLoader_ForgeV1-14.28",
+          "type": "ForgeMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 199551,
+            "MD5": "d62d5eb2d2dcf6d5584829328e7ef110",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/CustomSkinLoader_ForgeV1-14.28.jar"
+          }
+        },
+        {
           "id": "anubis.mods:dynamiclights-1-12-2:1.0.0",
           "name": "DynamicLights-1.12.2",
           "type": "ForgeMod",
@@ -955,6 +969,20 @@
           }
         },
         {
+          "id": "anubis.mods:buildcraft-all-8-0-0:1.0.0",
+          "name": "buildcraft-all-8.0.0",
+          "type": "ForgeMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 5535454,
+            "MD5": "46b9656fe37ba8005e57d955e39799e2",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/buildcraft-all-8.0.0.jar"
+          }
+        },
+        {
           "id": "anubis.mods:collective-1-12-2-3-0:1.0.0",
           "name": "collective-1.12.2-3.0",
           "type": "ForgeMod",
@@ -980,20 +1008,6 @@
             "size": 67966,
             "MD5": "d79e51706d18eab2ccfa0070c0b7592b",
             "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/corpse-1.12.2-1.0.8.jar"
-          }
-        },
-        {
-          "id": "anubis.mods:durabilitytooltip-1-1-4-forge-mc1-12:1.0.0",
-          "name": "durabilitytooltip-1.1.4-forge-mc1.12",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 16312,
-            "MD5": "62391c9ec10c9ea4436c84eb2777cebc",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/durabilitytooltip-1.1.4-forge-mc1.12.jar"
           }
         },
         {
@@ -1039,17 +1053,17 @@
           }
         },
         {
-          "id": "anubis.mods:jei-1-12-2-4-12-0-214:1.0.0",
-          "name": "jei_1.12.2-4.12.0.214",
+          "id": "anubis.mods:jei-1-12-2-4-16-1-301:1.0.0",
+          "name": "jei_1.12.2-4.16.1.301",
           "type": "ForgeMod",
           "required": {
             "value": true,
             "def": true
           },
           "artifact": {
-            "size": 583670,
-            "MD5": "e37e95ad4c4fe63fb7fa074170163683",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/jei_1.12.2-4.12.0.214.jar"
+            "size": 653211,
+            "MD5": "1dee4be93d666e2228039c551e927b35",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/jei_1.12.2-4.16.1.301.jar"
           }
         },
         {
@@ -1123,20 +1137,6 @@
           }
         },
         {
-          "id": "anubis.mods:supermartijn642configlib-1-1-8-forge-mc1-12:1.0.0",
-          "name": "supermartijn642configlib-1.1.8-forge-mc1.12",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 204829,
-            "MD5": "c2f110988f172e3010855231adb58cd1",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/supermartijn642configlib-1.1.8-forge-mc1.12.jar"
-          }
-        },
-        {
           "id": "anubis.mods:theoneprobe-1-12-1-4-28:1.0.0",
           "name": "theoneprobe-1.12-1.4.28",
           "type": "ForgeMod",
@@ -1148,20 +1148,6 @@
             "size": 301893,
             "MD5": "63849a13a822b3b56308245eb8074a7e",
             "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/theoneprobe-1.12-1.4.28.jar"
-          }
-        },
-        {
-          "id": "anubis.mods:tlskincape1-12-2-1-4:1.0.0",
-          "name": "tlskincape1.12.2-1.4",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 193898,
-            "MD5": "798f54003f7c37d4648011f6a8582804",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/tlskincape1.12.2-1.4.jar"
           }
         },
         {
@@ -1246,8 +1232,8 @@
           "name": "config/CustomSkinLoader/CustomSkinLoader.json",
           "type": "File",
           "artifact": {
-            "size": 540,
-            "MD5": "3c5ba6553ebdf3c1f48e3000863c37eb",
+            "size": 539,
+            "MD5": "4419b3f60307f81510c42ce532402658",
             "path": "config/CustomSkinLoader/CustomSkinLoader.json",
             "url": "https://raw.githubusercontent.com/damanoreshkan-beep/anubis-distribution/main/config/CustomSkinLoader/CustomSkinLoader.json"
           }
