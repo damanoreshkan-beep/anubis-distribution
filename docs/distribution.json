@@ -12,7 +12,7 @@
       "address": "94.100.18.18:50273",
       "minecraftVersion": "1.12.2",
       "mainServer": true,
-      "autoconnect": false,
+      "autoconnect": true,
       "javaOptions": {
         "supported": ">=8 <9",
         "suggestedMajor": 8,
