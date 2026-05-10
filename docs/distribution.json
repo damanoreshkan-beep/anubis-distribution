@@ -1228,17 +1228,6 @@
           }
         },
         {
-          "id": "anubis.overlay:customskinloader-customskinloader-json:1.0.0",
-          "name": "CustomSkinLoader/CustomSkinLoader.json",
-          "type": "File",
-          "artifact": {
-            "size": 1030,
-            "MD5": "a3b42fcc9419babd9439a4a340fd367f",
-            "path": "CustomSkinLoader/CustomSkinLoader.json",
-            "url": "https://raw.githubusercontent.com/damanoreshkan-beep/anubis-distribution/main/client-overlays/CustomSkinLoader/CustomSkinLoader.json"
-          }
-        },
-        {
           "id": "anubis.config:diadvancedcompatibility-cfg:1.0.0",
           "name": "config/DIAdvancedCompatibility.cfg",
           "type": "File",
@@ -9750,6 +9739,17 @@
             "MD5": "8bd45a5fdaace1efe7168c3a2ec689e0",
             "path": "config/xaeroworldmap.txt",
             "url": "https://raw.githubusercontent.com/damanoreshkan-beep/anubis-distribution/main/config/xaeroworldmap.txt"
+          }
+        },
+        {
+          "id": "anubis.overlay:customskinloader-customskinloader-json:1.0.0",
+          "name": "CustomSkinLoader/CustomSkinLoader.json",
+          "type": "File",
+          "artifact": {
+            "size": 1030,
+            "MD5": "a3b42fcc9419babd9439a4a340fd367f",
+            "path": "CustomSkinLoader/CustomSkinLoader.json",
+            "url": "https://raw.githubusercontent.com/damanoreshkan-beep/anubis-distribution/main/client-overlays/CustomSkinLoader/CustomSkinLoader.json"
           }
         }
       ]
