@@ -255,255 +255,31 @@
           ]
         },
         {
-          "id": "anubis.mods:advmachinespatch-1-1:1.0.0",
-          "name": "AdvMachinesPatch-1.1",
+          "id": "anubis.mods:ambientsounds-forge-v6-3-8-mc1-20-1:1.0.0",
+          "name": "AmbientSounds_FORGE_v6.3.8_mc1.20.1",
           "type": "ForgeMod",
           "required": {
             "value": true,
             "def": true
           },
           "artifact": {
-            "size": 37594,
-            "MD5": "acf9b12e8c5b659192dc640d4ddb4824",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/AdvMachinesPatch-1.1.jar"
+            "size": 53429226,
+            "MD5": "dec1c8595667b063e9274d32b32efa5d",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/AmbientSounds_FORGE_v6.3.8_mc1.20.1.jar"
           }
         },
         {
-          "id": "anubis.mods:advsolarpatch-1-2-1:1.0.0",
-          "name": "AdvSolarPatch-1.2.1",
+          "id": "anubis.mods:creativecore-forge-v2-12-37-mc1-20-1:1.0.0",
+          "name": "CreativeCore_FORGE_v2.12.37_mc1.20.1",
           "type": "ForgeMod",
           "required": {
             "value": true,
             "def": true
           },
           "artifact": {
-            "size": 50231,
-            "MD5": "d43b15aa7dc7d0ae159d70b29bfdf0e8",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/AdvSolarPatch-1.2.1.jar"
-          }
-        },
-        {
-          "id": "anubis.mods:advanced-machines-61-0-1:1.0.0",
-          "name": "Advanced_Machines-61.0.1",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 190539,
-            "MD5": "24d77945801cc648257f9066b461a040",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/Advanced_Machines-61.0.1.jar"
-          }
-        },
-        {
-          "id": "anubis.mods:advanced-solar-panels-4-3-0:1.0.0",
-          "name": "Advanced_Solar_Panels-4.3.0",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 316833,
-            "MD5": "2f16b7591d15da58d91f2ff147299a73",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/Advanced_Solar_Panels-4.3.0.jar"
-          }
-        },
-        {
-          "id": "anubis.mods:ambientsounds-v3-1-7-mc1-12-2:1.0.0",
-          "name": "AmbientSounds_v3.1.7_mc1.12.2",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 76507814,
-            "MD5": "9e10e9af279fa7e317fe678812f80ddc",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/AmbientSounds_v3.1.7_mc1.12.2.jar"
-          }
-        },
-        {
-          "id": "anubis.mods:appleskin-mc1-12-1-0-14:1.0.0",
-          "name": "AppleSkin-mc1.12-1.0.14",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 33683,
-            "MD5": "b435860d5cfa23bc53d3b8e120be91d4",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/AppleSkin-mc1.12-1.0.14.jar"
-          }
-        },
-        {
-          "id": "anubis.mods:baubles-1-12-1-5-2:1.0.0",
-          "name": "Baubles-1.12-1.5.2",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 108450,
-            "MD5": "944dec4ef3fbfd4d498d94a7047af201",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/Baubles-1.12-1.5.2.jar"
-          }
-        },
-        {
-          "id": "anubis.mods:biomesoplenty-1-12-2-7-0-1-2445-universal:1.0.0",
-          "name": "BiomesOPlenty-1.12.2-7.0.1.2445-universal",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 4746208,
-            "MD5": "9d364be3df6fee338c1729b7fb1def1b",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/BiomesOPlenty-1.12.2-7.0.1.2445-universal.jar"
-          }
-        },
-        {
-          "id": "anubis.mods:brandonscore-1-12-2-2-4-20-162-universal:1.0.0",
-          "name": "BrandonsCore-1.12.2-2.4.20.162-universal",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 827900,
-            "MD5": "4a67ccad9d684466010c02164d7ff13e",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/BrandonsCore-1.12.2-2.4.20.162-universal.jar"
-          }
-        },
-        {
-          "id": "anubis.mods:ctm-mc1-12-2-1-0-2-31:1.0.0",
-          "name": "CTM-MC1.12.2-1.0.2.31",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 199045,
-            "MD5": "77a8bb5486c97e3eaa6f45e5bd768864",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/CTM-MC1.12.2-1.0.2.31.jar"
-          }
-        },
-        {
-          "id": "anubis.mods:chameleon-1-12-4-1-3:1.0.0",
-          "name": "Chameleon-1.12-4.1.3",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 96859,
-            "MD5": "e42efa8f4fd42d2918128a826b740e98",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/Chameleon-1.12-4.1.3.jar"
-          }
-        },
-        {
-          "id": "anubis.mods:cofhcore-1-12-2-4-6-6-1-universal:1.0.0",
-          "name": "CoFHCore-1.12.2-4.6.6.1-universal",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 848187,
-            "MD5": "f147d3b87f97bb317e1c37cba0dde002",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/CoFHCore-1.12.2-4.6.6.1-universal.jar"
-          }
-        },
-        {
-          "id": "anubis.mods:cofhworld-1-12-2-1-4-0-1-universal:1.0.0",
-          "name": "CoFHWorld-1.12.2-1.4.0.1-universal",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 505987,
-            "MD5": "f2bfd74e76b71bdee8a20a9243dd5cdf",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/CoFHWorld-1.12.2-1.4.0.1-universal.jar"
-          }
-        },
-        {
-          "id": "anubis.mods:codechickenlib-1-12-2-3-2-3-358-universal:1.0.0",
-          "name": "CodeChickenLib-1.12.2-3.2.3.358-universal",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 704330,
-            "MD5": "3b5e44db5ac96fb23a439590b6731a31",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/CodeChickenLib-1.12.2-3.2.3.358-universal.jar"
-          }
-        },
-        {
-          "id": "anubis.mods:cosmeticarmorreworked-1-12-2-v5a:1.0.0",
-          "name": "CosmeticArmorReworked-1.12.2-v5a",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 72111,
-            "MD5": "18d7753f69e6f8fed9350b4d908008a9",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/CosmeticArmorReworked-1.12.2-v5a.jar"
-          }
-        },
-        {
-          "id": "anubis.mods:crafttweaker2-1-12-4-1-20-702:1.0.0",
-          "name": "CraftTweaker2-1.12-4.1.20.702",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 1589287,
-            "MD5": "7598f53c390b4f091ca0dfd7ca7968af",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/CraftTweaker2-1.12-4.1.20.702.jar"
-          }
-        },
-        {
-          "id": "anubis.mods:craftingtweaks-1-12-2-8-1-9:1.0.0",
-          "name": "CraftingTweaks_1.12.2-8.1.9",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 97854,
-            "MD5": "ffd1e2b5c4f244f4a7c6d4ee2e4c2090",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/CraftingTweaks_1.12.2-8.1.9.jar"
-          }
-        },
-        {
-          "id": "anubis.mods:creativecore-v1-10-71-mc1-12-2:1.0.0",
-          "name": "CreativeCore_v1.10.71_mc1.12.2",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 1321137,
-            "MD5": "df1051927921c2852946cc4fd20da86e",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/CreativeCore_v1.10.71_mc1.12.2.jar"
+            "size": 1144037,
+            "MD5": "528b2b6a437e245928f7efd9bad860a7",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/CreativeCore_FORGE_v2.12.37_mc1.20.1.jar"
           }
         },
         {
@@ -521,157 +297,185 @@
           }
         },
         {
-          "id": "anubis.mods:dynamiclights-1-12-2:1.0.0",
-          "name": "DynamicLights-1.12.2",
+          "id": "anubis.mods:duradisplay-1-20-1-forge-1-0-4:1.0.0",
+          "name": "DuraDisplay-1.20.1-Forge-1.0.4",
           "type": "ForgeMod",
           "required": {
             "value": true,
             "def": true
           },
           "artifact": {
-            "size": 102000,
-            "MD5": "bbf46497e737f88bbfeb8cce74fb3099",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/DynamicLights-1.12.2.jar"
+            "size": 27627,
+            "MD5": "96bc3a7877f4cafa45a0b9efa1b34b7f",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/DuraDisplay-1.20.1-Forge-1.0.4.jar"
           }
         },
         {
-          "id": "anubis.mods:ftblib-5-4-7-2:1.0.0",
-          "name": "FTBLib-5.4.7.2",
+          "id": "anubis.mods:farmersdelight-1-20-1-1-3-2:1.0.0",
+          "name": "FarmersDelight-1.20.1-1.3.2",
           "type": "ForgeMod",
           "required": {
             "value": true,
             "def": true
           },
           "artifact": {
-            "size": 934370,
-            "MD5": "ea749a3a3391d490ffcdf025e5de48d9",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/FTBLib-5.4.7.2.jar"
+            "size": 3313327,
+            "MD5": "39459d8e62ef83e36c2b54952dbe2c2f",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/FarmersDelight-1.20.1-1.3.2.jar"
           }
         },
         {
-          "id": "anubis.mods:ftbquests-1202-9-0-15:1.0.0",
-          "name": "FTBQuests-1202.9.0.15",
+          "id": "anubis.mods:fastleafdecay-32:1.0.0",
+          "name": "FastLeafDecay-32",
           "type": "ForgeMod",
           "required": {
             "value": true,
             "def": true
           },
           "artifact": {
-            "size": 1091954,
-            "MD5": "5cd033804a5f2ba8f87f539201a22fb2",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/FTBQuests-1202.9.0.15.jar"
+            "size": 9835,
+            "MD5": "20df3e3525622d6ea38a243be828ef38",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/FastLeafDecay-32.jar"
           }
         },
         {
-          "id": "anubis.mods:fallingtree-1-12-2-2-4-0:1.0.0",
-          "name": "FallingTree-1.12.2-2.4.0",
+          "id": "anubis.mods:hammered-forge-1-20-1-1-0-1:1.0.0",
+          "name": "Hammered-forge-1.20.1-1.0.1",
           "type": "ForgeMod",
           "required": {
             "value": true,
             "def": true
           },
           "artifact": {
-            "size": 168418,
-            "MD5": "55c655ebb5f474fea7ab11609fdf584d",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/FallingTree-1.12.2-2.4.0.jar"
+            "size": 31347,
+            "MD5": "cd9e0591acecc23e8f835d51277c57bb",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/Hammered-forge-1.20.1-1.0.1.jar"
           }
         },
         {
-          "id": "anubis.mods:gravitation-suite-3-1-1:1.0.0",
-          "name": "Gravitation_Suite-3.1.1",
+          "id": "anubis.mods:highlighter-1-20-1-forge-1-1-9:1.0.0",
+          "name": "Highlighter-1.20.1-forge-1.1.9",
           "type": "ForgeMod",
           "required": {
             "value": true,
             "def": true
           },
           "artifact": {
-            "size": 345616,
-            "MD5": "df11063bc9e72e8287865ff338235cf9",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/Gravitation_Suite-3.1.1.jar"
+            "size": 29438,
+            "MD5": "650eec32fdb7c58c30c4d9aa911073d5",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/Highlighter-1.20.1-forge-1.1.9.jar"
           }
         },
         {
-          "id": "anubis.mods:highlighter-1-12-2-forge-1-1-7:1.0.0",
-          "name": "Highlighter-1.12.2-forge-1.1.7",
+          "id": "anubis.mods:iceberg-1-20-1-forge-1-1-25:1.0.0",
+          "name": "Iceberg-1.20.1-forge-1.1.25",
           "type": "ForgeMod",
           "required": {
             "value": true,
             "def": true
           },
           "artifact": {
-            "size": 990479,
-            "MD5": "8ffac2f2aa769f6aba30951d8c19094f",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/Highlighter-1.12.2-forge-1.1.7.jar"
+            "size": 134551,
+            "MD5": "cda8af806d0de012f5c7012ea51c155f",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/Iceberg-1.20.1-forge-1.1.25.jar"
           }
         },
         {
-          "id": "anubis.mods:inventorytweaks-1-63:1.0.0",
-          "name": "InventoryTweaks-1.63",
+          "id": "anubis.mods:immediatelyfast-forge-1-5-4-1-20-4:1.0.0",
+          "name": "ImmediatelyFast-Forge-1.5.4+1.20.4",
           "type": "ForgeMod",
           "required": {
             "value": true,
             "def": true
           },
           "artifact": {
-            "size": 263258,
-            "MD5": "1e2e33e5710394252abc4b014bc3dcbd",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/InventoryTweaks-1.63.jar"
+            "size": 538992,
+            "MD5": "8fb21bb328cc322c6d9749eff087509f",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/ImmediatelyFast-Forge-1.5.4%2B1.20.4.jar"
           }
         },
         {
-          "id": "anubis.mods:itemfilters-1-0-4-2:1.0.0",
-          "name": "ItemFilters-1.0.4.2",
+          "id": "anubis.mods:immersiveui-forge-0-3-0:1.0.0",
+          "name": "ImmersiveUI-FORGE-0.3.0",
           "type": "ForgeMod",
           "required": {
             "value": true,
             "def": true
           },
           "artifact": {
-            "size": 78935,
-            "MD5": "c89d595cdef3cc93f2acbc31333e418b",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/ItemFilters-1.0.4.2.jar"
+            "size": 401514,
+            "MD5": "e92dc07b69814d6116a160f4ee3f08d5",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/ImmersiveUI-FORGE-0.3.0.jar"
           }
         },
         {
-          "id": "anubis.mods:legendarytooltips-1-12-2-1-1-11:1.0.0",
-          "name": "LegendaryTooltips-1.12.2-1.1.11",
+          "id": "anubis.mods:industrialupgrade-1-20-1-3-3-2-33:1.0.0",
+          "name": "IndustrialUpgrade-1.20.1-3.3.2.33",
           "type": "ForgeMod",
           "required": {
             "value": true,
             "def": true
           },
           "artifact": {
-            "size": 36553,
-            "MD5": "162b746d9ac25be72329de3c8f6f1754",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/LegendaryTooltips-1.12.2-1.1.11.jar"
+            "size": 29438048,
+            "MD5": "3a0a776e68da16e985551f9c8050cad6",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/IndustrialUpgrade-1.20.1-3.3.2.33.jar"
           }
         },
         {
-          "id": "anubis.mods:mantle-1-12-1-3-3-55:1.0.0",
-          "name": "Mantle-1.12-1.3.3.55",
+          "id": "anubis.mods:iron-fishing-rods-1-0-0-1-20-1:1.0.0",
+          "name": "Iron_Fishing_Rods_1.0.0_-_1.20.1",
           "type": "ForgeMod",
           "required": {
             "value": true,
             "def": true
           },
           "artifact": {
-            "size": 843486,
-            "MD5": "1026f5f8d3c4997831decd9023ca65a6",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/Mantle-1.12-1.3.3.55.jar"
+            "size": 31481,
+            "MD5": "3f62a6a9ab984ad2431f6dabd1e106f0",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/Iron_Fishing_Rods_1.0.0_-_1.20.1.jar"
           }
         },
         {
-          "id": "anubis.mods:mousetweaks-2-10-mc1-12-2:1.0.0",
-          "name": "MouseTweaks-2.10-mc1.12.2",
+          "id": "anubis.mods:mru-1-0-4-1-20-1-forge:1.0.0",
+          "name": "MRU-1.0.4+1.20.1+forge",
           "type": "ForgeMod",
           "required": {
             "value": true,
             "def": true
           },
           "artifact": {
-            "size": 75170,
-            "MD5": "e4dcbf47c3f99a780681e3a3a9fcf9e9",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/MouseTweaks-2.10-mc1.12.2.jar"
+            "size": 287393,
+            "MD5": "4485788a466877a0ddd42d3df84ea913",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/MRU-1.0.4%2B1.20.1%2Bforge.jar"
+          }
+        },
+        {
+          "id": "anubis.mods:mousetweaks-forge-mc1-20-1-2-25-1:1.0.0",
+          "name": "MouseTweaks-forge-mc1.20.1-2.25.1",
+          "type": "ForgeMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 76237,
+            "MD5": "ce4b5bbb9ef6a7905c458ab599ef4cb2",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/MouseTweaks-forge-mc1.20.1-2.25.1.jar"
+          }
+        },
+        {
+          "id": "anubis.mods:octolib-forge-0-5-0-1-1-20-1:1.0.0",
+          "name": "OctoLib-FORGE-0.5.0.1+1.20.1",
+          "type": "ForgeMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 424035,
+            "MD5": "6b2fd012966b13a96ce4f68ae42eab8c",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/OctoLib-FORGE-0.5.0.1%2B1.20.1.jar"
           }
         },
         {
@@ -689,227 +493,45 @@
           }
         },
         {
-          "id": "anubis.mods:patchouli-1-0-23-6:1.0.0",
-          "name": "Patchouli-1.0-23.6",
+          "id": "anubis.mods:prism-1-20-1-forge-1-0-5:1.0.0",
+          "name": "Prism-1.20.1-forge-1.0.5",
           "type": "ForgeMod",
           "required": {
             "value": true,
             "def": true
           },
           "artifact": {
-            "size": 472464,
-            "MD5": "5450477c1ce7189c5ee11595d5e03a7c",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/Patchouli-1.0-23.6.jar"
+            "size": 52205,
+            "MD5": "de0e319e29e813f407314b33739f7eb8",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/Prism-1.20.1-forge-1.0.5.jar"
           }
         },
         {
-          "id": "anubis.mods:projectintelligence-1-12-2-1-0-9-28-universal:1.0.0",
-          "name": "ProjectIntelligence-1.12.2-1.0.9.28-universal",
+          "id": "anubis.mods:sounds-2-2-1-1-20-1-forge:1.0.0",
+          "name": "Sounds-2.2.1+1.20.1+forge",
           "type": "ForgeMod",
           "required": {
             "value": true,
             "def": true
           },
           "artifact": {
-            "size": 473948,
-            "MD5": "96657f132afd609f2a92cf4994698e64",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/ProjectIntelligence-1.12.2-1.0.9.28-universal.jar"
+            "size": 10974911,
+            "MD5": "ea8427a4988c1f5ad6b5ed7a38b8224d",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/Sounds-2.2.1%2B1.20.1%2Bforge.jar"
           }
         },
         {
-          "id": "anubis.mods:redstoneflux-1-12-2-1-1-1-universal:1.0.0",
-          "name": "RedstoneFlux-1.12-2.1.1.1-universal",
+          "id": "anubis.mods:storagedrawers-forge-1-20-1-12-14-3:1.0.0",
+          "name": "StorageDrawers-forge-1.20.1-12.14.3",
           "type": "ForgeMod",
           "required": {
             "value": true,
             "def": true
           },
           "artifact": {
-            "size": 31802,
-            "MD5": "93b1715f05be1878da93fca36dd37f2a",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/RedstoneFlux-1.12-2.1.1.1-universal.jar"
-          }
-        },
-        {
-          "id": "anubis.mods:resourceloader-mc1-12-1-1-5-3:1.0.0",
-          "name": "ResourceLoader-MC1.12.1-1.5.3",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 16612,
-            "MD5": "51141e882f96ce756b9b3d25f2acdf57",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/ResourceLoader-MC1.12.1-1.5.3.jar"
-          }
-        },
-        {
-          "id": "anubis.mods:scannable-mc1-12-2-1-6-3-26:1.0.0",
-          "name": "Scannable-MC1.12.2-1.6.3.26",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 252718,
-            "MD5": "47f919498bd29961f62b6655b8d76f2e",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/Scannable-MC1.12.2-1.6.3.26.jar"
-          }
-        },
-        {
-          "id": "anubis.mods:storagedrawers-1-12-2-5-5-3:1.0.0",
-          "name": "StorageDrawers-1.12.2-5.5.3",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 621871,
-            "MD5": "50f4a99fc747f8549df067c05c4c63ae",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/StorageDrawers-1.12.2-5.5.3.jar"
-          }
-        },
-        {
-          "id": "anubis.mods:tconstruct-1-12-2-2-13-0-183:1.0.0",
-          "name": "TConstruct-1.12.2-2.13.0.183",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 4023372,
-            "MD5": "710d64342d41042b7d6ced891448e727",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/TConstruct-1.12.2-2.13.0.183.jar"
-          }
-        },
-        {
-          "id": "anubis.mods:thermalcultivation-1-12-2-0-3-6-1-universal:1.0.0",
-          "name": "ThermalCultivation-1.12.2-0.3.6.1-universal",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 98845,
-            "MD5": "28970430074736ae6efbe4f7c353b30a",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/ThermalCultivation-1.12.2-0.3.6.1-universal.jar"
-          }
-        },
-        {
-          "id": "anubis.mods:thermaldynamics-1-12-2-2-5-6-1-universal:1.0.0",
-          "name": "ThermalDynamics-1.12.2-2.5.6.1-universal",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 728082,
-            "MD5": "38a0c024f5775b0cf783de839033f8db",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/ThermalDynamics-1.12.2-2.5.6.1-universal.jar"
-          }
-        },
-        {
-          "id": "anubis.mods:thermalexpansion-1-12-2-5-5-7-1-universal:1.0.0",
-          "name": "ThermalExpansion-1.12.2-5.5.7.1-universal",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 2345139,
-            "MD5": "0bf91e166b05e83d22455a9c7ec395bb",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/ThermalExpansion-1.12.2-5.5.7.1-universal.jar"
-          }
-        },
-        {
-          "id": "anubis.mods:thermalfoundation-1-12-2-2-6-7-1-universal:1.0.0",
-          "name": "ThermalFoundation-1.12.2-2.6.7.1-universal",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 2219736,
-            "MD5": "6eca041bbf28949b60ecf1179d561156",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/ThermalFoundation-1.12.2-2.6.7.1-universal.jar"
-          }
-        },
-        {
-          "id": "anubis.mods:thermalinnovation-1-12-2-0-3-6-1-universal:1.0.0",
-          "name": "ThermalInnovation-1.12.2-0.3.6.1-universal",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 182379,
-            "MD5": "320accf690ccc1c8a23679beb63fb615",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/ThermalInnovation-1.12.2-0.3.6.1-universal.jar"
-          }
-        },
-        {
-          "id": "anubis.mods:tips-1-12-2-1-0-9:1.0.0",
-          "name": "Tips-1.12.2-1.0.9",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 20578,
-            "MD5": "1f3cc3576b2e67ea46446445d765a203",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/Tips-1.12.2-1.0.9.jar"
-          }
-        },
-        {
-          "id": "anubis.mods:travelersbackpack-1-12-2-1-0-35:1.0.0",
-          "name": "TravelersBackpack-1.12.2-1.0.35",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 397467,
-            "MD5": "ec9e10a72424dc0d0fd73e5af8d6544d",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/TravelersBackpack-1.12.2-1.0.35.jar"
-          }
-        },
-        {
-          "id": "anubis.mods:xaerosworldmap-1-39-2-forge-1-12:1.0.0",
-          "name": "XaerosWorldMap_1.39.2_Forge_1.12",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 854439,
-            "MD5": "0ae2f3e451389eb07a330a872dffac37",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/XaerosWorldMap_1.39.2_Forge_1.12.jar"
-          }
-        },
-        {
-          "id": "anubis.mods:xaeros-minimap-24-7-1-forge-1-12:1.0.0",
-          "name": "Xaeros_Minimap_24.7.1_Forge_1.12",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 1808657,
-            "MD5": "2cce104eddd75bbcd707185b7df745bd",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/Xaeros_Minimap_24.7.1_Forge_1.12.jar"
+            "size": 1143623,
+            "MD5": "b028423a78cf22d461e00ac681b59eb2",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/StorageDrawers-forge-1.20.1-12.14.3.jar"
           }
         },
         {
@@ -941,227 +563,521 @@
           }
         },
         {
-          "id": "anubis.mods:appliedenergistics2-rv6-stable-7:1.0.0",
-          "name": "appliedenergistics2-rv6-stable-7",
+          "id": "anubis.mods:appleskin-forge-mc1-20-1-2-5-1:1.0.0",
+          "name": "appleskin-forge-mc1.20.1-2.5.1",
           "type": "ForgeMod",
           "required": {
             "value": true,
             "def": true
           },
           "artifact": {
-            "size": 4062630,
-            "MD5": "b8667d60a761d5b5ae3c8a15192f9e28",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/appliedenergistics2-rv6-stable-7.jar"
+            "size": 47428,
+            "MD5": "dae63cea9c951dda542a4005ceef3953",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/appleskin-forge-mc1.20.1-2.5.1.jar"
           }
         },
         {
-          "id": "anubis.mods:artifacts-1-12-2-1-2-4:1.0.0",
-          "name": "artifacts-1.12.2-1.2.4",
+          "id": "anubis.mods:architectury-9-2-14-forge:1.0.0",
+          "name": "architectury-9.2.14-forge",
           "type": "ForgeMod",
           "required": {
             "value": true,
             "def": true
           },
           "artifact": {
-            "size": 254421,
-            "MD5": "8ae7ab79f17902603529532be08d92e4",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/artifacts-1.12.2-1.2.4.jar"
+            "size": 580602,
+            "MD5": "76b40d407b6bf0257dd1dab6d3d395d5",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/architectury-9.2.14-forge.jar"
           }
         },
         {
-          "id": "anubis.mods:betternether-0-1-8-6:1.0.0",
-          "name": "betternether-0.1.8.6",
+          "id": "anubis.mods:athena-forge-1-20-1-3-1-2:1.0.0",
+          "name": "athena-forge-1.20.1-3.1.2",
           "type": "ForgeMod",
           "required": {
             "value": true,
             "def": true
           },
           "artifact": {
-            "size": 1769238,
-            "MD5": "ad400778cbe98a73f0a2686190dcd079",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/betternether-0.1.8.6.jar"
+            "size": 91808,
+            "MD5": "2086e326e8f0ff2f8d7d05c66c291484",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/athena-forge-1.20.1-3.1.2.jar"
           }
         },
         {
-          "id": "anubis.mods:buildcraft-all-8-0-0:1.0.0",
-          "name": "buildcraft-all-8.0.0",
+          "id": "anubis.mods:chat-heads-0-15-1-forge-1-20:1.0.0",
+          "name": "chat_heads-0.15.1-forge-1.20",
           "type": "ForgeMod",
           "required": {
             "value": true,
             "def": true
           },
           "artifact": {
-            "size": 5535454,
-            "MD5": "46b9656fe37ba8005e57d955e39799e2",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/buildcraft-all-8.0.0.jar"
+            "size": 722579,
+            "MD5": "6b4e07133ec910ce5495dc935e65363d",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/chat_heads-0.15.1-forge-1.20.jar"
           }
         },
         {
-          "id": "anubis.mods:collective-1-12-2-3-0:1.0.0",
-          "name": "collective-1.12.2-3.0",
+          "id": "anubis.mods:chatanimation-forge-1-20-1-1-1-3:1.0.0",
+          "name": "chatanimation-forge-1.20.1-1.1.3",
           "type": "ForgeMod",
           "required": {
             "value": true,
             "def": true
           },
           "artifact": {
-            "size": 129073,
-            "MD5": "b5ca96a015a58fdc8afa2973abe7b0b0",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/collective-1.12.2-3.0.jar"
+            "size": 381473,
+            "MD5": "4d20168e4327b7e6357eb108030a0baf",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/chatanimation-forge-1.20.1-1.1.3.jar"
           }
         },
         {
-          "id": "anubis.mods:corpse-1-12-2-1-0-8:1.0.0",
-          "name": "corpse-1.12.2-1.0.8",
+          "id": "anubis.mods:chipped-forge-1-20-1-3-0-7:1.0.0",
+          "name": "chipped-forge-1.20.1-3.0.7",
           "type": "ForgeMod",
           "required": {
             "value": true,
             "def": true
           },
           "artifact": {
-            "size": 67966,
-            "MD5": "d79e51706d18eab2ccfa0070c0b7592b",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/corpse-1.12.2-1.0.8.jar"
+            "size": 15060263,
+            "MD5": "c6c76e78805b357757bf47b04c7286e7",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/chipped-forge-1.20.1-3.0.7.jar"
           }
         },
         {
-          "id": "anubis.mods:industrialcraft-2-2-8-222-ex112:1.0.0",
-          "name": "industrialcraft-2-2.8.222-ex112",
+          "id": "anubis.mods:copperagebackport-forge-1-20-1-0-1-4:1.0.0",
+          "name": "copperagebackport-forge-1.20.1-0.1.4",
           "type": "ForgeMod",
           "required": {
             "value": true,
             "def": true
           },
           "artifact": {
-            "size": 8698102,
-            "MD5": "21cd00f737defbdac2321716d3418560",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/industrialcraft-2-2.8.222-ex112.jar"
+            "size": 2818863,
+            "MD5": "2308c6fd377c29c204e720dd24186c69",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/copperagebackport-forge-1.20.1-0.1.4.jar"
           }
         },
         {
-          "id": "anubis.mods:ironchest-1-12-2-7-0-72-847:1.0.0",
-          "name": "ironchest-1.12.2-7.0.72.847",
+          "id": "anubis.mods:corpse-forge-1-20-1-1-0-23:1.0.0",
+          "name": "corpse-forge-1.20.1-1.0.23",
           "type": "ForgeMod",
           "required": {
             "value": true,
             "def": true
           },
           "artifact": {
-            "size": 956692,
-            "MD5": "743179bc3a8f50751efbb019acc759a9",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/ironchest-1.12.2-7.0.72.847.jar"
+            "size": 245644,
+            "MD5": "a486f676f5e47e5846e31cb66cb5c16d",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/corpse-forge-1.20.1-1.0.23.jar"
           }
         },
         {
-          "id": "anubis.mods:ironfurnaces-1-3-5:1.0.0",
-          "name": "ironfurnaces-1.3.5",
+          "id": "anubis.mods:diamondvein-1-2:1.0.0",
+          "name": "diamondvein-1.2",
           "type": "ForgeMod",
           "required": {
             "value": true,
             "def": true
           },
           "artifact": {
-            "size": 130723,
-            "MD5": "4820b6f8c61839ce6abffb916c6f0571",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/ironfurnaces-1.3.5.jar"
+            "size": 66348,
+            "MD5": "7b794ccd839422e639ede990422575be",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/diamondvein-1.2.jar"
           }
         },
         {
-          "id": "anubis.mods:jei-1-12-2-4-16-1-301:1.0.0",
-          "name": "jei_1.12.2-4.16.1.301",
+          "id": "anubis.mods:elevatorid-1-20-1-1-9-1-forge:1.0.0",
+          "name": "elevatorid-1.20.1-1.9.1-forge",
           "type": "ForgeMod",
           "required": {
             "value": true,
             "def": true
           },
           "artifact": {
-            "size": 653211,
-            "MD5": "1dee4be93d666e2228039c551e927b35",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/jei_1.12.2-4.16.1.301.jar"
+            "size": 187868,
+            "MD5": "b4784b8ae695f179d0aefaaa82018968",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/elevatorid-1.20.1-1.9.1-forge.jar"
           }
         },
         {
-          "id": "anubis.mods:konkrete-forge-1-6-1-mc-1-12-1-12-2:1.0.0",
-          "name": "konkrete_forge_1.6.1_MC_1.12-1.12.2",
+          "id": "anubis.mods:entityculling-forge-1-10-2-mc1-20-1:1.0.0",
+          "name": "entityculling-forge-1.10.2-mc1.20.1",
           "type": "ForgeMod",
           "required": {
             "value": true,
             "def": true
           },
           "artifact": {
-            "size": 618150,
-            "MD5": "4d1b45bfe08b3f7babe7cbea0214ca97",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/konkrete_forge_1.6.1_MC_1.12-1.12.2.jar"
+            "size": 1587585,
+            "MD5": "e3a7a09778b3f7358738277dac5c2dd5",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/entityculling-forge-1.10.2-mc1.20.1.jar"
           }
         },
         {
-          "id": "anubis.mods:llibrary-1-7-20-1-12-2:1.0.0",
-          "name": "llibrary-1.7.20-1.12.2",
+          "id": "anubis.mods:ftb-library-forge-2001-2-12:1.0.0",
+          "name": "ftb-library-forge-2001.2.12",
           "type": "ForgeMod",
           "required": {
             "value": true,
             "def": true
           },
           "artifact": {
-            "size": 884550,
-            "MD5": "218aefca8bd6bb8d9ff7dd877c1d277d",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/llibrary-1.7.20-1.12.2.jar"
+            "size": 780523,
+            "MD5": "8bbd067159587d80f1c5286ea52e567b",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/ftb-library-forge-2001.2.12.jar"
           }
         },
         {
-          "id": "anubis.mods:mcef-1-12-2-1-11-coremod:1.0.0",
-          "name": "mcef-1.12.2-1.11-coremod",
+          "id": "anubis.mods:ftb-quests-forge-2001-4-22:1.0.0",
+          "name": "ftb-quests-forge-2001.4.22",
           "type": "ForgeMod",
           "required": {
             "value": true,
             "def": true
           },
           "artifact": {
-            "size": 6834,
-            "MD5": "cdf8f200f2fbd5d5dcf94306ab0a7501",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/mcef-1.12.2-1.11-coremod.jar"
+            "size": 1255469,
+            "MD5": "a05a49243da4a2505413d74e13102b16",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/ftb-quests-forge-2001.4.22.jar"
           }
         },
         {
-          "id": "anubis.mods:mcef-1-12-2-1-11:1.0.0",
-          "name": "mcef-1.12.2-1.11",
+          "id": "anubis.mods:ftb-teams-forge-2001-3-2:1.0.0",
+          "name": "ftb-teams-forge-2001.3.2",
           "type": "ForgeMod",
           "required": {
             "value": true,
             "def": true
           },
           "artifact": {
-            "size": 344339,
-            "MD5": "7d138063173928704c19a68c58c62f5d",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/mcef-1.12.2-1.11.jar"
+            "size": 252579,
+            "MD5": "1c547d6f1b22f461f84c5fb79067b0ec",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/ftb-teams-forge-2001.3.2.jar"
           }
         },
         {
-          "id": "anubis.mods:obfuscate-0-4-2-1-12-2:1.0.0",
-          "name": "obfuscate-0.4.2-1.12.2",
+          "id": "anubis.mods:ftb-xmod-compat-forge-2-1-3:1.0.0",
+          "name": "ftb-xmod-compat-forge-2.1.3",
           "type": "ForgeMod",
           "required": {
             "value": true,
             "def": true
           },
           "artifact": {
-            "size": 129099,
-            "MD5": "a5d3ac71ec8762fe72a91465de6d30a3",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/obfuscate-0.4.2-1.12.2.jar"
+            "size": 129725,
+            "MD5": "6d01bd4bc73c6ce36d0d91c56bb27772",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/ftb-xmod-compat-forge-2.1.3.jar"
           }
         },
         {
-          "id": "anubis.mods:theoneprobe-1-12-1-4-28:1.0.0",
-          "name": "theoneprobe-1.12-1.4.28",
+          "id": "anubis.mods:immersive-aircraft-1-4-0-1-20-1-forge:1.0.0",
+          "name": "immersive_aircraft-1.4.0+1.20.1-forge",
           "type": "ForgeMod",
           "required": {
             "value": true,
             "def": true
           },
           "artifact": {
-            "size": 301893,
-            "MD5": "63849a13a822b3b56308245eb8074a7e",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/theoneprobe-1.12-1.4.28.jar"
+            "size": 2428368,
+            "MD5": "f49ff767f611a95f9bd29a0e9977d9d5",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/immersive_aircraft-1.4.0%2B1.20.1-forge.jar"
+          }
+        },
+        {
+          "id": "anubis.mods:inventorysorter-1-20-1-23-0-11:1.0.0",
+          "name": "inventorysorter-1.20.1-23.0.11",
+          "type": "ForgeMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 54267,
+            "MD5": "e36d0a4aff7d73dd2fc9b58695b55c5e",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/inventorysorter-1.20.1-23.0.11.jar"
+          }
+        },
+        {
+          "id": "anubis.mods:ironchest-1-20-1-14-4-4:1.0.0",
+          "name": "ironchest-1.20.1-14.4.4",
+          "type": "ForgeMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 311290,
+            "MD5": "078fbc43b289995ca4a8cced59bbf0ef",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/ironchest-1.20.1-14.4.4.jar"
+          }
+        },
+        {
+          "id": "anubis.mods:ironfurnaces-1-20-1-4-1-8:1.0.0",
+          "name": "ironfurnaces-1.20.1-4.1.8",
+          "type": "ForgeMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 612921,
+            "MD5": "cd22a9c8cd46953b03abd44ec0b33f94",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/ironfurnaces-1.20.1-4.1.8.jar"
+          }
+        },
+        {
+          "id": "anubis.mods:item-filters-forge-2001-1-0-build-59:1.0.0",
+          "name": "item-filters-forge-2001.1.0-build.59",
+          "type": "ForgeMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 110191,
+            "MD5": "4155fd7faf7daf46f9dcb914e93893e1",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/item-filters-forge-2001.1.0-build.59.jar"
+          }
+        },
+        {
+          "id": "anubis.mods:jei-1-20-1-forge-15-20-0-112:1.0.0",
+          "name": "jei-1.20.1-forge-15.20.0.112",
+          "type": "ForgeMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 1385600,
+            "MD5": "c899d5b549ace1e9fa46700c778c3809",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/jei-1.20.1-forge-15.20.0.112.jar"
+          }
+        },
+        {
+          "id": "anubis.mods:lithostitched-forge-1-20-1-1-4-11:1.0.0",
+          "name": "lithostitched-forge-1.20.1-1.4.11",
+          "type": "ForgeMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 476347,
+            "MD5": "3c596bbc1b5f769f22be751e9c21a6c8",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/lithostitched-forge-1.20.1-1.4.11.jar"
+          }
+        },
+        {
+          "id": "anubis.mods:modernfix-forge-5-27-22-mc1-20-1:1.0.0",
+          "name": "modernfix-forge-5.27.22+mc1.20.1",
+          "type": "ForgeMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 951173,
+            "MD5": "e54dcdabaf5d246078973655006c2b6b",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/modernfix-forge-5.27.22%2Bmc1.20.1.jar"
+          }
+        },
+        {
+          "id": "anubis.mods:powerutils-1-8:1.0.0",
+          "name": "powerutils-1.8",
+          "type": "ForgeMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 71203,
+            "MD5": "d425a1a35746fc2b81222011caebb2df",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/powerutils-1.8.jar"
+          }
+        },
+        {
+          "id": "anubis.mods:quantumgenerators-1-7:1.0.0",
+          "name": "quantumgenerators-1.7",
+          "type": "ForgeMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 159554,
+            "MD5": "0160a2e4d135bf0b626d8d58bd93034b",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/quantumgenerators-1.7.jar"
+          }
+        },
+        {
+          "id": "anubis.mods:reactorplus-1-1:1.0.0",
+          "name": "reactorplus-1.1",
+          "type": "ForgeMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 33335,
+            "MD5": "ac1e8a014d91ef91c16e8652bdb14ed9",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/reactorplus-1.1.jar"
+          }
+        },
+        {
+          "id": "anubis.mods:refinedstorage-1-12-4:1.0.0",
+          "name": "refinedstorage-1.12.4",
+          "type": "ForgeMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 3300191,
+            "MD5": "aa6c64a4912eaef8478c5820fe03bbae",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/refinedstorage-1.12.4.jar"
+          }
+        },
+        {
+          "id": "anubis.mods:refinedstorageaddons-0-10-0:1.0.0",
+          "name": "refinedstorageaddons-0.10.0",
+          "type": "ForgeMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 33771,
+            "MD5": "0f37070308d5b2c022cdef50574290d8",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/refinedstorageaddons-0.10.0.jar"
+          }
+        },
+        {
+          "id": "anubis.mods:resourcefullib-forge-1-20-1-2-1-29:1.0.0",
+          "name": "resourcefullib-forge-1.20.1-2.1.29",
+          "type": "ForgeMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 432753,
+            "MD5": "a040c6cc86f653fddf280ff3af9068f0",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/resourcefullib-forge-1.20.1-2.1.29.jar"
+          }
+        },
+        {
+          "id": "anubis.mods:simplyquarries-1-7:1.0.0",
+          "name": "simplyquarries-1.7",
+          "type": "ForgeMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 136173,
+            "MD5": "78a5912a85d16b2ecbaa72d5cd7b6de1",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/simplyquarries-1.7.jar"
+          }
+        },
+        {
+          "id": "anubis.mods:sophisticatedbackpacks-1-20-1-3-24-39-1743:1.0.0",
+          "name": "sophisticatedbackpacks-1.20.1-3.24.39.1743",
+          "type": "ForgeMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 1048031,
+            "MD5": "0ce6dc07daaa3c65a1db1e0bd099d1c1",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/sophisticatedbackpacks-1.20.1-3.24.39.1743.jar"
+          }
+        },
+        {
+          "id": "anubis.mods:sophisticatedcore-1-20-1-1-3-35-1851:1.0.0",
+          "name": "sophisticatedcore-1.20.1-1.3.35.1851",
+          "type": "ForgeMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 1553125,
+            "MD5": "e48e9e646c10f27ac71ed0e6f4cb9adc",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/sophisticatedcore-1.20.1-1.3.35.1851.jar"
+          }
+        },
+        {
+          "id": "anubis.mods:sound-physics-remastered-forge-1-20-1-1-5-1:1.0.0",
+          "name": "sound-physics-remastered-forge-1.20.1-1.5.1",
+          "type": "ForgeMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 206984,
+            "MD5": "d70031b5058fb81d2670a4039440b00f",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/sound-physics-remastered-forge-1.20.1-1.5.1.jar"
+          }
+        },
+        {
+          "id": "anubis.mods:theoneprobe-1-20-1-10-0-3:1.0.0",
+          "name": "theoneprobe-1.20.1-10.0.3",
+          "type": "ForgeMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 331601,
+            "MD5": "1c119603034614bd2c9272dd21bdfae6",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/theoneprobe-1.20.1-10.0.3.jar"
+          }
+        },
+        {
+          "id": "anubis.mods:wateringcan-1-0:1.0.0",
+          "name": "wateringcan-1.0",
+          "type": "ForgeMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 13894,
+            "MD5": "1a4faf909cab6d8535ab4b9535c849b5",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/wateringcan-1.0.jar"
+          }
+        },
+        {
+          "id": "anubis.mods:xaerominimap-forge-1-20-1-25-3-13:1.0.0",
+          "name": "xaerominimap-forge-1.20.1-25.3.13",
+          "type": "ForgeMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 2147217,
+            "MD5": "e2b6257709a0339c09485fb77386f632",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/xaerominimap-forge-1.20.1-25.3.13.jar"
+          }
+        },
+        {
+          "id": "anubis.mods:xaeroworldmap-forge-1-20-1-1-40-16:1.0.0",
+          "name": "xaeroworldmap-forge-1.20.1-1.40.16",
+          "type": "ForgeMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 1389566,
+            "MD5": "9e740cc46164ca921ba31102d61b723d",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/xaeroworldmap-forge-1.20.1-1.40.16.jar"
           }
         },
         {
