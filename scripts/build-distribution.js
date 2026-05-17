@@ -13,8 +13,8 @@ const DISTRO_VERSION = '1.0.0';
 const RELEASE_BASE = `https://github.com/${REPO_OWNER}/${REPO_NAME}/releases/download/${RELEASE_TAG}`;
 const RAW_BASE = `https://raw.githubusercontent.com/${REPO_OWNER}/${REPO_NAME}/main`;
 
-const FORGE_VERSION = '1.12.2-14.23.5.2860';
-const MC_VERSION = '1.12.2';
+const FORGE_VERSION = '1.20.1-47.4.0';
+const MC_VERSION = '1.20.1';
 
 function md5(filepath) {
   return crypto.createHash('md5').update(fs.readFileSync(filepath)).digest('hex');
@@ -198,10 +198,10 @@ const distribution = {
     {
       id: 'anubis-hitech',
       name: 'Anubis World — HiTech',
-      description: 'Modpack HiTech 1.12.2 — технології та магія в одному всесвіті Minecraft',
+      description: 'Modpack HiTech 1.20.1 — технології та магія в одному всесвіті Minecraft',
       icon: `${RAW_BASE}/docs/server-icon.jpg`,
       version: DISTRO_VERSION,
-      address: '94.100.18.18:50273',
+      address: '46.21.146.194:50468',
       minecraftVersion: MC_VERSION,
       mainServer: true,
       // true → Minecraft auto-joins the server on launch. The pre-populated
@@ -209,9 +209,11 @@ const distribution = {
       // want to disconnect / rejoin without restarting the launcher.
       autoconnect: true,
       javaOptions: {
-        supported: '>=8 <9',
-        suggestedMajor: 8,
-        ram: { recommended: 4096, minimum: 2048 }
+        // 1.20.1 mandates Java 17. helios-core auto-fetches a matching
+        // Adoptium build from this spec.
+        supported: '>=17 <22',
+        suggestedMajor: 17,
+        ram: { recommended: 6144, minimum: 4096 }
       },
       modules: [forgeModule, ...modModules, ...serversDatModules, ...configModules, ...overlayModules, ...shaderModules, ...resourcepackModules]
     }
