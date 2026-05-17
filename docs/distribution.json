@@ -283,6 +283,20 @@
           }
         },
         {
+          "id": "anubis.mods:ae2wtlib-15-3-3-forge:1.0.0",
+          "name": "ae2wtlib-15.3.3-forge",
+          "type": "ForgeMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 229518,
+            "MD5": "9e60a31acb384e832f03bcb16e092ec9",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/ae2wtlib-15.3.3-forge.jar"
+          }
+        },
+        {
           "id": "anubis.mods:appleskin-forge-mc1-20-1-2-5-1:1.0.0",
           "name": "appleskin-forge-mc1.20.1-2.5.1",
           "type": "ForgeMod",
