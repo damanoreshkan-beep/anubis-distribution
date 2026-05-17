@@ -3,7 +3,7 @@
 // the JVM launches, so the player sees the server in the Multiplayer list
 // out of the box (no manual "Add Server" / "Direct Connect" step).
 //
-// servers.dat format (Minecraft 1.12.2): uncompressed NBT, Big-Endian.
+// servers.dat format (Minecraft 1.20.1): uncompressed NBT, Big-Endian.
 //   TAG_Compound ""
 //     TAG_List "servers" of TAG_Compound
 //       { name: "...", ip: "...", icon?: base64 PNG, acceptTextures?: byte }
@@ -38,7 +38,7 @@ const iconB64 = tryReadIconAsBase64Png()
 
 const serverEntry = {
     name: nbt.string('Anubis World — HiTech'),
-    ip:   nbt.string('94.100.18.18:50273'),
+    ip:   nbt.string('46.21.146.194:50468'),
     acceptTextures: nbt.byte(1),
 }
 if(iconB64){

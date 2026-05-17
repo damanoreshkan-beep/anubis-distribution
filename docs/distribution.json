@@ -6,267 +6,43 @@
     {
       "id": "anubis-hitech",
       "name": "Anubis World — HiTech",
-      "description": "Modpack HiTech 1.12.2 — технології та магія в одному всесвіті Minecraft",
+      "description": "Modpack HiTech 1.20.1 — технології та магія в одному всесвіті Minecraft",
       "icon": "https://raw.githubusercontent.com/damanoreshkan-beep/anubis-distribution/main/docs/server-icon.jpg",
       "version": "1.0.0",
-      "address": "94.100.18.18:50273",
-      "minecraftVersion": "1.12.2",
+      "address": "46.21.146.194:50468",
+      "minecraftVersion": "1.20.1",
       "mainServer": true,
       "autoconnect": true,
       "javaOptions": {
-        "supported": ">=8 <9",
-        "suggestedMajor": 8,
+        "supported": ">=17 <22",
+        "suggestedMajor": 17,
         "ram": {
-          "recommended": 4096,
-          "minimum": 2048
+          "recommended": 6144,
+          "minimum": 4096
         }
       },
       "modules": [
         {
-          "id": "net.minecraftforge:forge:1.12.2-14.23.5.2860",
-          "name": "Minecraft Forge 1.12.2-14.23.5.2860",
+          "id": "net.minecraftforge:forge:1.20.1-47.4.10",
+          "name": "Minecraft Forge 1.20.1-47.4.10",
           "type": "ForgeHosted",
           "artifact": {
-            "size": 4466148,
-            "MD5": "2b5b6ccfa3c6ffcea9073d13d1ec5236",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/forge-1.12.2-14.23.5.2860.jar"
+            "size": 6078070,
+            "MD5": "406a49ed803ce46d4cba836c4caac9d5",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/forge-1.20.1-47.4.10-installer.jar"
           },
           "subModules": [
             {
-              "id": "1.12.2-forge-14.23.5.2860",
+              "id": "1.20.1-forge-47.4.10",
               "name": "Minecraft Forge (version manifest)",
               "type": "VersionManifest",
               "artifact": {
-                "size": 11812,
-                "MD5": "d6a5e2309db32fcd91aa76de37a5e850",
-                "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/1.12.2-forge-14.23.5.2860.json"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-debug-all:5.2",
-              "name": "org.ow2.asm:asm-debug-all:5.2",
-              "type": "Library",
-              "artifact": {
-                "size": 387903,
-                "MD5": "fe5f20404ccdee9769ef05dc4b47ba98",
-                "url": "https://maven.minecraftforge.net/org/ow2/asm/asm-debug-all/5.2/asm-debug-all-5.2.jar"
-              }
-            },
-            {
-              "id": "net.minecraft:launchwrapper:1.12",
-              "name": "net.minecraft:launchwrapper:1.12",
-              "type": "Library",
-              "artifact": {
-                "size": 32999,
-                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
-                "url": "https://libraries.minecraft.net/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
-              }
-            },
-            {
-              "id": "org.jline:jline:3.5.1",
-              "name": "org.jline:jline:3.5.1",
-              "type": "Library",
-              "artifact": {
-                "size": 614590,
-                "MD5": "4c20d2879ed2bd75a0771ce29e89f6b0",
-                "url": "https://maven.minecraftforge.net/org/jline/jline/3.5.1/jline-3.5.1.jar"
-              }
-            },
-            {
-              "id": "com.typesafe.akka:akka-actor_2.11:2.3.3",
-              "name": "com.typesafe.akka:akka-actor_2.11:2.3.3",
-              "type": "Library",
-              "artifact": {
-                "size": 2514991,
-                "MD5": "541440ca0819ebada47d6d1a8b3ee9e1",
-                "url": "https://maven.minecraftforge.net/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar"
-              }
-            },
-            {
-              "id": "com.typesafe:config:1.2.1",
-              "name": "com.typesafe:config:1.2.1",
-              "type": "Library",
-              "artifact": {
-                "size": 219554,
-                "MD5": "3aaf3c6e76a68e732c17d4a7e9877d81",
-                "url": "https://maven.minecraftforge.net/com/typesafe/config/1.2.1/config-1.2.1.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang:scala-actors-migration_2.11:1.1.0",
-              "name": "org.scala-lang:scala-actors-migration_2.11:1.1.0",
-              "type": "Library",
-              "artifact": {
-                "size": 58018,
-                "MD5": "f5e79398daa1806f8b17311a3c782723",
-                "url": "https://maven.minecraftforge.net/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang:scala-compiler:2.11.1",
-              "name": "org.scala-lang:scala-compiler:2.11.1",
-              "type": "Library",
-              "artifact": {
-                "size": 13449765,
-                "MD5": "06030143bf86ca896fb6ccfd679b5760",
-                "url": "https://maven.minecraftforge.net/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2_mc",
-              "name": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2_mc",
-              "type": "Library",
-              "artifact": {
-                "size": 25365,
-                "MD5": "004d7007abbcee858d3ca2c3ccbcbaab",
-                "url": "https://maven.minecraftforge.net/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2_mc/scala-continuations-library_2.11-1.0.2_mc.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2_mc",
-              "name": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2_mc",
-              "type": "Library",
-              "artifact": {
-                "size": 206575,
-                "MD5": "359c4a6743a082c689039482eed78670",
-                "url": "https://maven.minecraftforge.net/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2_mc/scala-continuations-plugin_2.11.1-1.0.2_mc.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang:scala-library:2.11.1",
-              "name": "org.scala-lang:scala-library:2.11.1",
-              "type": "Library",
-              "artifact": {
-                "size": 5538130,
-                "MD5": "1d88f665219e6006c5dd82d71c525c0f",
-                "url": "https://maven.minecraftforge.net/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1",
-              "name": "org.scala-lang:scala-parser-combinators_2.11:1.0.1",
-              "type": "Library",
-              "artifact": {
-                "size": 419701,
-                "MD5": "4e694499c965af4a02599c99d4f0b196",
-                "url": "https://maven.minecraftforge.net/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang:scala-reflect:2.11.1",
-              "name": "org.scala-lang:scala-reflect:2.11.1",
-              "type": "Library",
-              "artifact": {
-                "size": 4372892,
-                "MD5": "7878fac044e4e4b576bb35a77ccc34fc",
-                "url": "https://maven.minecraftforge.net/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang:scala-swing_2.11:1.0.1",
-              "name": "org.scala-lang:scala-swing_2.11:1.0.1",
-              "type": "Library",
-              "artifact": {
-                "size": 726500,
-                "MD5": "1009d69e4948045383f2a7a334348af5",
-                "url": "https://maven.minecraftforge.net/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang:scala-xml_2.11:1.0.2",
-              "name": "org.scala-lang:scala-xml_2.11:1.0.2",
-              "type": "Library",
-              "artifact": {
-                "size": 648679,
-                "MD5": "c2d7e66495afe14545c31b21e99879ef",
-                "url": "https://maven.minecraftforge.net/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar"
-              }
-            },
-            {
-              "id": "lzma:lzma:0.0.1",
-              "name": "lzma:lzma:0.0.1",
-              "type": "Library",
-              "artifact": {
-                "size": 5762,
-                "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
-                "url": "https://libraries.minecraft.net/lzma/lzma/0.0.1/lzma-0.0.1.jar"
-              }
-            },
-            {
-              "id": "java3d:vecmath:1.5.2",
-              "name": "java3d:vecmath:1.5.2",
-              "type": "Library",
-              "artifact": {
-                "size": 318956,
-                "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
-                "url": "https://libraries.minecraft.net/java3d/vecmath/1.5.2/vecmath-1.5.2.jar"
-              }
-            },
-            {
-              "id": "net.sf.trove4j:trove4j:3.0.3",
-              "name": "net.sf.trove4j:trove4j:3.0.3",
-              "type": "Library",
-              "artifact": {
-                "size": 2523218,
-                "MD5": "8fc4d4e0129244f9fd39650c5f30feb2",
-                "url": "https://libraries.minecraft.net/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar"
-              }
-            },
-            {
-              "id": "org.apache.maven:maven-artifact:3.5.3",
-              "name": "org.apache.maven:maven-artifact:3.5.3",
-              "type": "Library",
-              "artifact": {
-                "size": 54961,
-                "MD5": "7741ebf29690ee7d9dde9cf4376347fc",
-                "url": "https://maven.minecraftforge.net/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar"
-              }
-            },
-            {
-              "id": "net.sf.jopt-simple:jopt-simple:5.0.3",
-              "name": "net.sf.jopt-simple:jopt-simple:5.0.3",
-              "type": "Library",
-              "artifact": {
-                "size": 78175,
-                "MD5": "0a5ec84e23df9d7cfb4063bc55f2744c",
-                "url": "https://libraries.minecraft.net/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar"
-              }
-            },
-            {
-              "id": "org.apache.logging.log4j:log4j-api:2.15.0",
-              "name": "org.apache.logging.log4j:log4j-api:2.15.0",
-              "type": "Library",
-              "artifact": {
-                "size": 301804,
-                "MD5": "a9ccfa7e3382dd2b9e0647a43d8286d7",
-                "url": "https://maven.minecraftforge.net/org/apache/logging/log4j/log4j-api/2.15.0/log4j-api-2.15.0.jar"
-              }
-            },
-            {
-              "id": "org.apache.logging.log4j:log4j-core:2.15.0",
-              "name": "org.apache.logging.log4j:log4j-core:2.15.0",
-              "type": "Library",
-              "artifact": {
-                "size": 1789769,
-                "MD5": "81e0433ae00602c0e4d00424d213b0ab",
-                "url": "https://maven.minecraftforge.net/org/apache/logging/log4j/log4j-core/2.15.0/log4j-core-2.15.0.jar"
+                "size": 16554,
+                "MD5": "eede38b0c090f69c7789cd35e753853d",
+                "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/forge-version.json"
               }
             }
           ]
-        },
-        {
-          "id": "anubis.mods:ambientsounds-forge-v6-3-8-mc1-20-1:1.0.0",
-          "name": "AmbientSounds_FORGE_v6.3.8_mc1.20.1",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 53429226,
-            "MD5": "dec1c8595667b063e9274d32b32efa5d",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/AmbientSounds_FORGE_v6.3.8_mc1.20.1.jar"
-          }
         },
         {
           "id": "anubis.mods:creativecore-forge-v2-12-37-mc1-20-1:1.0.0",
@@ -280,20 +56,6 @@
             "size": 1144037,
             "MD5": "528b2b6a437e245928f7efd9bad860a7",
             "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/CreativeCore_FORGE_v2.12.37_mc1.20.1.jar"
-          }
-        },
-        {
-          "id": "anubis.mods:customskinloader-forgev1-14-28:1.0.0",
-          "name": "CustomSkinLoader_ForgeV1-14.28",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 199551,
-            "MD5": "d62d5eb2d2dcf6d5584829328e7ef110",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/CustomSkinLoader_ForgeV1-14.28.jar"
           }
         },
         {
@@ -395,20 +157,6 @@
           }
         },
         {
-          "id": "anubis.mods:immersiveui-forge-0-3-0:1.0.0",
-          "name": "ImmersiveUI-FORGE-0.3.0",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 401514,
-            "MD5": "e92dc07b69814d6116a160f4ee3f08d5",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/ImmersiveUI-FORGE-0.3.0.jar"
-          }
-        },
-        {
           "id": "anubis.mods:industrialupgrade-1-20-1-3-3-2-33:1.0.0",
           "name": "IndustrialUpgrade-1.20.1-3.3.2.33",
           "type": "ForgeMod",
@@ -479,20 +227,6 @@
           }
         },
         {
-          "id": "anubis.mods:optifine-1-12-2-hd-u-g5:1.0.0",
-          "name": "OptiFine-1.12.2_HD_U_G5",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 2457427,
-            "MD5": "92a619d468d9576a531a7ca8908669e2",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/OptiFine-1.12.2_HD_U_G5.jar"
-          }
-        },
-        {
           "id": "anubis.mods:prism-1-20-1-forge-1-0-5:1.0.0",
           "name": "Prism-1.20.1-forge-1.0.5",
           "type": "ForgeMod",
@@ -535,31 +269,17 @@
           }
         },
         {
-          "id": "anubis.mods:1-12-2-damageindicatorsmod-3-5-0:1.0.0",
-          "name": "_1.12.2_DamageIndicatorsMod-3.5.0",
+          "id": "anubis.mods:ae2wtlib-15-3-3-forge:1.0.0",
+          "name": "ae2wtlib-15.3.3-forge",
           "type": "ForgeMod",
           "required": {
             "value": true,
             "def": true
           },
           "artifact": {
-            "size": 282892,
-            "MD5": "a870c9dd4898a3684cb3b6e5adc94180",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/_1.12.2_DamageIndicatorsMod-3.5.0.jar"
-          }
-        },
-        {
-          "id": "anubis.mods:mixinbootstrap-1-1-0:1.0.0",
-          "name": "_MixinBootstrap-1.1.0",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 1119478,
-            "MD5": "9df0dc628ebcd787270f487fbbf8157a",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/_MixinBootstrap-1.1.0.jar"
+            "size": 229518,
+            "MD5": "9e60a31acb384e832f03bcb16e092ec9",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/ae2wtlib-15.3.3-forge.jar"
           }
         },
         {
@@ -574,6 +294,20 @@
             "size": 47428,
             "MD5": "dae63cea9c951dda542a4005ceef3953",
             "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/appleskin-forge-mc1.20.1-2.5.1.jar"
+          }
+        },
+        {
+          "id": "anubis.mods:appliedenergistics2-forge-15-4-10:1.0.0",
+          "name": "appliedenergistics2-forge-15.4.10",
+          "type": "ForgeMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 8495956,
+            "MD5": "69e47ebd80184d34176cebeb6233a234",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/appliedenergistics2-forge-15.4.10.jar"
           }
         },
         {
@@ -605,20 +339,6 @@
           }
         },
         {
-          "id": "anubis.mods:chat-heads-0-15-1-forge-1-20:1.0.0",
-          "name": "chat_heads-0.15.1-forge-1.20",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 722579,
-            "MD5": "6b4e07133ec910ce5495dc935e65363d",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/chat_heads-0.15.1-forge-1.20.jar"
-          }
-        },
-        {
           "id": "anubis.mods:chatanimation-forge-1-20-1-1-1-3:1.0.0",
           "name": "chatanimation-forge-1.20.1-1.1.3",
           "type": "ForgeMod",
@@ -647,6 +367,20 @@
           }
         },
         {
+          "id": "anubis.mods:cloth-config-11-1-136-forge:1.0.0",
+          "name": "cloth-config-11.1.136-forge",
+          "type": "ForgeMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 1181413,
+            "MD5": "ca5de5acbcb4a30c010aa6953bd7ef53",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/cloth-config-11.1.136-forge.jar"
+          }
+        },
+        {
           "id": "anubis.mods:copperagebackport-forge-1-20-1-0-1-4:1.0.0",
           "name": "copperagebackport-forge-1.20.1-0.1.4",
           "type": "ForgeMod",
@@ -672,6 +406,20 @@
             "size": 245644,
             "MD5": "a486f676f5e47e5846e31cb66cb5c16d",
             "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/corpse-forge-1.20.1-1.0.23.jar"
+          }
+        },
+        {
+          "id": "anubis.mods:curios-forge-5-14-1-1-20-1:1.0.0",
+          "name": "curios-forge-5.14.1+1.20.1",
+          "type": "ForgeMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 398066,
+            "MD5": "2fdcc97cbc66c4b2492b407c792e7159",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/curios-forge-5.14.1%2B1.20.1.jar"
           }
         },
         {
@@ -770,6 +518,34 @@
             "size": 129725,
             "MD5": "6d01bd4bc73c6ce36d0d91c56bb27772",
             "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/ftb-xmod-compat-forge-2.1.3.jar"
+          }
+        },
+        {
+          "id": "anubis.mods:fusion-1-2-12-forge-mc1-20-1:1.0.0",
+          "name": "fusion-1.2.12-forge-mc1.20.1",
+          "type": "ForgeMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 544586,
+            "MD5": "aad8a16b48cd54cd75e34bf4f40eec1b",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/fusion-1.2.12-forge-mc1.20.1.jar"
+          }
+        },
+        {
+          "id": "anubis.mods:guideme-20-1-14:1.0.0",
+          "name": "guideme-20.1.14",
+          "type": "ForgeMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 9413204,
+            "MD5": "6425ddca1593d7f73c7160e54333cfef",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/guideme-20.1.14.jar"
           }
         },
         {
@@ -927,31 +703,31 @@
           }
         },
         {
-          "id": "anubis.mods:refinedstorage-1-12-4:1.0.0",
-          "name": "refinedstorage-1.12.4",
+          "id": "anubis.mods:rechiseled-1-2-4-forge-mc1-20-1:1.0.0",
+          "name": "rechiseled-1.2.4-forge-mc1.20.1",
           "type": "ForgeMod",
           "required": {
             "value": true,
             "def": true
           },
           "artifact": {
-            "size": 3300191,
-            "MD5": "aa6c64a4912eaef8478c5820fe03bbae",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/refinedstorage-1.12.4.jar"
+            "size": 11860511,
+            "MD5": "8ad92a457e29f0b18e037bdd9519aa4e",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/rechiseled-1.2.4-forge-mc1.20.1.jar"
           }
         },
         {
-          "id": "anubis.mods:refinedstorageaddons-0-10-0:1.0.0",
-          "name": "refinedstorageaddons-0.10.0",
+          "id": "anubis.mods:rechiseled-chipped-2-0-1-20-1:1.0.0",
+          "name": "rechiseled_chipped-2.0-1.20.1",
           "type": "ForgeMod",
           "required": {
             "value": true,
             "def": true
           },
           "artifact": {
-            "size": 33771,
-            "MD5": "0f37070308d5b2c022cdef50574290d8",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/refinedstorageaddons-0.10.0.jar"
+            "size": 182898,
+            "MD5": "2165ecf5328ff9fcee941014e4b5298c",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/rechiseled_chipped-2.0-1.20.1.jar"
           }
         },
         {
@@ -1025,6 +801,34 @@
           }
         },
         {
+          "id": "anubis.mods:supermartijn642configlib-1-1-8-forge-mc1-20:1.0.0",
+          "name": "supermartijn642configlib-1.1.8-forge-mc1.20",
+          "type": "ForgeMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 206584,
+            "MD5": "cbece61946d4e059e90806c19dd66082",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/supermartijn642configlib-1.1.8-forge-mc1.20.jar"
+          }
+        },
+        {
+          "id": "anubis.mods:supermartijn642corelib-1-1-21-forge-mc1-20-1:1.0.0",
+          "name": "supermartijn642corelib-1.1.21-forge-mc1.20.1",
+          "type": "ForgeMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 554977,
+            "MD5": "eb67e7fea407250cfa9fcf897f9b63b9",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/supermartijn642corelib-1.1.21-forge-mc1.20.1.jar"
+          }
+        },
+        {
           "id": "anubis.mods:theoneprobe-1-20-1-10-0-3:1.0.0",
           "name": "theoneprobe-1.20.1-10.0.3",
           "type": "ForgeMod",
@@ -1053,40 +857,12 @@
           }
         },
         {
-          "id": "anubis.mods:xaerominimap-forge-1-20-1-25-3-13:1.0.0",
-          "name": "xaerominimap-forge-1.20.1-25.3.13",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 2147217,
-            "MD5": "e2b6257709a0339c09485fb77386f632",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/xaerominimap-forge-1.20.1-25.3.13.jar"
-          }
-        },
-        {
-          "id": "anubis.mods:xaeroworldmap-forge-1-20-1-1-40-16:1.0.0",
-          "name": "xaeroworldmap-forge-1.20.1-1.40.16",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 1389566,
-            "MD5": "9e740cc46164ca921ba31102d61b723d",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/xaeroworldmap-forge-1.20.1-1.40.16.jar"
-          }
-        },
-        {
           "id": "anubis.server-list:servers-dat:1.0.0",
           "name": "servers.dat",
           "type": "File",
           "artifact": {
-            "size": 14140,
-            "MD5": "932acb330778049fc748662cd6411aa1",
+            "size": 14141,
+            "MD5": "ce841d82f80579d457ccf4a81d366e8a",
             "path": "servers.dat",
             "url": "https://raw.githubusercontent.com/damanoreshkan-beep/anubis-distribution/main/docs/servers.dat"
           }
