@@ -13,7 +13,7 @@ const DISTRO_VERSION = '1.0.0';
 const RELEASE_BASE = `https://github.com/${REPO_OWNER}/${REPO_NAME}/releases/download/${RELEASE_TAG}`;
 const RAW_BASE = `https://raw.githubusercontent.com/${REPO_OWNER}/${REPO_NAME}/main`;
 
-const FORGE_VERSION = '1.20.1-47.4.0';
+const FORGE_VERSION = '1.20.1-47.4.10';
 const MC_VERSION = '1.20.1';
 
 function md5(filepath) {
