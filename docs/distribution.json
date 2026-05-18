@@ -461,6 +461,20 @@
           }
         },
         {
+          "id": "anubis.mods:immersiveui-forge-0-3-0:1.0.0",
+          "name": "ImmersiveUI-FORGE-0.3.0",
+          "type": "ForgeMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 401514,
+            "MD5": "e92dc07b69814d6116a160f4ee3f08d5",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/ImmersiveUI-FORGE-0.3.0.jar"
+          }
+        },
+        {
           "id": "anubis.mods:industrialupgrade-1-20-1-3-3-2-33:1.0.0",
           "name": "IndustrialUpgrade-1.20.1-3.3.2.33",
           "type": "ForgeMod",
@@ -755,6 +769,20 @@
           }
         },
         {
+          "id": "anubis.mods:embeddium-0-3-31-mc1-20-1:1.0.0",
+          "name": "embeddium-0.3.31+mc1.20.1",
+          "type": "ForgeMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 1320675,
+            "MD5": "1dfb2ee49ce9ad5d484ff3eea0d628b7",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/embeddium-0.3.31%2Bmc1.20.1.jar"
+          }
+        },
+        {
           "id": "anubis.mods:entityculling-forge-1-10-2-mc1-20-1:1.0.0",
           "name": "entityculling-forge-1.10.2-mc1.20.1",
           "type": "ForgeMod",
@@ -1007,6 +1035,20 @@
           }
         },
         {
+          "id": "anubis.mods:oculus-mc1-20-1-1-8-0:1.0.0",
+          "name": "oculus-mc1.20.1-1.8.0",
+          "type": "ForgeMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 2851119,
+            "MD5": "1dd891634ac21591b5a692471f112572",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/oculus-mc1.20.1-1.8.0.jar"
+          }
+        },
+        {
           "id": "anubis.mods:powerutils-1-8:1.0.0",
           "name": "powerutils-1.8",
           "type": "ForgeMod",
@@ -1105,6 +1147,20 @@
           }
         },
         {
+          "id": "anubis.mods:smoothswapping-0-9-3-2-1-20-1-forge:1.0.0",
+          "name": "smoothswapping-0.9.3.2-1.20.1-forge",
+          "type": "ForgeMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 60843,
+            "MD5": "54b4f5dcb2fd51eaa84e12d01401b866",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/smoothswapping-0.9.3.2-1.20.1-forge.jar"
+          }
+        },
+        {
           "id": "anubis.mods:sophisticatedbackpacks-1-20-1-3-24-39-1743:1.0.0",
           "name": "sophisticatedbackpacks-1.20.1-3.24.39.1743",
           "type": "ForgeMod",
@@ -1200,6 +1256,34 @@
             "size": 13894,
             "MD5": "1a4faf909cab6d8535ab4b9535c849b5",
             "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/wateringcan-1.0.jar"
+          }
+        },
+        {
+          "id": "anubis.mods:xaerominimap-forge-1-20-1-25-3-13:1.0.0",
+          "name": "xaerominimap-forge-1.20.1-25.3.13",
+          "type": "ForgeMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 2147217,
+            "MD5": "e2b6257709a0339c09485fb77386f632",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/xaerominimap-forge-1.20.1-25.3.13.jar"
+          }
+        },
+        {
+          "id": "anubis.mods:xaeroworldmap-forge-1-20-1-1-40-16:1.0.0",
+          "name": "xaeroworldmap-forge-1.20.1-1.40.16",
+          "type": "ForgeMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 1389566,
+            "MD5": "9e740cc46164ca921ba31102d61b723d",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/xaeroworldmap-forge-1.20.1-1.40.16.jar"
           }
         },
         {
