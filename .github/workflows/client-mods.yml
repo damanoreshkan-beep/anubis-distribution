@@ -15,6 +15,7 @@ on:
 
 permissions:
   contents: write
+  actions: write   # needed for `gh workflow run sync.yml` at the end
 
 concurrency:
   group: client-mods
