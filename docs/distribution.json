@@ -811,6 +811,20 @@
           }
         },
         {
+          "id": "anubis.mods:ferritecore-6-0-1-forge:1.0.0",
+          "name": "ferritecore-6.0.1-forge",
+          "type": "ForgeMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 123034,
+            "MD5": "f52f538207a4829d7060550092ce2383",
+            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/ferritecore-6.0.1-forge.jar"
+          }
+        },
+        {
           "id": "anubis.mods:ftb-library-forge-2001-2-12:1.0.0",
           "name": "ftb-library-forge-2001.2.12",
           "type": "ForgeMod",
