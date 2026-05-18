@@ -1,6 +1,12 @@
 [
     "CustomSkinLoader_ForgeV2-14.28.jar",
+    "ImmersiveUI-FORGE-0.3.0.jar",
+    "embeddium-0.3.31+mc1.20.1.jar",
     "fancymenu_forge_3.9.3_MC_1.20.1.jar",
     "konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
-    "melody_forge_1.0.3_MC_1.20.1-1.20.4.jar"
+    "melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
+    "oculus-mc1.20.1-1.8.0.jar",
+    "smoothswapping-0.9.3.2-1.20.1-forge.jar",
+    "xaerominimap-forge-1.20.1-25.3.13.jar",
+    "xaeroworldmap-forge-1.20.1-1.40.16.jar"
 ]
