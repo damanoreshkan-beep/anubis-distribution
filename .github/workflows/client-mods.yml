@@ -1,0 +1,68 @@
+name: client-mods upload + regen
+
+# Drop any client-only jar into client-mods/, commit, push — this workflow
+# uploads it to the v1.0.0 Release and regenerates scripts/client-extras.json
+# from the directory listing. The commit to client-extras.json then triggers
+# sync.yml automatically (it watches that file), which regenerates
+# docs/distribution.json so the launcher sees the new mod.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'client-mods/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: client-mods
+  cancel-in-progress: false
+
+jobs:
+  upload-and-regen:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload jars to Release v1.0.0
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          shopt -s nullglob
+          jars=(client-mods/*.jar)
+          if (( ${#jars[@]} == 0 )); then
+            echo "client-mods/ is empty — nothing to upload"
+            exit 0
+          fi
+          for j in "${jars[@]}"; do
+            echo "uploading $j"
+            gh release upload v1.0.0 "$j" --clobber
+          done
+
+      - name: Regenerate scripts/client-extras.json
+        run: |
+          node -e "
+            const fs = require('fs');
+            const dir = 'client-mods';
+            const jars = fs.existsSync(dir)
+              ? fs.readdirSync(dir).filter(f => f.endsWith('.jar')).sort()
+              : [];
+            fs.writeFileSync('scripts/client-extras.json', JSON.stringify(jars, null, 4) + '\n');
+            console.log('client-extras.json now lists:', jars);
+          "
+
+      - name: Commit drift
+        run: |
+          if [[ -n "$(git status --porcelain scripts/client-extras.json)" ]]; then
+            git config user.name 'anubis-client-mods-bot'
+            git config user.email 'noreply@github.com'
+            git add scripts/client-extras.json
+            git commit -m "client-mods: regen client-extras.json from client-mods/"
+            git push
+          else
+            echo "client-extras.json already matches client-mods/ — no changes"
+          fi
