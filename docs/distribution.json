@@ -797,20 +797,6 @@
           }
         },
         {
-          "id": "anubis.mods:fancymenu-forge-3-9-3-mc-1-20-1:1.0.0",
-          "name": "fancymenu_forge_3.9.3_MC_1.20.1",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 25625609,
-            "MD5": "20623d87b19964a6224bc25b740e7e64",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/fancymenu_forge_3.9.3_MC_1.20.1.jar"
-          }
-        },
-        {
           "id": "anubis.mods:ferritecore-6-0-1-forge:1.0.0",
           "name": "ferritecore-6.0.1-forge",
           "type": "ForgeMod",
