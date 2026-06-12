@@ -699,20 +699,6 @@
           }
         },
         {
-          "id": "anubis.mods:copperagebackport-forge-1-20-1-0-1-4:1.0.0",
-          "name": "copperagebackport-forge-1.20.1-0.1.4",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 2818863,
-            "MD5": "2308c6fd377c29c204e720dd24186c69",
-            "url": "https://github.com/damanoreshkan-beep/anubis-distribution/releases/download/v1.0.0/copperagebackport-forge-1.20.1-0.1.4.jar"
-          }
-        },
-        {
           "id": "anubis.mods:corpse-forge-1-20-1-1-0-23:1.0.0",
           "name": "corpse-forge-1.20.1-1.0.23",
           "type": "ForgeMod",
