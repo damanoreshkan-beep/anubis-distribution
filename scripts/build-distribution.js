@@ -11,7 +11,12 @@ const RELEASE_TAG = 'v1.0.0';
 const DISTRO_VERSION = '1.0.0';
 
 const RELEASE_BASE = `https://github.com/${REPO_OWNER}/${REPO_NAME}/releases/download/${RELEASE_TAG}`;
-const RAW_BASE = `https://raw.githubusercontent.com/${REPO_OWNER}/${REPO_NAME}/main`;
+// config / overlays / servers.dat / icon are served from jsDelivr, not
+// raw.githubusercontent. The first-run repair fetches 780+ of these tiny files
+// in a burst; raw.githubusercontent 429-throttles that and helios-core aborts
+// the whole install (see anubis-launcher patch). jsDelivr is a CDN built for
+// exactly this bursty GitHub-file traffic. Mods/shaders stay on the release CDN.
+const JSDELIVR_BASE = `https://cdn.jsdelivr.net/gh/${REPO_OWNER}/${REPO_NAME}@main`;
 
 const FORGE_VERSION = '1.20.1-47.4.10';
 const MC_VERSION = '1.20.1';
@@ -145,7 +150,7 @@ const serversDatModules = (() => {
       size: fs.statSync(full).size,
       MD5: md5(full),
       path: 'servers.dat',
-      url: `${RAW_BASE}/docs/servers.dat`,
+      url: `${JSDELIVR_BASE}/docs/servers.dat`,
     },
   }]
 })()
@@ -162,7 +167,7 @@ const configModules = listFilesRec(path.join(ROOT, 'config')).map(rel => {
       size: fs.statSync(full).size,
       MD5: md5(full),
       path: `config/${rel}`,
-      url: `${RAW_BASE}/config/${encoded}`
+      url: `${JSDELIVR_BASE}/config/${encoded}`
     }
   };
 });
@@ -185,7 +190,7 @@ const overlayModules = fs.existsSync(overlayDir) ? listFilesRec(overlayDir).map(
       size: fs.statSync(full).size,
       MD5: md5(full),
       path: rel,
-      url: `${RAW_BASE}/client-overlays/${encoded}`,
+      url: `${JSDELIVR_BASE}/client-overlays/${encoded}`,
     },
   }
 }) : []
@@ -199,7 +204,7 @@ const distribution = {
       id: 'anubis-hitech',
       name: 'Anubis World — HiTech',
       description: 'Modpack HiTech 1.20.1 — технології та магія в одному всесвіті Minecraft',
-      icon: `${RAW_BASE}/docs/server-icon.jpg`,
+      icon: `${JSDELIVR_BASE}/docs/server-icon.jpg`,
       version: DISTRO_VERSION,
       address: '46.21.146.194:50468',
       minecraftVersion: MC_VERSION,
